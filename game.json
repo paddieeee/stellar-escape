@@ -61,7 +61,35 @@
     "currentPlatform": "GDevelop JS platform"
   },
   "resources": {
-    "resources": [],
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Background.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ROCK.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/ROCK.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Background-Floor.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Background-Floor.png",
+        "smoothed": true,
+        "userAdded": true
+      }
+    ],
     "resourceFolders": []
   },
   "objects": [],
@@ -71,8 +99,8 @@
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Untitled_32scene",
-      "name": "Untitled scene",
+      "mangledName": "Level_321",
+      "name": "Level 1",
       "r": 209,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
@@ -88,13 +116,184 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.546875,
+        "zoomFactor": 0.2308918338522489,
         "windowMask": false
       },
       "objectsGroups": [],
       "variables": [],
-      "instances": [],
-      "objects": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Background",
+          "name": "Background",
+          "persistentUuid": "e0b779f4-0715-4b3e-a4c5-5bad55f59ba3",
+          "width": 0,
+          "x": -1,
+          "y": 1,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 921,
+          "layer": "Foreground",
+          "name": "ROCK",
+          "persistentUuid": "c6d02465-0d2f-473a-850b-60700a25f783",
+          "width": 555,
+          "x": -9,
+          "y": 172,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 129,
+          "layer": "Background",
+          "name": "BackgroundFloor",
+          "persistentUuid": "25db5d54-87f1-4330-9fc0-e26a010bfb13",
+          "width": 1955,
+          "x": -20,
+          "y": 964,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "height": 1080,
+          "name": "Background",
+          "tags": "",
+          "texture": "assets/Background.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 1920,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "name": "ROCK",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/ROCK.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 180.5,
+                            "y": 2637.5
+                          },
+                          {
+                            "x": 2,
+                            "y": 2599
+                          },
+                          {
+                            "x": 0,
+                            "y": 4474.5
+                          },
+                          {
+                            "x": 1220.5,
+                            "y": 4469
+                          },
+                          {
+                            "x": 1829,
+                            "y": 4233.5
+                          },
+                          {
+                            "x": 1882,
+                            "y": 4132
+                          },
+                          {
+                            "x": 2367,
+                            "y": 4068.5
+                          },
+                          {
+                            "x": 2202.5,
+                            "y": 3485
+                          },
+                          {
+                            "x": 2039.5,
+                            "y": 3067
+                          },
+                          {
+                            "x": 2289,
+                            "y": 2624.5
+                          },
+                          {
+                            "x": 2646,
+                            "y": 2432.5
+                          },
+                          {
+                            "x": 778,
+                            "y": 2445
+                          },
+                          {
+                            "x": 604,
+                            "y": 2491.5
+                          },
+                          {
+                            "x": 390.5,
+                            "y": 2586
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "BackgroundFloor",
+          "tags": "",
+          "texture": "assets/Background-Floor.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        }
+      ],
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -122,6 +321,17 @@
       ],
       "layers": [
         {
+          "ambientLightColorB": 150995058,
+          "ambientLightColorG": 6069792,
+          "ambientLightColorR": 8146416,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "Background",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
           "ambientLightColorB": 0,
           "ambientLightColorG": 8042920,
           "ambientLightColorR": 16,
@@ -141,6 +351,17 @@
               "width": 0
             }
           ],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 11028304,
+          "ambientLightColorG": 6069792,
+          "ambientLightColorR": 11031112,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "Foreground",
+          "visibility": true,
+          "cameras": [],
           "effects": []
         }
       ],
