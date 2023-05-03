@@ -124,6 +124,15 @@
         "name": "assets/Bush.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/CHARACTER.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/CHARACTER.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -152,7 +161,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3216911764705891,
+        "zoomFactor": 0.2160739732387547,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -283,7 +292,7 @@
           "customSize": true,
           "height": 751,
           "layer": "",
-          "name": "Flower3",
+          "name": "Flower22",
           "persistentUuid": "d6b3a35b-43bf-4947-8bb8-4041fbc5beb3",
           "width": 589,
           "x": 1689,
@@ -328,7 +337,7 @@
           "customSize": true,
           "height": 50,
           "layer": "",
-          "name": "Bush3",
+          "name": "Bush22",
           "persistentUuid": "d890c5d6-7b64-4d34-a062-63251d1aaffb",
           "width": 118,
           "x": 1570,
@@ -343,12 +352,27 @@
           "customSize": true,
           "height": 122,
           "layer": "",
-          "name": "Bush4",
+          "name": "Bush222",
           "persistentUuid": "106af743-639e-4724-9274-48d53aa34cd2",
           "width": 289,
           "x": 1651,
           "y": 943,
           "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 325,
+          "layer": "Foreground",
+          "name": "Player",
+          "persistentUuid": "af72ac39-1c5f-4ab5-a860-fa739711871c",
+          "width": 268,
+          "x": 230,
+          "y": 405,
+          "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -375,7 +399,15 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -489,10 +521,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -729,7 +761,7 @@
         },
         {
           "assetStoreId": "",
-          "name": "Flower3",
+          "name": "Flower22",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -852,7 +884,7 @@
         },
         {
           "assetStoreId": "",
-          "name": "Bush3",
+          "name": "Bush22",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -893,7 +925,7 @@
         },
         {
           "assetStoreId": "",
-          "name": "Bush4",
+          "name": "Bush222",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -925,6 +957,155 @@
                         "y": 0
                       },
                       "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Player",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "acceleration": 1500,
+              "canGoDownFromJumpthru": true,
+              "canGrabPlatforms": false,
+              "canGrabWithoutMoving": true,
+              "deceleration": 1500,
+              "gravity": 1000,
+              "ignoreDefaultControls": false,
+              "jumpSpeed": 600,
+              "jumpSustainTime": 0.2,
+              "ladderClimbingSpeed": 150,
+              "maxFallingSpeed": 700,
+              "maxSpeed": 250,
+              "name": "PlatformerObject",
+              "slopeMaxAngle": 60,
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "useLegacyTrajectory": false,
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/CHARACTER.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 169.5,
+                            "y": 658.5
+                          },
+                          {
+                            "x": 151,
+                            "y": 529
+                          },
+                          {
+                            "x": 147.5,
+                            "y": 463.5
+                          },
+                          {
+                            "x": 194.5,
+                            "y": 407
+                          },
+                          {
+                            "x": 166,
+                            "y": 338
+                          },
+                          {
+                            "x": 184,
+                            "y": 242.5
+                          },
+                          {
+                            "x": 291,
+                            "y": 163
+                          },
+                          {
+                            "x": 428.5,
+                            "y": 154
+                          },
+                          {
+                            "x": 521,
+                            "y": 240.5
+                          },
+                          {
+                            "x": 520,
+                            "y": 343
+                          },
+                          {
+                            "x": 571.5,
+                            "y": 308.5
+                          },
+                          {
+                            "x": 643.5,
+                            "y": 373
+                          },
+                          {
+                            "x": 540,
+                            "y": 502.5
+                          },
+                          {
+                            "x": 571,
+                            "y": 539.5
+                          },
+                          {
+                            "x": 565,
+                            "y": 609.5
+                          },
+                          {
+                            "x": 532.5,
+                            "y": 642.5
+                          },
+                          {
+                            "x": 529,
+                            "y": 715
+                          },
+                          {
+                            "x": 553.5,
+                            "y": 758
+                          },
+                          {
+                            "x": 527.5,
+                            "y": 807
+                          },
+                          {
+                            "x": 281.5,
+                            "y": 812
+                          },
+                          {
+                            "x": 236.5,
+                            "y": 727
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -1008,6 +1189,10 @@
         {
           "name": "Platform",
           "type": "PlatformBehavior::PlatformBehavior"
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior"
         }
       ]
     }
