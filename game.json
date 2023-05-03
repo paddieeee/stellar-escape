@@ -371,7 +371,7 @@
           "persistentUuid": "af72ac39-1c5f-4ab5-a860-fa739711871c",
           "width": 268,
           "x": 230,
-          "y": 407,
+          "y": 408,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -974,9 +974,9 @@
           "effects": [],
           "behaviors": [
             {
-              "jumpSpeed": 800,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "jumpSpeed": 800,
               "acceleration": 1500,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
