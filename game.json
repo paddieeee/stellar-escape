@@ -292,7 +292,7 @@
           "customSize": true,
           "height": 751,
           "layer": "",
-          "name": "Flower3",
+          "name": "Flower22",
           "persistentUuid": "d6b3a35b-43bf-4947-8bb8-4041fbc5beb3",
           "width": 589,
           "x": 1689,
@@ -337,7 +337,7 @@
           "customSize": true,
           "height": 50,
           "layer": "",
-          "name": "Bush3",
+          "name": "Bush22",
           "persistentUuid": "d890c5d6-7b64-4d34-a062-63251d1aaffb",
           "width": 118,
           "x": 1570,
@@ -352,7 +352,7 @@
           "customSize": true,
           "height": 122,
           "layer": "",
-          "name": "Bush4",
+          "name": "Bush222",
           "persistentUuid": "106af743-639e-4724-9274-48d53aa34cd2",
           "width": 289,
           "x": 1651,
@@ -761,7 +761,7 @@
         },
         {
           "assetStoreId": "",
-          "name": "Flower3",
+          "name": "Flower22",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -884,7 +884,7 @@
         },
         {
           "assetStoreId": "",
-          "name": "Bush3",
+          "name": "Bush22",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -925,7 +925,7 @@
         },
         {
           "assetStoreId": "",
-          "name": "Bush4",
+          "name": "Bush222",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -974,6 +974,7 @@
           "effects": [],
           "behaviors": [
             {
+              "jumpSpeed": 800,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 1500,
@@ -983,7 +984,6 @@
               "deceleration": 1500,
               "gravity": 1000,
               "ignoreDefaultControls": false,
-              "jumpSpeed": 600,
               "jumpSustainTime": 0.2,
               "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 700,
@@ -1134,6 +1134,46 @@
               },
               "parameters": [
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Player",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PosY"
+              },
+              "parameters": [
+                "Player",
+                ">",
+                "1080"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Player",
+                "=",
+                "230",
+                "=",
+                "407"
               ]
             }
           ]
