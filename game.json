@@ -88,6 +88,15 @@
         "name": "assets/Background-Floor.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Platform.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Platform.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -163,6 +172,21 @@
           "x": -20,
           "y": 964,
           "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 326,
+          "layer": "Foreground",
+          "name": "Platform",
+          "persistentUuid": "1a2e952d-3822-4890-9e64-04fd412e7295",
+          "width": 379,
+          "x": 790,
+          "y": 471,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -292,6 +316,82 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "name": "Platform",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Platform.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 24.5,
+                            "y": 79
+                          },
+                          {
+                            "x": 630,
+                            "y": 84
+                          },
+                          {
+                            "x": 1261.5,
+                            "y": 113.5
+                          },
+                          {
+                            "x": 2076.5,
+                            "y": 82.5
+                          },
+                          {
+                            "x": 1179.5,
+                            "y": 478.5
+                          },
+                          {
+                            "x": 742,
+                            "y": 1757
+                          },
+                          {
+                            "x": 573.5,
+                            "y": 1140.5
+                          },
+                          {
+                            "x": 488.5,
+                            "y": 1306.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
