@@ -295,24 +295,6 @@
         "name": "assets/Platforms/platform_7.png",
         "smoothed": true,
         "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Player/CHARACTER_walking.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/Player/CHARACTER_walking.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Player/CHARACTER_jumping.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/Player/CHARACTER_jumping.png",
-        "smoothed": true,
-        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -341,7 +323,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.23089183385224973,
+        "zoomFactor": 0.23089183385224968,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -371,7 +353,7 @@
           "persistentUuid": "c6d02465-0d2f-473a-850b-60700a25f783",
           "width": 555,
           "x": -9,
-          "y": 305,
+          "y": 172,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -386,7 +368,7 @@
           "persistentUuid": "1a2e952d-3822-4890-9e64-04fd412e7295",
           "width": 437,
           "x": 849,
-          "y": 555,
+          "y": 422,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -400,8 +382,8 @@
           "name": "Player",
           "persistentUuid": "af72ac39-1c5f-4ab5-a860-fa739711871c",
           "width": 268,
-          "x": 83,
-          "y": 508,
+          "x": 230,
+          "y": 408,
           "zOrder": 99,
           "numberProperties": [],
           "stringProperties": [],
@@ -416,7 +398,7 @@
           "persistentUuid": "8b5d487d-63cc-4363-90d3-36c08f8be559",
           "width": 279,
           "x": 1407,
-          "y": 755,
+          "y": 622,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -431,7 +413,7 @@
           "persistentUuid": "59404e68-bfd4-462f-8d72-69d4b4504dac",
           "width": 422,
           "x": 2051,
-          "y": 648,
+          "y": 515,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -446,7 +428,7 @@
           "persistentUuid": "026172e8-fc15-4f0c-870c-d2839eb8f1a0",
           "width": 0,
           "x": 2581,
-          "y": 1155,
+          "y": 1022,
           "zOrder": 31,
           "numberProperties": [],
           "stringProperties": [],
@@ -461,7 +443,7 @@
           "persistentUuid": "3b7e017f-c5a0-4cb1-9b5c-b6c946fe45b2",
           "width": 0,
           "x": 3172,
-          "y": 916,
+          "y": 783,
           "zOrder": 32,
           "numberProperties": [],
           "stringProperties": [],
@@ -476,7 +458,7 @@
           "persistentUuid": "71682213-8657-42d6-83a5-4658da451f68",
           "width": 0,
           "x": 3655,
-          "y": 718,
+          "y": 585,
           "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
@@ -491,7 +473,7 @@
           "persistentUuid": "1d5a8d90-f6fe-497c-a328-37d183caad86",
           "width": 0,
           "x": 4369,
-          "y": 1347,
+          "y": 1214,
           "zOrder": 34,
           "numberProperties": [],
           "stringProperties": [],
@@ -850,10 +832,10 @@
           "effects": [],
           "behaviors": [
             {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
               "canBeGrabbed": true,
+              "name": "Platform",
               "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
               "yGrabOffset": 0
             }
           ],
@@ -918,10 +900,10 @@
           "effects": [],
           "behaviors": [
             {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
               "canBeGrabbed": true,
+              "name": "Platform",
               "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
               "yGrabOffset": 0
             }
           ],
@@ -994,10 +976,10 @@
           "effects": [],
           "behaviors": [
             {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
               "canBeGrabbed": true,
+              "name": "Platform",
               "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
               "yGrabOffset": 0
             }
           ],
@@ -1062,15 +1044,13 @@
           "effects": [],
           "behaviors": [
             {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
               "canBeGrabbed": true,
+              "name": "Platform",
               "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
               "yGrabOffset": 0
             },
             {
-              "name": "TopDownMovement",
-              "type": "TopDownMovementBehavior::TopDownMovementBehavior",
               "acceleration": 1000,
               "allowDiagonals": true,
               "angleOffset": 0,
@@ -1080,7 +1060,9 @@
               "ignoreDefaultControls": false,
               "maxSpeed": 200,
               "movementAngleOffset": 0,
+              "name": "TopDownMovement",
               "rotateObject": false,
+              "type": "TopDownMovementBehavior::TopDownMovementBehavior",
               "viewpoint": "TopDown"
             }
           ],
@@ -1514,11 +1496,11 @@
           "effects": [],
           "behaviors": [
             {
-              "name": "PlatformerObject",
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 2000,
               "deceleration": 2000,
               "maxSpeed": 450,
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "jumpSpeed": 1000,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
@@ -1588,12 +1570,12 @@
           ],
           "animations": [
             {
-              "name": "Laufen",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.6,
+                  "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
@@ -1662,120 +1644,6 @@
                           }
                         ]
                       ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets/Player/CHARACTER_walking.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 216.5,
-                            "y": 659.5
-                          },
-                          {
-                            "x": 192.5,
-                            "y": 472
-                          },
-                          {
-                            "x": 227.5,
-                            "y": 221
-                          },
-                          {
-                            "x": 380,
-                            "y": 170
-                          },
-                          {
-                            "x": 523.5,
-                            "y": 278.5
-                          },
-                          {
-                            "x": 476,
-                            "y": 410
-                          },
-                          {
-                            "x": 596.5,
-                            "y": 355.5
-                          },
-                          {
-                            "x": 512,
-                            "y": 501.5
-                          },
-                          {
-                            "x": 538.5,
-                            "y": 568.5
-                          },
-                          {
-                            "x": 506.5,
-                            "y": 626
-                          },
-                          {
-                            "x": 515,
-                            "y": 771
-                          },
-                          {
-                            "x": 301.5,
-                            "y": 772.5
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Springen",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.6,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets/Player/CHARACTER.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets/Player/CHARACTER_jumping.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
                     }
                   ]
                 }
@@ -1847,11 +1715,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         }
       ],
       "layers": [
