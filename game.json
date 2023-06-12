@@ -133,6 +133,189 @@
         "name": "assets/CHARACTER.png",
         "smoothed": true,
         "userAdded": true
+<<<<<<< Updated upstream
+=======
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Platforms/ROCK.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Platforms/ROCK.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Platforms/platform_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Platforms/platform_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Platforms/platform_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Platforms/platform_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Platforms/platform_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Platforms/platform_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/tree.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Objects/tree.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/tree_background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Objects/tree_background.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/Flower.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Objects/Flower.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/leaves.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Objects/leaves.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Player/CHARACTER.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Player/CHARACTER.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/maneater_plant.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Objects/maneater_plant.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/bush.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Objects/bush.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/bushes.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Objects/bushes.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/mushroom.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Objects/mushroom.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/stellar_pod.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Objects/stellar_pod.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Platforms/platform_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Platforms/platform_4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Platforms/platform_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Platforms/platform_5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Platforms/platform_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Platforms/platform_6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Platforms/platform_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Platforms/platform_7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Player/CHARACTER_walking.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Player/CHARACTER_walking.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Player/CHARACTER_jumping.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Player/CHARACTER_jumping.png",
+        "smoothed": true,
+        "userAdded": false
+>>>>>>> Stashed changes
       }
     ],
     "resourceFolders": []
@@ -161,7 +344,11 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
+<<<<<<< Updated upstream
         "zoomFactor": 0.2160739732387547,
+=======
+        "zoomFactor": 0.23089183385224973,
+>>>>>>> Stashed changes
         "windowMask": false
       },
       "objectsGroups": [],
@@ -191,7 +378,7 @@
           "persistentUuid": "c6d02465-0d2f-473a-850b-60700a25f783",
           "width": 555,
           "x": -9,
-          "y": 172,
+          "y": 305,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -221,7 +408,7 @@
           "persistentUuid": "1a2e952d-3822-4890-9e64-04fd412e7295",
           "width": 437,
           "x": 849,
-          "y": 422,
+          "y": 555,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -370,9 +557,105 @@
           "name": "Player",
           "persistentUuid": "af72ac39-1c5f-4ab5-a860-fa739711871c",
           "width": 268,
+<<<<<<< Updated upstream
           "x": 230,
           "y": 407,
           "zOrder": 14,
+=======
+          "x": 83,
+          "y": 508,
+          "zOrder": 99,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 240,
+          "layer": "Foreground",
+          "name": "Platform2",
+          "persistentUuid": "8b5d487d-63cc-4363-90d3-36c08f8be559",
+          "width": 279,
+          "x": 1407,
+          "y": 755,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 363,
+          "layer": "Foreground",
+          "name": "Platform3",
+          "persistentUuid": "59404e68-bfd4-462f-8d72-69d4b4504dac",
+          "width": 422,
+          "x": 2051,
+          "y": 648,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Foreground",
+          "name": "platform4",
+          "persistentUuid": "026172e8-fc15-4f0c-870c-d2839eb8f1a0",
+          "width": 0,
+          "x": 2581,
+          "y": 1155,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Foreground",
+          "name": "platform5",
+          "persistentUuid": "3b7e017f-c5a0-4cb1-9b5c-b6c946fe45b2",
+          "width": 0,
+          "x": 3172,
+          "y": 916,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Foreground",
+          "name": "platform6",
+          "persistentUuid": "71682213-8657-42d6-83a5-4658da451f68",
+          "width": 0,
+          "x": 3655,
+          "y": 718,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Foreground",
+          "name": "platform7",
+          "persistentUuid": "1d5a8d90-f6fe-497c-a328-37d183caad86",
+          "width": 0,
+          "x": 4369,
+          "y": 1347,
+          "zOrder": 34,
+>>>>>>> Stashed changes
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -583,8 +866,384 @@
                             "y": 1140.5
                           },
                           {
+<<<<<<< Updated upstream
                             "x": 488.5,
                             "y": 1306.5
+=======
+                            "x": 289,
+                            "y": 128.5
+                          },
+                          {
+                            "x": 185.5,
+                            "y": 275
+                          },
+                          {
+                            "x": 137,
+                            "y": 203.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Platform3",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": false,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Platforms/platform_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7.5,
+                            "y": 32
+                          },
+                          {
+                            "x": 288,
+                            "y": 31
+                          },
+                          {
+                            "x": 149,
+                            "y": 206
+                          },
+                          {
+                            "x": 105,
+                            "y": 138.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "platform4",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Platforms/platform_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 21,
+                            "y": 45.5
+                          },
+                          {
+                            "x": 437,
+                            "y": 39
+                          },
+                          {
+                            "x": 289.5,
+                            "y": 203.5
+                          },
+                          {
+                            "x": 111.5,
+                            "y": 253
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "platform5",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Platforms/platform_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 57.5
+                          },
+                          {
+                            "x": 405.5,
+                            "y": 49
+                          },
+                          {
+                            "x": 259,
+                            "y": 150
+                          },
+                          {
+                            "x": 199.5,
+                            "y": 243
+                          },
+                          {
+                            "x": 129.5,
+                            "y": 107
+                          },
+                          {
+                            "x": 34,
+                            "y": 128.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "platform6",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Platforms/platform_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 25,
+                            "y": 45
+                          },
+                          {
+                            "x": 491.5,
+                            "y": 45
+                          },
+                          {
+                            "x": 270,
+                            "y": 172.5
+                          },
+                          {
+                            "x": 190,
+                            "y": 296.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "platform7",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            },
+            {
+              "name": "TopDownMovement",
+              "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+              "acceleration": 1000,
+              "allowDiagonals": true,
+              "angleOffset": 0,
+              "angularMaxSpeed": 180,
+              "customIsometryAngle": 30,
+              "deceleration": 1000,
+              "ignoreDefaultControls": false,
+              "maxSpeed": 200,
+              "movementAngleOffset": 0,
+              "rotateObject": false,
+              "viewpoint": "TopDown"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Platforms/platform_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 12.5,
+                            "y": 51
+                          },
+                          {
+                            "x": 376,
+                            "y": 50.5
+                          },
+                          {
+                            "x": 254.5,
+                            "y": 168.5
+                          },
+                          {
+                            "x": 199,
+                            "y": 243.5
+>>>>>>> Stashed changes
                           }
                         ]
                       ]
@@ -974,10 +1633,19 @@
           "effects": [],
           "behaviors": [
             {
+<<<<<<< Updated upstream
               "jumpSpeed": 800,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 1500,
+=======
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "acceleration": 2000,
+              "deceleration": 2000,
+              "maxSpeed": 450,
+              "jumpSpeed": 1000,
+>>>>>>> Stashed changes
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
               "canGrabWithoutMoving": true,
@@ -996,12 +1664,12 @@
           ],
           "animations": [
             {
-              "name": "",
+              "name": "Laufen",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.6,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
@@ -1106,6 +1774,120 @@
                           }
                         ]
                       ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Player/CHARACTER_walking.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 216.5,
+                            "y": 659.5
+                          },
+                          {
+                            "x": 192.5,
+                            "y": 472
+                          },
+                          {
+                            "x": 227.5,
+                            "y": 221
+                          },
+                          {
+                            "x": 380,
+                            "y": 170
+                          },
+                          {
+                            "x": 523.5,
+                            "y": 278.5
+                          },
+                          {
+                            "x": 476,
+                            "y": 410
+                          },
+                          {
+                            "x": 596.5,
+                            "y": 355.5
+                          },
+                          {
+                            "x": 512,
+                            "y": 501.5
+                          },
+                          {
+                            "x": 538.5,
+                            "y": 568.5
+                          },
+                          {
+                            "x": 506.5,
+                            "y": 626
+                          },
+                          {
+                            "x": 515,
+                            "y": 771
+                          },
+                          {
+                            "x": 301.5,
+                            "y": 772.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Springen",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.6,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Player/CHARACTER.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Player/CHARACTER_jumping.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
                     }
                   ]
                 }
@@ -1177,6 +1959,11 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
