@@ -297,6 +297,13 @@
         "name": "assets/Platforms/platform_7.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "assets/rocket_wildness/ROCKET WILDNESS.otf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets/rocket_wildness/ROCKET WILDNESS.otf",
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1837,8 +1844,8 @@
           "name": "Stellar_Escape",
           "persistentUuid": "1fc47197-8cbb-4b17-8062-63a0878d6254",
           "width": 0,
-          "x": 497,
-          "y": 115,
+          "x": 148,
+          "y": 60,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -1874,9 +1881,9 @@
           "effects": [],
           "behaviors": [],
           "string": "Stellar Escape",
-          "font": "",
+          "font": "assets/rocket_wildness/ROCKET WILDNESS.otf",
           "textAlignment": "left",
-          "characterSize": 300,
+          "characterSize": 250,
           "color": {
             "b": 0,
             "g": 0,
