@@ -8,6 +8,8 @@
   },
   "properties": {
     "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
     "folderProject": false,
     "orientation": "default",
     "packageName": "com.example.gamename",
@@ -323,7 +325,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.23089183385224968,
+        "zoomFactor": 0.25504554733543516,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -368,7 +370,7 @@
           "persistentUuid": "1a2e952d-3822-4890-9e64-04fd412e7295",
           "width": 437,
           "x": 849,
-          "y": 422,
+          "y": 432,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
