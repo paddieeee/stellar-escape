@@ -23,8 +23,8 @@
     "name": "stellar escape",
     "description": "",
     "author": "",
-    "windowWidth": 2966,
-    "windowHeight": 1668,
+    "windowWidth": 1920,
+    "windowHeight": 1080,
     "latestCompilationDirectory": "",
     "maxFPS": 60,
     "minFPS": 20,
@@ -451,6 +451,87 @@
         "name": "assets/User Interface/Objects/musik-note.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Player/astronaut_standing_R.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Player/astronaut_standing_R.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Player/astronaut_walking_1_R.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Player/astronaut_walking_1_R.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Player/astronaut_walking_5_R.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Player/astronaut_walking_5_R.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Player/astronaut_walking_4_R.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Player/astronaut_walking_4_R.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Player/astronaut_walking_3_R.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Player/astronaut_walking_3_R.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Player/astronaut_walking_2_R.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Player/astronaut_walking_2_R.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Player/astronaut_jumping_1_R.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Player/astronaut_jumping_1_R.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Player/astronaut_jumping_3_R.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Player/astronaut_jumping_3_R.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Player/astronaut_jumping_2_R.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Player/astronaut_jumping_2_R.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -479,22 +560,30 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.25504554733543516,
+        "zoomFactor": 0.26506904645867435,
         "windowMask": false
       },
       "objectsGroups": [],
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "Score",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "instances": [
         {
           "angle": 0,
           "customSize": true,
-          "height": 1668,
-          "layer": "Background",
-          "name": "Background",
-          "persistentUuid": "e0b779f4-0715-4b3e-a4c5-5bad55f59ba3",
-          "width": 8266,
-          "x": -1,
-          "y": 1,
+          "depth": 0,
+          "height": 801,
+          "layer": "",
+          "name": "ROCK",
+          "persistentUuid": "6156e6a5-ad2a-4d8b-9d61-f3f12a2bd1a8",
+          "width": 491,
+          "x": 0,
+          "y": 287,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -503,13 +592,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 921,
-          "layer": "Foreground",
-          "name": "ROCK",
-          "persistentUuid": "c6d02465-0d2f-473a-850b-60700a25f783",
-          "width": 555,
-          "x": -9,
-          "y": 172,
+          "depth": 0,
+          "height": 157,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "38422e75-5d4d-409c-841f-d5a3917dfc8f",
+          "width": 165,
+          "x": 571,
+          "y": 628,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -518,13 +608,30 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 376,
-          "layer": "Foreground",
-          "name": "Platform",
-          "persistentUuid": "1a2e952d-3822-4890-9e64-04fd412e7295",
-          "width": 437,
-          "x": 849,
-          "y": 442,
+          "depth": 0,
+          "height": 196,
+          "layer": "",
+          "name": "Astronaut",
+          "persistentUuid": "148d95e0-bfae-40d3-a966-7d7bde7ef883",
+          "width": 157,
+          "x": 207,
+          "y": 563,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 123,
+          "layer": "",
+          "name": "stellar_pod",
+          "persistentUuid": "ee10bbc6-c29c-49af-82de-b1715d953ec3",
+          "width": 23,
+          "x": 633,
+          "y": 513,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -533,14 +640,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 325,
-          "layer": "Foreground",
-          "name": "Player",
-          "persistentUuid": "af72ac39-1c5f-4ab5-a860-fa739711871c",
-          "width": 268,
-          "x": 230,
-          "y": 408,
-          "zOrder": 99,
+          "depth": 0,
+          "height": 96,
+          "layer": "UI",
+          "name": "ScoreText",
+          "persistentUuid": "dec98ff4-157c-44ba-952f-ae2f960a3f88",
+          "width": 438,
+          "x": 15,
+          "y": 32,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -548,14 +656,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 240,
-          "layer": "Foreground",
-          "name": "Platform2",
-          "persistentUuid": "8b5d487d-63cc-4363-90d3-36c08f8be559",
-          "width": 279,
-          "x": 1407,
-          "y": 622,
-          "zOrder": 15,
+          "depth": 0,
+          "height": 1142,
+          "layer": "Background",
+          "name": "Background",
+          "persistentUuid": "8a0365a9-9ab0-41ae-8395-f686af498635",
+          "width": 2439,
+          "x": 0,
+          "y": -35,
+          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -563,74 +672,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 363,
+          "depth": 0,
+          "height": 1756,
           "layer": "Foreground",
-          "name": "Platform3",
-          "persistentUuid": "59404e68-bfd4-462f-8d72-69d4b4504dac",
-          "width": 422,
-          "x": 2051,
-          "y": 515,
-          "zOrder": 16,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Foreground",
-          "name": "platform4",
-          "persistentUuid": "026172e8-fc15-4f0c-870c-d2839eb8f1a0",
-          "width": 0,
-          "x": 2581,
-          "y": 1022,
-          "zOrder": 31,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Foreground",
-          "name": "platform5",
-          "persistentUuid": "3b7e017f-c5a0-4cb1-9b5c-b6c946fe45b2",
-          "width": 0,
-          "x": 3172,
-          "y": 783,
-          "zOrder": 32,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Foreground",
-          "name": "platform6",
-          "persistentUuid": "71682213-8657-42d6-83a5-4658da451f68",
-          "width": 0,
-          "x": 3655,
-          "y": 585,
-          "zOrder": 33,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Foreground",
-          "name": "platform7",
-          "persistentUuid": "1d5a8d90-f6fe-497c-a328-37d183caad86",
-          "width": 0,
-          "x": 4369,
-          "y": 1214,
-          "zOrder": 34,
+          "name": "BackgroundFloor",
+          "persistentUuid": "3125e845-450f-4a66-a82b-a5bc1d69e01f",
+          "width": 1957,
+          "x": -11,
+          "y": -348,
+          "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -698,7 +748,7 @@
                           },
                           {
                             "x": 0,
-                            "y": 686
+                            "y": 629
                           },
                           {
                             "x": 703,
@@ -748,8 +798,8 @@
             {
               "name": "RectangleMovement",
               "type": "RectangleMovement::RectangleMovement",
-              "Width": 100,
-              "Height": 100,
+              "Width": 32,
+              "Height": 32,
               "Clockwise": true,
               "HorizontalEdgeDuration": 4,
               "VerticalEdgeDuration": 1,
@@ -1806,9 +1856,775 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Astronaut",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "acceleration": 800,
+              "canGoDownFromJumpthru": true,
+              "canGrabPlatforms": false,
+              "canGrabWithoutMoving": true,
+              "deceleration": 800,
+              "gravity": 1000,
+              "ignoreDefaultControls": false,
+              "jumpSpeed": 600,
+              "jumpSustainTime": 0.2,
+              "ladderClimbingSpeed": 150,
+              "maxFallingSpeed": 700,
+              "maxSpeed": 250,
+              "name": "PlatformerObject",
+              "slopeMaxAngle": 60,
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "useLegacyTrajectory": false,
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
+            },
+            {
+              "name": "SmoothCamera",
+              "type": "SmoothCamera::SmoothCamera",
+              "LeftwardSpeed": 0.9,
+              "RightwardSpeed": 0.9,
+              "UpwardSpeed": 0.9,
+              "DownwardSpeed": 0.9,
+              "FollowOnX": true,
+              "FollowOnY": false,
+              "FollowFreeAreaLeft": 0,
+              "FollowFreeAreaRight": 0,
+              "FollowFreeAreaTop": 0,
+              "FollowFreeAreaBottom": 0,
+              "CameraOffsetX": 0,
+              "CameraOffsetY": 0,
+              "CameraDelay": 0,
+              "ForecastTime": 0,
+              "ForecastHistoryDuration": 0,
+              "LogLeftwardSpeed": 0,
+              "LogRightwardSpeed": 0,
+              "LogDownwardSpeed": 0,
+              "LogUpwardSpeed": 0,
+              "DelayedCenterX": 0,
+              "DelayedCenterY": 0,
+              "ForecastHistoryMeanX": 0,
+              "ForecastHistoryMeanY": 0,
+              "ForecastHistoryVarianceX": 0,
+              "ForecastHistoryCovariance": 0,
+              "ForecastHistoryLinearA": 0,
+              "ForecastHistoryLinearB": 0,
+              "ForecastedX": 0,
+              "ForecastedY": 0,
+              "ProjectedNewestX": 0,
+              "ProjectedNewestY": 0,
+              "ProjectedOldestX": 0,
+              "ProjectedOldestY": 0,
+              "ForecastHistoryVarianceY": 0,
+              "Index": 0,
+              "CameraDelayCatchUpSpeed": 0,
+              "CameraExtraDelay": 0,
+              "WaitingSpeedXMax": 0,
+              "WaitingSpeedYMax": 0,
+              "WaitingEnd": 0,
+              "CameraDelayCatchUpDuration": 0,
+              "LeftwardSpeedMax": 9000,
+              "RightwardSpeedMax": 9000,
+              "UpwardSpeedMax": 9000,
+              "DownwardSpeedMax": 9000,
+              "OldX": 9000,
+              "OldY": 9000,
+              "IsCalledManually": false
+            }
+          ],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Player/astronaut_standing_R.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 212,
+                            "y": 664.5
+                          },
+                          {
+                            "x": 190,
+                            "y": 474
+                          },
+                          {
+                            "x": 219,
+                            "y": 348.5
+                          },
+                          {
+                            "x": 224.5,
+                            "y": 249.5
+                          },
+                          {
+                            "x": 295.5,
+                            "y": 199.5
+                          },
+                          {
+                            "x": 366.5,
+                            "y": 187
+                          },
+                          {
+                            "x": 449.5,
+                            "y": 222
+                          },
+                          {
+                            "x": 505.5,
+                            "y": 274.5
+                          },
+                          {
+                            "x": 535.5,
+                            "y": 479
+                          },
+                          {
+                            "x": 564,
+                            "y": 586
+                          },
+                          {
+                            "x": 511,
+                            "y": 765.5
+                          },
+                          {
+                            "x": 303.5,
+                            "y": 782.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Run",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.09,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Player/astronaut_walking_1_R.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 212,
+                            "y": 664.5
+                          },
+                          {
+                            "x": 190,
+                            "y": 474
+                          },
+                          {
+                            "x": 219,
+                            "y": 348.5
+                          },
+                          {
+                            "x": 224.5,
+                            "y": 249.5
+                          },
+                          {
+                            "x": 295.5,
+                            "y": 199.5
+                          },
+                          {
+                            "x": 366.5,
+                            "y": 187
+                          },
+                          {
+                            "x": 449.5,
+                            "y": 222
+                          },
+                          {
+                            "x": 505.5,
+                            "y": 274.5
+                          },
+                          {
+                            "x": 535.5,
+                            "y": 479
+                          },
+                          {
+                            "x": 564,
+                            "y": 586
+                          },
+                          {
+                            "x": 511,
+                            "y": 765.5
+                          },
+                          {
+                            "x": 303.5,
+                            "y": 782.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Player/astronaut_walking_5_R.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 212,
+                            "y": 664.5
+                          },
+                          {
+                            "x": 190,
+                            "y": 474
+                          },
+                          {
+                            "x": 219,
+                            "y": 348.5
+                          },
+                          {
+                            "x": 224.5,
+                            "y": 249.5
+                          },
+                          {
+                            "x": 295.5,
+                            "y": 199.5
+                          },
+                          {
+                            "x": 366.5,
+                            "y": 187
+                          },
+                          {
+                            "x": 449.5,
+                            "y": 222
+                          },
+                          {
+                            "x": 505.5,
+                            "y": 274.5
+                          },
+                          {
+                            "x": 535.5,
+                            "y": 479
+                          },
+                          {
+                            "x": 564,
+                            "y": 586
+                          },
+                          {
+                            "x": 511,
+                            "y": 765.5
+                          },
+                          {
+                            "x": 303.5,
+                            "y": 782.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Player/astronaut_walking_4_R.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 212,
+                            "y": 664.5
+                          },
+                          {
+                            "x": 190,
+                            "y": 474
+                          },
+                          {
+                            "x": 219,
+                            "y": 348.5
+                          },
+                          {
+                            "x": 224.5,
+                            "y": 249.5
+                          },
+                          {
+                            "x": 295.5,
+                            "y": 199.5
+                          },
+                          {
+                            "x": 366.5,
+                            "y": 187
+                          },
+                          {
+                            "x": 449.5,
+                            "y": 222
+                          },
+                          {
+                            "x": 505.5,
+                            "y": 274.5
+                          },
+                          {
+                            "x": 535.5,
+                            "y": 479
+                          },
+                          {
+                            "x": 564,
+                            "y": 586
+                          },
+                          {
+                            "x": 511,
+                            "y": 765.5
+                          },
+                          {
+                            "x": 303.5,
+                            "y": 782.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Player/astronaut_walking_3_R.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 212,
+                            "y": 664.5
+                          },
+                          {
+                            "x": 190,
+                            "y": 474
+                          },
+                          {
+                            "x": 219,
+                            "y": 348.5
+                          },
+                          {
+                            "x": 224.5,
+                            "y": 249.5
+                          },
+                          {
+                            "x": 295.5,
+                            "y": 199.5
+                          },
+                          {
+                            "x": 366.5,
+                            "y": 187
+                          },
+                          {
+                            "x": 449.5,
+                            "y": 222
+                          },
+                          {
+                            "x": 505.5,
+                            "y": 274.5
+                          },
+                          {
+                            "x": 535.5,
+                            "y": 479
+                          },
+                          {
+                            "x": 564,
+                            "y": 586
+                          },
+                          {
+                            "x": 511,
+                            "y": 765.5
+                          },
+                          {
+                            "x": 303.5,
+                            "y": 782.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Player/astronaut_walking_2_R.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 212,
+                            "y": 664.5
+                          },
+                          {
+                            "x": 190,
+                            "y": 474
+                          },
+                          {
+                            "x": 219,
+                            "y": 348.5
+                          },
+                          {
+                            "x": 224.5,
+                            "y": 249.5
+                          },
+                          {
+                            "x": 295.5,
+                            "y": 199.5
+                          },
+                          {
+                            "x": 366.5,
+                            "y": 187
+                          },
+                          {
+                            "x": 449.5,
+                            "y": 222
+                          },
+                          {
+                            "x": 505.5,
+                            "y": 274.5
+                          },
+                          {
+                            "x": 535.5,
+                            "y": 479
+                          },
+                          {
+                            "x": 564,
+                            "y": 586
+                          },
+                          {
+                            "x": 511,
+                            "y": 765.5
+                          },
+                          {
+                            "x": 303.5,
+                            "y": 782.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Jump",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.09,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Player/astronaut_jumping_1_R.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 212,
+                            "y": 664.5
+                          },
+                          {
+                            "x": 190,
+                            "y": 474
+                          },
+                          {
+                            "x": 219,
+                            "y": 348.5
+                          },
+                          {
+                            "x": 224.5,
+                            "y": 249.5
+                          },
+                          {
+                            "x": 295.5,
+                            "y": 199.5
+                          },
+                          {
+                            "x": 366.5,
+                            "y": 187
+                          },
+                          {
+                            "x": 449.5,
+                            "y": 222
+                          },
+                          {
+                            "x": 505.5,
+                            "y": 274.5
+                          },
+                          {
+                            "x": 535.5,
+                            "y": 479
+                          },
+                          {
+                            "x": 564,
+                            "y": 586
+                          },
+                          {
+                            "x": 511,
+                            "y": 765.5
+                          },
+                          {
+                            "x": 303.5,
+                            "y": 782.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Player/astronaut_jumping_3_R.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 212,
+                            "y": 664.5
+                          },
+                          {
+                            "x": 190,
+                            "y": 474
+                          },
+                          {
+                            "x": 219,
+                            "y": 348.5
+                          },
+                          {
+                            "x": 224.5,
+                            "y": 249.5
+                          },
+                          {
+                            "x": 295.5,
+                            "y": 199.5
+                          },
+                          {
+                            "x": 366.5,
+                            "y": 187
+                          },
+                          {
+                            "x": 449.5,
+                            "y": 222
+                          },
+                          {
+                            "x": 505.5,
+                            "y": 274.5
+                          },
+                          {
+                            "x": 535.5,
+                            "y": 479
+                          },
+                          {
+                            "x": 564,
+                            "y": 586
+                          },
+                          {
+                            "x": 511,
+                            "y": 765.5
+                          },
+                          {
+                            "x": 303.5,
+                            "y": 782.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Player/astronaut_jumping_2_R.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 212,
+                            "y": 664.5
+                          },
+                          {
+                            "x": 190,
+                            "y": 474
+                          },
+                          {
+                            "x": 219,
+                            "y": 348.5
+                          },
+                          {
+                            "x": 224.5,
+                            "y": 249.5
+                          },
+                          {
+                            "x": 295.5,
+                            "y": 199.5
+                          },
+                          {
+                            "x": 366.5,
+                            "y": 187
+                          },
+                          {
+                            "x": 449.5,
+                            "y": 222
+                          },
+                          {
+                            "x": 505.5,
+                            "y": 274.5
+                          },
+                          {
+                            "x": 535.5,
+                            "y": 479
+                          },
+                          {
+                            "x": 564,
+                            "y": 586
+                          },
+                          {
+                            "x": 511,
+                            "y": 765.5
+                          },
+                          {
+                            "x": 303.5,
+                            "y": 782.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "ScoreText",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Score: 0",
+          "font": "assets/rocket_wildness/ROCKET WILDNESS.otf",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
         }
       ],
       "events": [
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Background",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -1833,6 +2649,34 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Background motion (parallax) and adjust size to fit screen\n"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TiledSpriteObject::XOffset"
+              },
+              "parameters": [
+                "Background",
+                "=",
+                "CameraX()/3"
+              ]
+            }
+          ]
+        },
+        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
@@ -1851,7 +2695,7 @@
                 "value": "PosY"
               },
               "parameters": [
-                "Player",
+                "Astronaut",
                 ">",
                 "1080"
               ]
@@ -1863,21 +2707,342 @@
                 "value": "MettreXY"
               },
               "parameters": [
-                "Player",
+                "Astronaut",
                 "=",
-                "230",
+                "207",
                 "=",
-                "407"
+                "563"
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Astronaut",
+                "stellar_pod",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "stellar_pod",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "ScoreText",
+                "+",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "ScoreText",
+                "=",
+                "\"Score: \"+VariableString(ScoreText)"
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Beginning of scene",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ZoomCamera"
+                  },
+                  "parameters": [
+                    "",
+                    "0.8\n",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Camera controls",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "CentreCamera"
+                  },
+                  "parameters": [
+                    "",
+                    "Astronaut",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Character Animations",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Flip character"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "Astronaut",
+                    "yes"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Right"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "Astronaut",
+                    "no"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "change animation"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                  },
+                  "parameters": [
+                    "Astronaut",
+                    "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Astronaut",
+                    "\"Run\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::IsJumping"
+                  },
+                  "parameters": [
+                    "Astronaut",
+                    "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Astronaut",
+                    "\"Jump\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "PlatformBehavior::IsJumping"
+                  },
+                  "parameters": [
+                    "Astronaut",
+                    "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                  },
+                  "parameters": [
+                    "Astronaut",
+                    "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlatformBehavior::IsOnFloor"
+                  },
+                  "parameters": [
+                    "Astronaut",
+                    "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Astronaut",
+                    "\"Idle\""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
         }
       ],
       "layers": [
         {
-          "ambientLightColorB": 150995058,
-          "ambientLightColorG": 6069792,
-          "ambientLightColorR": 8146416,
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 0.1,
@@ -1918,9 +3083,25 @@
           "effects": []
         },
         {
-          "ambientLightColorB": 11028304,
-          "ambientLightColorG": 6069792,
-          "ambientLightColorR": 11031112,
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "UI",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 0.1,
@@ -1929,7 +3110,7 @@
           "isLocked": false,
           "name": "Foreground",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": []
         }
