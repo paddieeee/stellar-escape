@@ -532,6 +532,15 @@
         "name": "assets/Player/astronaut_jumping_2_R.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boundary.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Boundary.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -560,10 +569,28 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.26506904645867435,
+        "zoomFactor": 0.4815196917925995,
         "windowMask": false
       },
-      "objectsGroups": [],
+      "objectsGroups": [
+        {
+          "name": "HelperObjects",
+          "objects": [
+            {
+              "name": "LeftBoundary"
+            },
+            {
+              "name": "RightBoundary"
+            },
+            {
+              "name": "TopBoundary"
+            },
+            {
+              "name": "BottomBoundary"
+            }
+          ]
+        }
+      ],
       "variables": [
         {
           "folded": true,
@@ -582,8 +609,8 @@
           "name": "ROCK",
           "persistentUuid": "6156e6a5-ad2a-4d8b-9d61-f3f12a2bd1a8",
           "width": 491,
-          "x": 0,
-          "y": 287,
+          "x": -12,
+          "y": 302,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -595,7 +622,7 @@
           "depth": 0,
           "height": 157,
           "layer": "",
-          "name": "Platform",
+          "name": "MovingHorizontalPlatform",
           "persistentUuid": "38422e75-5d4d-409c-841f-d5a3917dfc8f",
           "width": 165,
           "x": 571,
@@ -614,8 +641,8 @@
           "name": "Astronaut",
           "persistentUuid": "148d95e0-bfae-40d3-a966-7d7bde7ef883",
           "width": 157,
-          "x": 207,
-          "y": 563,
+          "x": 182,
+          "y": 565,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -630,8 +657,8 @@
           "name": "stellar_pod",
           "persistentUuid": "ee10bbc6-c29c-49af-82de-b1715d953ec3",
           "width": 23,
-          "x": 633,
-          "y": 513,
+          "x": 937,
+          "y": 382,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -661,7 +688,7 @@
           "layer": "Background",
           "name": "Background",
           "persistentUuid": "8a0365a9-9ab0-41ae-8395-f686af498635",
-          "width": 2439,
+          "width": 4376,
           "x": 0,
           "y": -35,
           "zOrder": 6,
@@ -681,6 +708,117 @@
           "x": -11,
           "y": -348,
           "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 119,
+          "layer": "",
+          "name": "Platform2",
+          "persistentUuid": "232fec51-d254-4f67-9e45-f9f5f736449c",
+          "width": 164,
+          "x": 814,
+          "y": 847,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 119,
+          "layer": "",
+          "name": "platform4",
+          "persistentUuid": "25b14620-9d8c-47fe-bd9f-2790e42999d4",
+          "width": 151,
+          "x": 876,
+          "y": 482,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 157,
+          "layer": "",
+          "name": "MovingHorizontalPlatform",
+          "persistentUuid": "0b8e0ef8-bf1e-4714-a220-c6ae75b646c6",
+          "width": 165,
+          "x": 1168,
+          "y": 796,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Foreground",
+          "name": "platform5",
+          "persistentUuid": "543d65d8-bb52-4446-af08-c33d61b3f370",
+          "width": 0,
+          "x": 1244,
+          "y": 310,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 71,
+          "layer": "",
+          "name": "platform5",
+          "persistentUuid": "edc3484b-88c4-447c-a8ca-ca5407d35a6c",
+          "width": 90,
+          "x": 1146,
+          "y": 541,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 123,
+          "layer": "",
+          "name": "stellar_pod",
+          "persistentUuid": "6b37c3a3-6515-401c-a790-ec9de35ed548",
+          "width": 23,
+          "x": 1105,
+          "y": 250,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 157,
+          "layer": "",
+          "name": "MovingHorizontalPlatform",
+          "persistentUuid": "5102069b-4c96-469a-b398-177fd6c9f79c",
+          "width": 165,
+          "x": 1315,
+          "y": 412,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -781,7 +919,7 @@
         },
         {
           "assetStoreId": "",
-          "name": "Platform",
+          "name": "MovingHorizontalPlatform",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -1038,9 +1176,9 @@
           "effects": [],
           "behaviors": [
             {
+              "canBeGrabbed": false,
               "name": "Platform",
               "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
               "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
@@ -1106,9 +1244,9 @@
           "effects": [],
           "behaviors": [
             {
+              "canBeGrabbed": false,
               "name": "Platform",
               "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
               "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
@@ -1867,6 +2005,8 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 800,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
@@ -1879,9 +2019,7 @@
               "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 700,
               "maxSpeed": 250,
-              "name": "PlatformerObject",
               "slopeMaxAngle": 60,
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "useLegacyTrajectory": false,
               "xGrabTolerance": 10,
               "yGrabOffset": 0
@@ -1966,6 +2104,10 @@
                       "customCollisionMask": [
                         [
                           {
+                            "x": 233.5,
+                            "y": 774
+                          },
+                          {
                             "x": 212,
                             "y": 664.5
                           },
@@ -2006,12 +2148,16 @@
                             "y": 586
                           },
                           {
-                            "x": 511,
-                            "y": 765.5
+                            "x": 562,
+                            "y": 793
                           },
                           {
-                            "x": 303.5,
-                            "y": 782.5
+                            "x": 483,
+                            "y": 823.5
+                          },
+                          {
+                            "x": 305,
+                            "y": 829.5
                           }
                         ]
                       ]
@@ -2046,6 +2192,10 @@
                       "customCollisionMask": [
                         [
                           {
+                            "x": 233.5,
+                            "y": 774
+                          },
+                          {
                             "x": 212,
                             "y": 664.5
                           },
@@ -2086,12 +2236,16 @@
                             "y": 586
                           },
                           {
-                            "x": 511,
-                            "y": 765.5
+                            "x": 562,
+                            "y": 793
                           },
                           {
-                            "x": 303.5,
-                            "y": 782.5
+                            "x": 483,
+                            "y": 823.5
+                          },
+                          {
+                            "x": 305,
+                            "y": 829.5
                           }
                         ]
                       ]
@@ -2114,6 +2268,10 @@
                       "customCollisionMask": [
                         [
                           {
+                            "x": 233.5,
+                            "y": 774
+                          },
+                          {
                             "x": 212,
                             "y": 664.5
                           },
@@ -2154,12 +2312,16 @@
                             "y": 586
                           },
                           {
-                            "x": 511,
-                            "y": 765.5
+                            "x": 562,
+                            "y": 793
                           },
                           {
-                            "x": 303.5,
-                            "y": 782.5
+                            "x": 483,
+                            "y": 823.5
+                          },
+                          {
+                            "x": 305,
+                            "y": 829.5
                           }
                         ]
                       ]
@@ -2182,6 +2344,10 @@
                       "customCollisionMask": [
                         [
                           {
+                            "x": 233.5,
+                            "y": 774
+                          },
+                          {
                             "x": 212,
                             "y": 664.5
                           },
@@ -2222,12 +2388,16 @@
                             "y": 586
                           },
                           {
-                            "x": 511,
-                            "y": 765.5
+                            "x": 562,
+                            "y": 793
                           },
                           {
-                            "x": 303.5,
-                            "y": 782.5
+                            "x": 483,
+                            "y": 823.5
+                          },
+                          {
+                            "x": 305,
+                            "y": 829.5
                           }
                         ]
                       ]
@@ -2250,6 +2420,10 @@
                       "customCollisionMask": [
                         [
                           {
+                            "x": 233.5,
+                            "y": 774
+                          },
+                          {
                             "x": 212,
                             "y": 664.5
                           },
@@ -2290,12 +2464,16 @@
                             "y": 586
                           },
                           {
-                            "x": 511,
-                            "y": 765.5
+                            "x": 562,
+                            "y": 793
                           },
                           {
-                            "x": 303.5,
-                            "y": 782.5
+                            "x": 483,
+                            "y": 823.5
+                          },
+                          {
+                            "x": 305,
+                            "y": 829.5
                           }
                         ]
                       ]
@@ -2318,6 +2496,10 @@
                       "customCollisionMask": [
                         [
                           {
+                            "x": 233.5,
+                            "y": 774
+                          },
+                          {
                             "x": 212,
                             "y": 664.5
                           },
@@ -2358,12 +2540,16 @@
                             "y": 586
                           },
                           {
-                            "x": 511,
-                            "y": 765.5
+                            "x": 562,
+                            "y": 793
                           },
                           {
-                            "x": 303.5,
-                            "y": 782.5
+                            "x": 483,
+                            "y": 823.5
+                          },
+                          {
+                            "x": 305,
+                            "y": 829.5
                           }
                         ]
                       ]
@@ -2378,7 +2564,7 @@
               "directions": [
                 {
                   "looping": true,
-                  "timeBetweenFrames": 0.09,
+                  "timeBetweenFrames": 0.3,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
@@ -2398,73 +2584,9 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 212,
-                            "y": 664.5
+                            "x": 233.5,
+                            "y": 774
                           },
-                          {
-                            "x": 190,
-                            "y": 474
-                          },
-                          {
-                            "x": 219,
-                            "y": 348.5
-                          },
-                          {
-                            "x": 224.5,
-                            "y": 249.5
-                          },
-                          {
-                            "x": 295.5,
-                            "y": 199.5
-                          },
-                          {
-                            "x": 366.5,
-                            "y": 187
-                          },
-                          {
-                            "x": 449.5,
-                            "y": 222
-                          },
-                          {
-                            "x": 505.5,
-                            "y": 274.5
-                          },
-                          {
-                            "x": 535.5,
-                            "y": 479
-                          },
-                          {
-                            "x": 564,
-                            "y": 586
-                          },
-                          {
-                            "x": 511,
-                            "y": 765.5
-                          },
-                          {
-                            "x": 303.5,
-                            "y": 782.5
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets/Player/astronaut_jumping_3_R.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
                           {
                             "x": 212,
                             "y": 664.5
@@ -2506,12 +2628,16 @@
                             "y": 586
                           },
                           {
-                            "x": 511,
-                            "y": 765.5
+                            "x": 562,
+                            "y": 793
                           },
                           {
-                            "x": 303.5,
-                            "y": 782.5
+                            "x": 483,
+                            "y": 823.5
+                          },
+                          {
+                            "x": 305,
+                            "y": 829.5
                           }
                         ]
                       ]
@@ -2534,6 +2660,10 @@
                       "customCollisionMask": [
                         [
                           {
+                            "x": 233.5,
+                            "y": 774
+                          },
+                          {
                             "x": 212,
                             "y": 664.5
                           },
@@ -2574,12 +2704,16 @@
                             "y": 586
                           },
                           {
-                            "x": 511,
-                            "y": 765.5
+                            "x": 562,
+                            "y": 793
                           },
                           {
-                            "x": 303.5,
-                            "y": 782.5
+                            "x": 483,
+                            "y": 823.5
+                          },
+                          {
+                            "x": 305,
+                            "y": 829.5
                           }
                         ]
                       ]
@@ -2611,6 +2745,194 @@
             "g": 255,
             "r": 255
           }
+        },
+        {
+          "assetStoreId": "",
+          "name": "LeftBoundary",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": false,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Boundary.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "RightBoundary",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": false,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Boundary.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "TopBoundary",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Boundary.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "BottomBoundary",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Boundary.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -2645,6 +2967,14 @@
               "parameters": [
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "HelperObjects"
+              ]
             }
           ]
         },
@@ -2672,6 +3002,16 @@
                 "Background",
                 "=",
                 "CameraX()/3"
+              ]
+            },
+            {
+              "type": {
+                "value": "TiledSpriteObject::XOffset"
+              },
+              "parameters": [
+                "BackgroundFloor",
+                "=",
+                "CameraX()*1.1"
               ]
             }
           ]
@@ -2709,9 +3049,9 @@
               "parameters": [
                 "Astronaut",
                 "=",
-                "207",
+                "182",
                 "=",
-                "563"
+                "565"
               ]
             }
           ]
@@ -2829,6 +3169,26 @@
                     "",
                     "Astronaut",
                     "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ClampCamera"
+                  },
+                  "parameters": [
+                    "",
+                    "0",
+                    "0",
+                    "3542",
+                    "1087",
                     "",
                     ""
                   ]
