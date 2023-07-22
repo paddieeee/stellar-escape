@@ -555,7 +555,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite5.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite5.png\"}",
         "name": "NewSprite5",
         "smoothed": true,
         "userAdded": true
@@ -658,6 +658,15 @@
         "name": "assets/Objects/Plant/Plant_07.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/User Interface/Objects/Button_Disabled.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/User Interface/Objects/Button_Disabled.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -677,7 +686,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": false,
+        "grid": true,
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
@@ -685,8 +694,8 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 0.7010098339635801,
+        "snap": true,
+        "zoomFactor": 0.16841960102755393,
         "windowMask": false
       },
       "objectsGroups": [
@@ -704,6 +713,23 @@
             },
             {
               "name": "BottomBoundary"
+            }
+          ]
+        },
+        {
+          "name": "Buttons",
+          "objects": [
+            {
+              "name": "ExitBtn"
+            },
+            {
+              "name": "SetBtn"
+            },
+            {
+              "name": "HighBtn"
+            },
+            {
+              "name": "ResumeBtn"
             }
           ]
         }
@@ -949,8 +975,8 @@
           "name": "PauseHeader",
           "persistentUuid": "78aeac60-c2c1-431c-8c00-141c4fb5ce36",
           "width": 1920,
-          "x": -23,
-          "y": 1272,
+          "x": -46,
+          "y": 1083,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -964,8 +990,8 @@
           "name": "PauseHeadText",
           "persistentUuid": "3242e7a7-78ee-4412-a583-b7f6d844e99f",
           "width": 0,
-          "x": 871,
-          "y": 1300,
+          "x": 849,
+          "y": 1115,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -980,9 +1006,9 @@
           "name": "PauseBackground",
           "persistentUuid": "101496a4-2fc3-465b-9d6c-ca801034f553",
           "width": 2097,
-          "x": -104,
-          "y": 1369,
-          "zOrder": 18,
+          "x": -149,
+          "y": 1081,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1015,6 +1041,309 @@
           "x": 570,
           "y": 525,
           "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 79,
+          "layer": "",
+          "name": "ResumeBtn",
+          "persistentUuid": "b08fba10-cf4a-486e-975a-6ca2f87dccc7",
+          "width": 417,
+          "x": 700,
+          "y": 1333,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 79,
+          "layer": "UI",
+          "name": "HighBtn",
+          "persistentUuid": "cc7702cd-0b5a-4eec-969b-642b67775382",
+          "width": 417,
+          "x": 707,
+          "y": 1526,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 79,
+          "layer": "UI",
+          "name": "ResumeBtn",
+          "persistentUuid": "ad4f9b5c-b71d-4e1d-8664-45075bc7bb60",
+          "width": 417,
+          "x": 706,
+          "y": 1313,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 79,
+          "layer": "UI",
+          "name": "SetBtn",
+          "persistentUuid": "5aaf25a0-4abf-481c-b3cc-20749df6d90a",
+          "width": 417,
+          "x": 707,
+          "y": 1727,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 79,
+          "layer": "UI",
+          "name": "ExitBtn",
+          "persistentUuid": "4bc254d8-be8e-465b-b3de-eeef87071d0b",
+          "width": 417,
+          "x": 709,
+          "y": 1927,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "UI",
+          "name": "Resume",
+          "persistentUuid": "e75bce4d-aa0c-49ec-8fc1-1075d456bba4",
+          "width": 0,
+          "x": 820,
+          "y": 1326,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "UI",
+          "name": "Highscore",
+          "persistentUuid": "dd2461bb-bcfc-438d-a299-d4d2353a98df",
+          "width": 0,
+          "x": 792,
+          "y": 1539,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "UI",
+          "name": "Settings",
+          "persistentUuid": "08730b3b-21e8-459b-872e-975a9ba676c5",
+          "width": 0,
+          "x": 800,
+          "y": 1743,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "UI",
+          "name": "Exit",
+          "persistentUuid": "ea8d4e75-b289-4706-89c6-3b956455aa93",
+          "width": 0,
+          "x": 864,
+          "y": 1940,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 100,
+          "layer": "UI",
+          "name": "SetHeader",
+          "persistentUuid": "62ea8e30-0782-4d7f-8a61-0b2bb3726a2b",
+          "width": 1920,
+          "x": 0,
+          "y": 3008,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "UI",
+          "name": "SetHeaderText",
+          "persistentUuid": "73b1670a-7310-411e-bb3c-c363bc6d7d53",
+          "width": 0,
+          "x": 848,
+          "y": 3040,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 79,
+          "layer": "UI",
+          "name": "SoundBtn",
+          "persistentUuid": "27371faa-127e-41b5-845d-8d2b1f107abe",
+          "width": 417,
+          "x": 761,
+          "y": 3234,
+          "zOrder": 32,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 79,
+          "layer": "UI",
+          "name": "MusicBtn",
+          "persistentUuid": "c1e374da-dc6f-4430-83ea-bf1d8f209c12",
+          "width": 417,
+          "x": 768,
+          "y": 3443,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 79,
+          "layer": "UI",
+          "name": "BackBtn",
+          "persistentUuid": "49df9f7c-8847-45e3-8ee6-4a112d302263",
+          "width": 417,
+          "x": 773,
+          "y": 3648,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "UI",
+          "name": "Back",
+          "persistentUuid": "47ea1e96-f4cd-418e-b0b7-e44aab084672",
+          "width": 0,
+          "x": 927,
+          "y": 3663,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 32,
+          "height": 16,
+          "layer": "UI",
+          "name": "SoundSlide",
+          "persistentUuid": "3e830a06-9b84-48d7-8d3b-9bee558b50bc",
+          "width": 149,
+          "x": 925,
+          "y": 3268,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 44,
+          "layer": "UI",
+          "name": "SoundIcon",
+          "persistentUuid": "66710ce2-80cc-4b47-8694-377520ccab47",
+          "width": 44,
+          "x": 854,
+          "y": 3252,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 32,
+          "height": 16,
+          "layer": "UI",
+          "name": "MusicSlide",
+          "persistentUuid": "66042bd8-a89f-4fd8-9d37-206af6b979ae",
+          "width": 149,
+          "x": 926,
+          "y": 3476,
+          "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 36,
+          "layer": "UI",
+          "name": "MusicIcon",
+          "persistentUuid": "22fd6dc1-cfe8-4110-a6de-0cebbadd3d16",
+          "width": 36,
+          "x": 865,
+          "y": 3466,
+          "zOrder": 39,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3195,6 +3524,28 @@
         },
         {
           "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "SetHeaderText",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Settings",
+          "font": "assets/rocket_wildness/ROCKET WILDNESS.otf",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "assetStoreId": "",
           "name": "NewSprite",
           "tags": "",
           "type": "Sprite",
@@ -3483,6 +3834,820 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "assets/Objects/Plant/Plant_07.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "ResumeBtn",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 3,
+                "thickness": 3
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/User Interface/Objects/Button_Disabled.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "HighBtn",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 3,
+                "thickness": 3
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/User Interface/Objects/Button_Disabled.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "SetBtn",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 3,
+                "thickness": 3
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/User Interface/Objects/Button_Disabled.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "ExitBtn",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 3,
+                "thickness": 3
+              },
+              "stringParameters": {
+                "color": "207;8;8"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/User Interface/Objects/Button_Exit.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "SetHeader",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/User Interface/Objects/HUD_ohneScores.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "SoundBtn",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 3,
+                "thickness": 3
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/User Interface/Objects/Button_Disabled.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "bfeeb465a4a164b560a2215e3ff9e78e66123af43cbf7ef1f22d56fca4271c80",
+          "name": "SoundSlide",
+          "tags": "",
+          "type": "PanelSpriteSlider::PanelSpriteSlider",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "BarTopPadding": 6,
+            "BarLeftPadding": 6,
+            "BarRightPadding": 6,
+            "BarBottomPadding": 6,
+            "LabelMargin": 6
+          },
+          "childrenContent": {
+            "Background": {
+              "bottomMargin": 4,
+              "height": 28,
+              "leftMargin": 2,
+              "rightMargin": 2,
+              "texture": "Square White Slider Border.png",
+              "tiled": false,
+              "topMargin": 4,
+              "width": 265
+            },
+            "FillBar": {
+              "bottomMargin": 2,
+              "height": 16,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "Square White Slider Fill Bar.png",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 16
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "It displays the value when it changes.",
+              "font": "",
+              "textAlignment": "",
+              "characterSize": 20,
+              "color": {
+                "b": 221,
+                "g": 221,
+                "r": 221
+              }
+            },
+            "Thumb": {
+              "bottomMargin": 2,
+              "height": 35,
+              "leftMargin": 1,
+              "rightMargin": 1,
+              "texture": "assets/User Interface/Objects/Button-Slider.png",
+              "tiled": false,
+              "topMargin": 2,
+              "width": 25
+            }
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "MusicBtn",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 3,
+                "thickness": 3
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/User Interface/Objects/Button_Disabled.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "bfeeb465a4a164b560a2215e3ff9e78e66123af43cbf7ef1f22d56fca4271c80",
+          "name": "MusicSlide",
+          "tags": "",
+          "type": "PanelSpriteSlider::PanelSpriteSlider",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "BarTopPadding": 6,
+            "BarLeftPadding": 6,
+            "BarRightPadding": 6,
+            "BarBottomPadding": 6,
+            "LabelMargin": 6
+          },
+          "childrenContent": {
+            "Background": {
+              "bottomMargin": 4,
+              "height": 28,
+              "leftMargin": 2,
+              "rightMargin": 2,
+              "texture": "Square White Slider Border.png",
+              "tiled": false,
+              "topMargin": 4,
+              "width": 265
+            },
+            "FillBar": {
+              "bottomMargin": 2,
+              "height": 16,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "Square White Slider Fill Bar.png",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 16
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "It displays the value when it changes.",
+              "font": "",
+              "textAlignment": "",
+              "characterSize": 20,
+              "color": {
+                "b": 221,
+                "g": 221,
+                "r": 221
+              }
+            },
+            "Thumb": {
+              "bottomMargin": 2,
+              "height": 35,
+              "leftMargin": 1,
+              "rightMargin": 1,
+              "texture": "assets/User Interface/Objects/Button-Slider.png",
+              "tiled": false,
+              "topMargin": 2,
+              "width": 25
+            }
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "BackBtn",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 3,
+                "thickness": 3
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/User Interface/Objects/Button_Disabled.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Back",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Back",
+          "font": "assets/rocket_wildness/ROCKET WILDNESS.otf",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Resume",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Resume",
+          "font": "assets/rocket_wildness/ROCKET WILDNESS.otf",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Highscore",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "HIGHSCORE",
+          "font": "assets/rocket_wildness/ROCKET WILDNESS.otf",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Settings",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "settings",
+          "font": "assets/rocket_wildness/ROCKET WILDNESS.otf",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Exit",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "exit",
+          "font": "assets/rocket_wildness/ROCKET WILDNESS.otf",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "SoundIcon",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/User Interface/Objects/sound.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "MusicIcon",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/User Interface/Objects/musik-note.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4255,6 +5420,46 @@
           "conditions": [
             {
               "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "PauseBackground"
+              ]
+            },
+            {
+              "type": {
+                "value": "Opacity"
+              },
+              "parameters": [
+                "PauseBackground",
+                "=",
+                "128"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "KeyPressed"
               },
               "parameters": [
@@ -4325,6 +5530,24 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetCameraCenterY"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "lerp(CameraY(\"UI\", 0), CameraY(\"\", 0)+SceneWindowHeight(), 0.10)",
+                    "\"UI\"",
+                    "0"
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -4373,8 +5596,155 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetCameraCenterY"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "lerp(CameraY(\"UI\", 0), CameraY(\"\", 0), 0.10)",
+                    "\"UI\"",
+                    "0"
+                  ]
+                }
+              ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "ResumeBtn",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ToggleSceneVariableAsBoolean"
+              },
+              "parameters": [
+                "GamePause"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "ExitBtn",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Quit"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "SetBtn",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenCameraPosition"
+              },
+              "parameters": [
+                "",
+                "\"CameraMove\"",
+                "SetHeader.CenterX()",
+                "CameraCenterY()",
+                "\"UI\"",
+                "500",
+                "\"easeInOutQuad\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "BackBtn",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenCameraPosition"
+              },
+              "parameters": [
+                "",
+                "\"CameraMove\"",
+                "PauseHeader.CenterX()",
+                "CameraCenterY()",
+                "\"UI\"",
+                "500",
+                "\"easeInOutQuad\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         },
         {
           "colorB": 228,
@@ -4427,6 +5797,72 @@
               "parameters": [
                 "Enemy",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Buttons",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsHovered"
+              },
+              "parameters": [
+                "Buttons",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "EnableEffect"
+              },
+              "parameters": [
+                "Buttons",
+                "\"Effect\"",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "ButtonStates::ButtonFSM::IsHovered"
+              },
+              "parameters": [
+                "Buttons",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "EnableEffect"
+              },
+              "parameters": [
+                "Buttons",
+                "\"Effect\"",
+                "no"
               ]
             }
           ]
@@ -4511,6 +5947,10 @@
       ],
       "behaviorsSharedData": [
         {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM"
+        },
+        {
           "name": "Platform",
           "type": "PlatformBehavior::PlatformBehavior"
         },
@@ -4556,7 +5996,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.48954673703191276,
+        "zoomFactor": 0.5231187364930164,
         "windowMask": false
       },
       "objectsGroups": [
@@ -4646,7 +6086,7 @@
           "name": "Quit",
           "persistentUuid": "72eb5511-826e-47cd-92f5-d1b221e28b91",
           "width": 101,
-          "x": 865,
+          "x": 875,
           "y": 828,
           "zOrder": -4,
           "numberProperties": [],
@@ -4673,13 +6113,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 90,
+          "height": 79,
           "layer": "",
           "name": "SoundBtn",
           "persistentUuid": "85e4c898-248d-4b27-8261-585ce2f62e94",
-          "width": 473,
-          "x": 4704,
-          "y": 323,
+          "width": 417,
+          "x": 4734,
+          "y": 333,
           "zOrder": -4,
           "numberProperties": [],
           "stringProperties": [],
@@ -4816,11 +6256,11 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 80,
+          "height": 79,
           "layer": "",
           "name": "QuitBtn",
           "persistentUuid": "cd99472c-5d62-4c14-a73b-588eeabf9423",
-          "width": 420,
+          "width": 417,
           "x": 706,
           "y": 810,
           "zOrder": -8,
@@ -4863,13 +6303,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 90,
+          "height": 79,
           "layer": "",
           "name": "MusicBtn",
           "persistentUuid": "34192530-5f70-456f-b370-fb6e1c3e7f52",
-          "width": 473,
-          "x": 4708,
-          "y": 486,
+          "width": 417,
+          "x": 4738,
+          "y": 491,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -4911,13 +6351,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 90,
+          "height": 79,
           "layer": "",
           "name": "BackBtn",
           "persistentUuid": "b86a4566-2e45-4aba-a672-f2bc4ddbd5e8",
-          "width": 473,
-          "x": 4711,
-          "y": 646,
+          "width": 417,
+          "x": 4736,
+          "y": 651,
           "zOrder": 29,
           "numberProperties": [],
           "stringProperties": [],
@@ -5075,7 +6515,7 @@
           "string": "Highscore",
           "font": "assets/rocket_wildness/ROCKET WILDNESS.otf",
           "textAlignment": "left",
-          "characterSize": 40,
+          "characterSize": 35,
           "color": {
             "b": 255,
             "g": 255,
@@ -5108,7 +6548,7 @@
           "string": "Settings",
           "font": "assets/rocket_wildness/ROCKET WILDNESS.otf",
           "textAlignment": "left",
-          "characterSize": 40,
+          "characterSize": 35,
           "color": {
             "b": 255,
             "g": 255,
@@ -5171,7 +6611,7 @@
               "Index": 0
             }
           ],
-          "string": "Quit",
+          "string": "exit",
           "font": "assets/rocket_wildness/ROCKET WILDNESS.otf",
           "textAlignment": "left",
           "characterSize": 35,
@@ -5226,8 +6666,8 @@
               "effectType": "Outline",
               "name": "Effect",
               "doubleParameters": {
-                "padding": 10,
-                "thickness": 10
+                "padding": 3,
+                "thickness": 3
               },
               "stringParameters": {
                 "color": "255;255;255"
@@ -5291,8 +6731,8 @@
               "effectType": "Outline",
               "name": "Effect",
               "doubleParameters": {
-                "padding": 10,
-                "thickness": 10
+                "padding": 3,
+                "thickness": 3
               },
               "stringParameters": {
                 "color": "255;255;255"
@@ -5356,8 +6796,8 @@
               "effectType": "Outline",
               "name": "Effect",
               "doubleParameters": {
-                "padding": 10,
-                "thickness": 10
+                "padding": 3,
+                "thickness": 3
               },
               "stringParameters": {
                 "color": "255;255;255"
@@ -5421,8 +6861,8 @@
               "effectType": "Outline",
               "name": "Effect",
               "doubleParameters": {
-                "padding": 10,
-                "thickness": 10
+                "padding": 3,
+                "thickness": 3
               },
               "stringParameters": {
                 "color": "139;26;26"
@@ -5486,8 +6926,8 @@
               "effectType": "Outline",
               "name": "Effect",
               "doubleParameters": {
-                "padding": 10,
-                "thickness": 10
+                "padding": 3,
+                "thickness": 3
               },
               "stringParameters": {
                 "color": "255;255;255"
@@ -5551,8 +6991,8 @@
               "effectType": "Outline",
               "name": "Effect",
               "doubleParameters": {
-                "padding": 10,
-                "thickness": 10
+                "padding": 3,
+                "thickness": 3
               },
               "stringParameters": {
                 "color": "255;255;255"
@@ -5616,8 +7056,8 @@
               "effectType": "Outline",
               "name": "Effect",
               "doubleParameters": {
-                "padding": 10,
-                "thickness": 10
+                "padding": 3,
+                "thickness": 3
               },
               "stringParameters": {
                 "color": "255;255;255"
