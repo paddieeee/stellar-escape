@@ -686,7 +686,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": true,
+        "grid": false,
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
@@ -694,8 +694,8 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": true,
-        "zoomFactor": 0.16841960102755393,
+        "snap": false,
+        "zoomFactor": 0.20549959945979854,
         "windowMask": false
       },
       "objectsGroups": [
@@ -800,8 +800,8 @@
           "name": "stellar_pod",
           "persistentUuid": "ee10bbc6-c29c-49af-82de-b1715d953ec3",
           "width": 23,
-          "x": 937,
-          "y": 382,
+          "x": 930,
+          "y": 411,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -831,7 +831,7 @@
           "layer": "Background",
           "name": "Background",
           "persistentUuid": "8a0365a9-9ab0-41ae-8395-f686af498635",
-          "width": 4376,
+          "width": 10376,
           "x": 0,
           "y": -35,
           "zOrder": 6,
@@ -880,8 +880,8 @@
           "name": "platform4",
           "persistentUuid": "25b14620-9d8c-47fe-bd9f-2790e42999d4",
           "width": 151,
-          "x": 876,
-          "y": 482,
+          "x": 846,
+          "y": 537,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -905,21 +905,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Foreground",
-          "name": "platform5",
-          "persistentUuid": "543d65d8-bb52-4446-af08-c33d61b3f370",
-          "width": 0,
-          "x": 1244,
-          "y": 310,
-          "zOrder": 14,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "depth": 0,
           "height": 71,
@@ -927,8 +912,8 @@
           "name": "platform5",
           "persistentUuid": "edc3484b-88c4-447c-a8ca-ca5407d35a6c",
           "width": 90,
-          "x": 1146,
-          "y": 541,
+          "x": 1120,
+          "y": 441,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -943,8 +928,8 @@
           "name": "stellar_pod",
           "persistentUuid": "6b37c3a3-6515-401c-a790-ec9de35ed548",
           "width": 23,
-          "x": 1105,
-          "y": 250,
+          "x": 1150,
+          "y": 317,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -959,8 +944,8 @@
           "name": "MovingHorizontalPlatform",
           "persistentUuid": "5102069b-4c96-469a-b398-177fd6c9f79c",
           "width": 165,
-          "x": 1315,
-          "y": 412,
+          "x": 1355,
+          "y": 447,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -1022,7 +1007,7 @@
           "name": "Enemy",
           "persistentUuid": "537846ca-4ad1-4fd8-96f4-cd11c7c2c4f5",
           "width": 162,
-          "x": 1186,
+          "x": 1739,
           "y": 229,
           "zOrder": 19,
           "numberProperties": [],
@@ -1033,13 +1018,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 417,
+          "height": 199,
           "layer": "",
           "name": "Plant",
           "persistentUuid": "44bf8c72-5d85-4a3f-a358-3fda0597bcd0",
-          "width": 801,
-          "x": 570,
-          "y": 525,
+          "width": 353,
+          "x": 952,
+          "y": 752,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -1347,6 +1332,102 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 121,
+          "layer": "",
+          "name": "MovingHorizontalPlatform2",
+          "persistentUuid": "d3fb983a-04f0-45b0-8de4-d40c7a3bfc58",
+          "width": 127,
+          "x": 3132,
+          "y": 333,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 121,
+          "layer": "",
+          "name": "MovingHorizontalPlatform",
+          "persistentUuid": "27b25fad-cf4f-41a7-a29b-d4562f78d346",
+          "width": 127,
+          "x": 2847,
+          "y": 575,
+          "zOrder": 46,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 197,
+          "layer": "",
+          "name": "MovingVerticalPlatform3",
+          "persistentUuid": "488c7cd4-33f5-4688-a15d-331847bef93a",
+          "width": 206,
+          "x": 2383,
+          "y": 850,
+          "zOrder": 47,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 154,
+          "layer": "",
+          "name": "MovingHorizontalPlatform2",
+          "persistentUuid": "b7147fa7-750f-4894-8f4a-f03a974d9505",
+          "width": 161,
+          "x": 1422,
+          "y": 882,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 167,
+          "layer": "",
+          "name": "MovingHorizontalPlatform5",
+          "persistentUuid": "89a6eafb-2a57-42a4-b867-e55a505e256e",
+          "width": 175,
+          "x": 1890,
+          "y": 844,
+          "zOrder": 49,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 314,
+          "layer": "",
+          "name": "ElasticPlatform",
+          "persistentUuid": "75f73079-7cd2-4b2a-8e44-afc9f1631707",
+          "width": 329,
+          "x": 3260,
+          "y": 831,
+          "zOrder": 50,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -1452,6 +1533,410 @@
           "effects": [],
           "behaviors": [
             {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Platforms/platform_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 86.25,
+                            "y": 172.25
+                          },
+                          {
+                            "x": 27,
+                            "y": 32.5
+                          },
+                          {
+                            "x": 140.375,
+                            "y": 32.25
+                          },
+                          {
+                            "x": 253.75,
+                            "y": 32
+                          },
+                          {
+                            "x": 367.125,
+                            "y": 31.75
+                          },
+                          {
+                            "x": 480.5,
+                            "y": 31.5
+                          },
+                          {
+                            "x": 286,
+                            "y": 113.5
+                          },
+                          {
+                            "x": 227.5,
+                            "y": 224
+                          },
+                          {
+                            "x": 188,
+                            "y": 402
+                          },
+                          {
+                            "x": 145.5,
+                            "y": 312
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "MovingHorizontalPlatform2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": false,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            },
+            {
+              "name": "SineMovement",
+              "type": "SineMovement::SineMovement",
+              "HorizontalSpeed": 60,
+              "VerticalSpeed": 60,
+              "HorizontalDistance": 100,
+              "VerticalDistance": 0,
+              "CenterPointX": 0,
+              "CenterPointY": 0,
+              "SineProgressX": 0,
+              "SineProgressY": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Platforms/platform_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 86.25,
+                            "y": 172.25
+                          },
+                          {
+                            "x": 27,
+                            "y": 32.5
+                          },
+                          {
+                            "x": 140.375,
+                            "y": 32.25
+                          },
+                          {
+                            "x": 253.75,
+                            "y": 32
+                          },
+                          {
+                            "x": 367.125,
+                            "y": 31.75
+                          },
+                          {
+                            "x": 480.5,
+                            "y": 31.5
+                          },
+                          {
+                            "x": 286,
+                            "y": 113.5
+                          },
+                          {
+                            "x": 227.5,
+                            "y": 224
+                          },
+                          {
+                            "x": 188,
+                            "y": 402
+                          },
+                          {
+                            "x": 145.5,
+                            "y": 312
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "MovingHorizontalPlatform4",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": false,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            },
+            {
+              "name": "SineMovement",
+              "type": "SineMovement::SineMovement",
+              "HorizontalSpeed": 60,
+              "VerticalSpeed": 60,
+              "HorizontalDistance": 100,
+              "VerticalDistance": 500,
+              "CenterPointX": 0,
+              "CenterPointY": 0,
+              "SineProgressX": 0,
+              "SineProgressY": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Platforms/platform_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 86.25,
+                            "y": 172.25
+                          },
+                          {
+                            "x": 27,
+                            "y": 32.5
+                          },
+                          {
+                            "x": 140.375,
+                            "y": 32.25
+                          },
+                          {
+                            "x": 253.75,
+                            "y": 32
+                          },
+                          {
+                            "x": 367.125,
+                            "y": 31.75
+                          },
+                          {
+                            "x": 480.5,
+                            "y": 31.5
+                          },
+                          {
+                            "x": 286,
+                            "y": 113.5
+                          },
+                          {
+                            "x": 227.5,
+                            "y": 224
+                          },
+                          {
+                            "x": 188,
+                            "y": 402
+                          },
+                          {
+                            "x": 145.5,
+                            "y": 312
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "MovingHorizontalPlatform5",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": false,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            },
+            {
+              "name": "SineMovement",
+              "type": "SineMovement::SineMovement",
+              "HorizontalSpeed": 60,
+              "VerticalSpeed": 60,
+              "HorizontalDistance": 300,
+              "VerticalDistance": 300,
+              "CenterPointX": 0,
+              "CenterPointY": 0,
+              "SineProgressX": 0,
+              "SineProgressY": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Platforms/platform_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 86.25,
+                            "y": 172.25
+                          },
+                          {
+                            "x": 27,
+                            "y": 32.5
+                          },
+                          {
+                            "x": 140.375,
+                            "y": 32.25
+                          },
+                          {
+                            "x": 253.75,
+                            "y": 32
+                          },
+                          {
+                            "x": 367.125,
+                            "y": 31.75
+                          },
+                          {
+                            "x": 480.5,
+                            "y": 31.5
+                          },
+                          {
+                            "x": 286,
+                            "y": 113.5
+                          },
+                          {
+                            "x": 227.5,
+                            "y": 224
+                          },
+                          {
+                            "x": 188,
+                            "y": 402
+                          },
+                          {
+                            "x": 145.5,
+                            "y": 312
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "ElasticPlatform",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
               "name": "Platform",
               "type": "PlatformBehavior::PlatformBehavior",
               "canBeGrabbed": false,
@@ -1461,19 +1946,123 @@
             {
               "name": "RectangleMovement",
               "type": "RectangleMovement::RectangleMovement",
-              "Width": 32,
-              "Height": 32,
-              "Clockwise": true,
-              "HorizontalEdgeDuration": 4,
-              "VerticalEdgeDuration": 1,
+              "Width": 300,
+              "Height": 100,
+              "Clockwise": false,
+              "HorizontalEdgeDuration": 3,
+              "VerticalEdgeDuration": 3,
               "Left": 1,
               "Top": 1,
               "Progress": 1,
               "OldX": 1,
               "OldY": 1,
-              "Easing": "easeInOutSine",
-              "InitialPosition": "Top-left corner",
+              "Easing": "elastic",
+              "InitialPosition": "Bottom-right corner",
               "ToogleClockwise": false
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Platforms/platform_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 86.25,
+                            "y": 172.25
+                          },
+                          {
+                            "x": 27,
+                            "y": 32.5
+                          },
+                          {
+                            "x": 140.375,
+                            "y": 32.25
+                          },
+                          {
+                            "x": 253.75,
+                            "y": 32
+                          },
+                          {
+                            "x": 367.125,
+                            "y": 31.75
+                          },
+                          {
+                            "x": 480.5,
+                            "y": 31.5
+                          },
+                          {
+                            "x": 286,
+                            "y": 113.5
+                          },
+                          {
+                            "x": 227.5,
+                            "y": 224
+                          },
+                          {
+                            "x": 188,
+                            "y": 402
+                          },
+                          {
+                            "x": 145.5,
+                            "y": 312
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "MovingVerticalPlatform3",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": false,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            },
+            {
+              "name": "SineMovement",
+              "type": "SineMovement::SineMovement",
+              "HorizontalSpeed": 60,
+              "VerticalSpeed": 60,
+              "HorizontalDistance": 0,
+              "VerticalDistance": 300,
+              "CenterPointX": 0,
+              "CenterPointY": 0,
+              "SineProgressX": 0,
+              "SineProgressY": 0
             }
           ],
           "animations": [
@@ -3638,7 +4227,7 @@
                   "timeBetweenFrames": 0.2,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets/Enemy/states_links/enemy_flying_1_L.png",
                       "points": [],
                       "originPoint": {
@@ -3652,10 +4241,133 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 328,
+                            "y": 727.5
+                          },
+                          {
+                            "x": 453,
+                            "y": 615.5
+                          },
+                          {
+                            "x": 530.5,
+                            "y": 598.5
+                          },
+                          {
+                            "x": 598.5,
+                            "y": 606
+                          },
+                          {
+                            "x": 564.5,
+                            "y": 665
+                          },
+                          {
+                            "x": 584,
+                            "y": 698.5
+                          },
+                          {
+                            "x": 642,
+                            "y": 698
+                          },
+                          {
+                            "x": 648.5,
+                            "y": 590.5
+                          },
+                          {
+                            "x": 614,
+                            "y": 497
+                          },
+                          {
+                            "x": 570.5,
+                            "y": 401
+                          },
+                          {
+                            "x": 655.75,
+                            "y": 319.5
+                          },
+                          {
+                            "x": 741,
+                            "y": 238
+                          },
+                          {
+                            "x": 889.5,
+                            "y": 195
+                          },
+                          {
+                            "x": 847,
+                            "y": 280.25
+                          },
+                          {
+                            "x": 804.5,
+                            "y": 365.5
+                          },
+                          {
+                            "x": 897,
+                            "y": 322.5
+                          },
+                          {
+                            "x": 1004.5,
+                            "y": 324.5
+                          },
+                          {
+                            "x": 903,
+                            "y": 457.5
+                          },
+                          {
+                            "x": 873,
+                            "y": 604.5
+                          },
+                          {
+                            "x": 814.5,
+                            "y": 660
+                          },
+                          {
+                            "x": 949,
+                            "y": 686
+                          },
+                          {
+                            "x": 844,
+                            "y": 735
+                          },
+                          {
+                            "x": 864,
+                            "y": 771
+                          },
+                          {
+                            "x": 833.5,
+                            "y": 823
+                          },
+                          {
+                            "x": 767.5,
+                            "y": 809.5
+                          },
+                          {
+                            "x": 668.5,
+                            "y": 771
+                          },
+                          {
+                            "x": 569.5,
+                            "y": 732.5
+                          },
+                          {
+                            "x": 492,
+                            "y": 761
+                          },
+                          {
+                            "x": 410,
+                            "y": 772.5
+                          },
+                          {
+                            "x": 314.5,
+                            "y": 788.5
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets/Enemy/states_links/enemy_flying_2_L.png",
                       "points": [],
                       "originPoint": {
@@ -3669,10 +4381,133 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 328,
+                            "y": 727.5
+                          },
+                          {
+                            "x": 453,
+                            "y": 615.5
+                          },
+                          {
+                            "x": 530.5,
+                            "y": 598.5
+                          },
+                          {
+                            "x": 598.5,
+                            "y": 606
+                          },
+                          {
+                            "x": 564.5,
+                            "y": 665
+                          },
+                          {
+                            "x": 584,
+                            "y": 698.5
+                          },
+                          {
+                            "x": 642,
+                            "y": 698
+                          },
+                          {
+                            "x": 648.5,
+                            "y": 590.5
+                          },
+                          {
+                            "x": 614,
+                            "y": 497
+                          },
+                          {
+                            "x": 570.5,
+                            "y": 401
+                          },
+                          {
+                            "x": 655.75,
+                            "y": 319.5
+                          },
+                          {
+                            "x": 741,
+                            "y": 238
+                          },
+                          {
+                            "x": 889.5,
+                            "y": 195
+                          },
+                          {
+                            "x": 847,
+                            "y": 280.25
+                          },
+                          {
+                            "x": 804.5,
+                            "y": 365.5
+                          },
+                          {
+                            "x": 897,
+                            "y": 322.5
+                          },
+                          {
+                            "x": 1004.5,
+                            "y": 324.5
+                          },
+                          {
+                            "x": 903,
+                            "y": 457.5
+                          },
+                          {
+                            "x": 873,
+                            "y": 604.5
+                          },
+                          {
+                            "x": 814.5,
+                            "y": 660
+                          },
+                          {
+                            "x": 949,
+                            "y": 686
+                          },
+                          {
+                            "x": 844,
+                            "y": 735
+                          },
+                          {
+                            "x": 864,
+                            "y": 771
+                          },
+                          {
+                            "x": 833.5,
+                            "y": 823
+                          },
+                          {
+                            "x": 767.5,
+                            "y": 809.5
+                          },
+                          {
+                            "x": 668.5,
+                            "y": 771
+                          },
+                          {
+                            "x": 569.5,
+                            "y": 732.5
+                          },
+                          {
+                            "x": 492,
+                            "y": 761
+                          },
+                          {
+                            "x": 410,
+                            "y": 772.5
+                          },
+                          {
+                            "x": 314.5,
+                            "y": 788.5
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets/Enemy/states_links/enemy_flying_3_L.png",
                       "points": [],
                       "originPoint": {
@@ -3686,10 +4521,133 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 328,
+                            "y": 727.5
+                          },
+                          {
+                            "x": 453,
+                            "y": 615.5
+                          },
+                          {
+                            "x": 530.5,
+                            "y": 598.5
+                          },
+                          {
+                            "x": 598.5,
+                            "y": 606
+                          },
+                          {
+                            "x": 564.5,
+                            "y": 665
+                          },
+                          {
+                            "x": 584,
+                            "y": 698.5
+                          },
+                          {
+                            "x": 642,
+                            "y": 698
+                          },
+                          {
+                            "x": 648.5,
+                            "y": 590.5
+                          },
+                          {
+                            "x": 614,
+                            "y": 497
+                          },
+                          {
+                            "x": 570.5,
+                            "y": 401
+                          },
+                          {
+                            "x": 655.75,
+                            "y": 319.5
+                          },
+                          {
+                            "x": 741,
+                            "y": 238
+                          },
+                          {
+                            "x": 889.5,
+                            "y": 195
+                          },
+                          {
+                            "x": 847,
+                            "y": 280.25
+                          },
+                          {
+                            "x": 804.5,
+                            "y": 365.5
+                          },
+                          {
+                            "x": 897,
+                            "y": 322.5
+                          },
+                          {
+                            "x": 1004.5,
+                            "y": 324.5
+                          },
+                          {
+                            "x": 903,
+                            "y": 457.5
+                          },
+                          {
+                            "x": 873,
+                            "y": 604.5
+                          },
+                          {
+                            "x": 814.5,
+                            "y": 660
+                          },
+                          {
+                            "x": 949,
+                            "y": 686
+                          },
+                          {
+                            "x": 844,
+                            "y": 735
+                          },
+                          {
+                            "x": 864,
+                            "y": 771
+                          },
+                          {
+                            "x": 833.5,
+                            "y": 823
+                          },
+                          {
+                            "x": 767.5,
+                            "y": 809.5
+                          },
+                          {
+                            "x": 668.5,
+                            "y": 771
+                          },
+                          {
+                            "x": 569.5,
+                            "y": 732.5
+                          },
+                          {
+                            "x": 492,
+                            "y": 761
+                          },
+                          {
+                            "x": 410,
+                            "y": 772.5
+                          },
+                          {
+                            "x": 314.5,
+                            "y": 788.5
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets/Enemy/states_links/enemy_flying_4_L.png",
                       "points": [],
                       "originPoint": {
@@ -3703,7 +4661,130 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 328,
+                            "y": 727.5
+                          },
+                          {
+                            "x": 453,
+                            "y": 615.5
+                          },
+                          {
+                            "x": 530.5,
+                            "y": 598.5
+                          },
+                          {
+                            "x": 598.5,
+                            "y": 606
+                          },
+                          {
+                            "x": 564.5,
+                            "y": 665
+                          },
+                          {
+                            "x": 584,
+                            "y": 698.5
+                          },
+                          {
+                            "x": 642,
+                            "y": 698
+                          },
+                          {
+                            "x": 648.5,
+                            "y": 590.5
+                          },
+                          {
+                            "x": 614,
+                            "y": 497
+                          },
+                          {
+                            "x": 570.5,
+                            "y": 401
+                          },
+                          {
+                            "x": 655.75,
+                            "y": 319.5
+                          },
+                          {
+                            "x": 741,
+                            "y": 238
+                          },
+                          {
+                            "x": 889.5,
+                            "y": 195
+                          },
+                          {
+                            "x": 847,
+                            "y": 280.25
+                          },
+                          {
+                            "x": 804.5,
+                            "y": 365.5
+                          },
+                          {
+                            "x": 897,
+                            "y": 322.5
+                          },
+                          {
+                            "x": 1004.5,
+                            "y": 324.5
+                          },
+                          {
+                            "x": 903,
+                            "y": 457.5
+                          },
+                          {
+                            "x": 873,
+                            "y": 604.5
+                          },
+                          {
+                            "x": 814.5,
+                            "y": 660
+                          },
+                          {
+                            "x": 949,
+                            "y": 686
+                          },
+                          {
+                            "x": 844,
+                            "y": 735
+                          },
+                          {
+                            "x": 864,
+                            "y": 771
+                          },
+                          {
+                            "x": 833.5,
+                            "y": 823
+                          },
+                          {
+                            "x": 767.5,
+                            "y": 809.5
+                          },
+                          {
+                            "x": 668.5,
+                            "y": 771
+                          },
+                          {
+                            "x": 569.5,
+                            "y": 732.5
+                          },
+                          {
+                            "x": 492,
+                            "y": 761
+                          },
+                          {
+                            "x": 410,
+                            "y": 772.5
+                          },
+                          {
+                            "x": 314.5,
+                            "y": 788.5
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -5967,6 +7048,10 @@
           "type": "ShakeObject::ShakeObject_PositionAngle"
         },
         {
+          "name": "SineMovement",
+          "type": "SineMovement::SineMovement"
+        },
+        {
           "name": "SmoothCamera",
           "type": "SmoothCamera::SmoothCamera"
         },
@@ -7802,6 +8887,2554 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "author": "@4ian, Tristan Rhodes (https://victrisgames.itch.io/)",
+      "category": "Movement",
+      "extensionNamespace": "",
+      "fullName": "Sine (or ellipsis) Movement (deprecated)",
+      "helpPath": "https://victrisgames.itch.io/extension-sinemovement-and-deptheffect",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLXNpbmUtd2F2ZSIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik0xNi41LDIxQzEzLjUsMjEgMTIuMzEsMTYuNzYgMTEuMDUsMTIuMjhDMTAuMTQsOS4wNCA5LDUgNy41LDVDNC4xMSw1IDQsMTEuOTMgNCwxMkgyQzIsMTEuNjMgMi4wNiwzIDcuNSwzQzEwLjUsMyAxMS43MSw3LjI1IDEyLjk3LDExLjc0QzEzLjgzLDE0LjggMTUsMTkgMTYuNSwxOUMxOS45NCwxOSAyMC4wMywxMi4wNyAyMC4wMywxMkgyMi4wM0MyMi4wMywxMi4zNyAyMS45NywyMSAxNi41LDIxWiIgLz48L3N2Zz4=",
+      "name": "SineMovement",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/sine-wave.svg",
+      "shortDescription": "Allow an object to move smoothly on the X and/or Y axis following a sine wave, or an ellipsis.",
+      "version": "0.0.5",
+      "description": [
+        "Allow an object to move smoothly on the X and/or Y axis following a sine wave, or an ellipsis.",
+        "",
+        "",
+        "Example uses:",
+        "- Floating objects, such as powerups or coins",
+        "- Moveable platforms",
+        "- Enemy movement patterns",
+        "",
+        "Properties:",
+        "- Horizontal distance",
+        "- Vertical distance",
+        "- Horizontal speed",
+        "- Vertical speed",
+        "- Center of movement, X position",
+        "- Center of movement, Y position",
+        "",
+        "Tips:",
+        "- For circular or elliptical movement, the horizontal and vertical speed need to be the same",
+        "- For horizontal movement only, set vertical distance to 0",
+        "- For vertical movement only, set horizontal distance to 0",
+        "- For figure-8 movement, set horizontal speed to 1/2 of the vertical speed"
+      ],
+      "origin": {
+        "identifier": "SineMovement",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "sine",
+        "ellipsis",
+        "movement",
+        "circular",
+        "circle",
+        "floating",
+        "platform",
+        "enemy"
+      ],
+      "authorIds": [
+        "wWP8BSlAW0UP4NeaHa2LcmmDzmH2",
+        "gqDaZjCfevOOxBYkK6zlhtZnXCg1"
+      ],
+      "dependencies": [],
+      "eventsFunctions": [],
+      "eventsBasedBehaviors": [
+        {
+          "description": "Allow an object to move smoothly on the X and/or Y axis following a sine wave.\n\nExample uses:\n- Floating pickups\n- Moveable platforms\n- Enemy movement\n\nProperties:\n- Center of movement, X position\n- Center of movement, Y position\n- Horizontal distance\n- Vertical distance\n- Horizontal speed\n- Horizontal distance\n\nTips:\n- For circular or elliptical movement, the horizontal and vertical speed need to be the same\n- For horizontal movement, set vertical distance to 0\n- For vertical movement, set horizontal distance to 0\n- For figure-8 movement, set horizontal speed to 1/2 of the vertical speed.",
+          "fullName": "Sine Movement",
+          "name": "SineMovement",
+          "objectType": "",
+          "eventsFunctions": [
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPreEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Set the center of movement to the initial location of the object"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SineMovement::SineMovement::PropertyCenterPointX"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SineMovement::SineMovement::PropertyCenterPointY"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SineMovement::SineMovement::SetPropertyCenterPointX"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "Object.X()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SineMovement::SineMovement::SetPropertyCenterPointY"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "Object.Y()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Move the object"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SineMovement::SineMovement::PropertyHorizontalDistance"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "!=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "MettreX"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "Object.Behavior::PropertyCenterPointX() + cos(ToRad(Object.Behavior::PropertySineProgressX())) * Object.Behavior::PropertyHorizontalDistance()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SineMovement::SineMovement::PropertyVerticalDistance"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "!=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "MettreY"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "Object.Behavior::PropertyCenterPointY() + sin(ToRad(Object.Behavior::PropertySineProgressY())) * Object.Behavior::PropertyVerticalDistance()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Increment counters that are used to calculate movement"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SineMovement::SineMovement::SetPropertySineProgressX"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "+",
+                        "Object.Behavior::PropertyHorizontalSpeed() * TimeDelta()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SineMovement::SineMovement::SetPropertySineProgressY"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "+",
+                        "Object.Behavior::PropertyVerticalSpeed() * TimeDelta()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "SineMovement::SineMovement",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Counter used to change the Y position of the object.",
+              "fullName": "Sine progress Y",
+              "functionType": "Expression",
+              "name": "SineProgressY",
+              "sentence": "Set initial Y of _PARAM0_ to _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Object.Behavior::PropertySineProgressY()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "SineMovement::SineMovement",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Counter used to change the X position of the object.",
+              "fullName": "Sine progress X",
+              "functionType": "Expression",
+              "name": "SineProgressX",
+              "sentence": "Set initial Y of _PARAM0_ to _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Object.Behavior::PropertySineProgressX()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "SineMovement::SineMovement",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Horizontal speed.",
+              "fullName": "Horizontal speed ",
+              "functionType": "Expression",
+              "name": "HorizontalSpeed",
+              "sentence": "Set initial Y of _PARAM0_ to _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Object.Behavior::PropertyHorizontalSpeed()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "SineMovement::SineMovement",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Vertical speed.",
+              "fullName": "Vertical speed",
+              "functionType": "Expression",
+              "name": "VerticalSpeed",
+              "sentence": "Set initial Y of _PARAM0_ to _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Object.Behavior::PropertyVerticalSpeed()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "SineMovement::SineMovement",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Horizontal distance.",
+              "fullName": "Horizontal distance",
+              "functionType": "Expression",
+              "name": "HorizontalDistance",
+              "sentence": "Set initial Y of _PARAM0_ to _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Object.Behavior::PropertyHorizontalDistance()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "SineMovement::SineMovement",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Vertical distance.",
+              "fullName": "Vertical distance",
+              "functionType": "Expression",
+              "name": "VerticalDistance",
+              "sentence": "Set initial Y of _PARAM0_ to _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Object.Behavior::PropertyVerticalDistance()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "SineMovement::SineMovement",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Center of movement, X position.",
+              "fullName": "Center of movement, X position",
+              "functionType": "Expression",
+              "name": "CenterX",
+              "sentence": "Set initial Y of _PARAM0_ to _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Object.Behavior::PropertyCenterPointX()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "SineMovement::SineMovement",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Center of movement, Y position.",
+              "fullName": "Center of movement, Y position",
+              "functionType": "Expression",
+              "name": "CenterY",
+              "sentence": "Set initial Y of _PARAM0_ to _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Object.Behavior::PropertyCenterPointY()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "SineMovement::SineMovement",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Set center Y position.",
+              "fullName": "Set center Y position",
+              "functionType": "Action",
+              "name": "SetCenterY",
+              "sentence": "Set center Y position of _PARAM0_ to _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SineMovement::SineMovement::SetPropertyCenterPointY"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsNumber(\"Value\")"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "SineMovement::SineMovement",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Y position",
+                  "name": "Value",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Set center X position.",
+              "fullName": "Set center X position",
+              "functionType": "Action",
+              "name": "SetCenterX",
+              "sentence": "Set center X position of _PARAM0_ to _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SineMovement::SineMovement::SetPropertyCenterPointX"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsNumber(\"Value\")"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "SineMovement::SineMovement",
+                  "type": "behavior"
+                },
+                {
+                  "description": "X position",
+                  "name": "Value",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Set horizontal distance.",
+              "fullName": "Set horizontal distance",
+              "functionType": "Action",
+              "name": "SetHorizontalDistance",
+              "sentence": "Set horizontal distance of _PARAM0_ to _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SineMovement::SineMovement::SetPropertyHorizontalDistance"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsNumber(\"Value\")"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "SineMovement::SineMovement",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Distance",
+                  "name": "Value",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Set vertical distance.",
+              "fullName": "Set vertical distance",
+              "functionType": "Action",
+              "name": "SetVerticalDistance",
+              "sentence": "Set vertical distance of _PARAM0_ to _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SineMovement::SineMovement::SetPropertyVerticalDistance"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsNumber(\"Value\")"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "SineMovement::SineMovement",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Distance",
+                  "name": "Value",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Set horizontal speed.",
+              "fullName": "Set horizontal speed",
+              "functionType": "Action",
+              "name": "SetHorizontalSpeed",
+              "sentence": "Set horizontal speed of _PARAM0_ to _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SineMovement::SineMovement::SetPropertyHorizontalSpeed"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsNumber(\"Value\")"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "SineMovement::SineMovement",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Speed (in degrees per second)",
+                  "name": "Value",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Set vertical speed.",
+              "fullName": "Set vertical speed",
+              "functionType": "Action",
+              "name": "SetVerticalSpeed",
+              "sentence": "Set vertical speed of _PARAM0_ to _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SineMovement::SineMovement::SetPropertyVerticalSpeed"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsNumber(\"Value\")"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "SineMovement::SineMovement",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Speed (in degrees per second)",
+                  "name": "Value",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Reset sine progress counters. The object will return to the initial state.",
+              "fullName": "Reset sine progress counters",
+              "functionType": "Action",
+              "name": "ResetSineCounters",
+              "sentence": "Reset sine progress counters on _PARAM0_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SineMovement::SineMovement::SetPropertySineProgressX"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SineMovement::SineMovement::SetPropertySineProgressY"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "SineMovement::SineMovement",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "60",
+              "type": "Number",
+              "label": "Horizontal speed, in degrees per second",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "HorizontalSpeed"
+            },
+            {
+              "value": "60",
+              "type": "Number",
+              "label": "Vertical speed, in degrees per second",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "VerticalSpeed"
+            },
+            {
+              "value": "100",
+              "type": "Number",
+              "label": "Horizontal distance: amplitude of the movement on X axis (0 to deactivate)",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "HorizontalDistance"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "label": "Vertical distance: amplitude of the movement on Y axis (0 to deactivate)",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "VerticalDistance"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "label": "Center of movement, X position",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "CenterPointX"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "label": "Center of movement, Y position",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "CenterPointY"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "label": "Counter used to change X position",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "SineProgressX"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "label": "Counter used to change Y position",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "SineProgressY"
+            }
+          ],
+          "sharedPropertyDescriptors": []
+        }
+      ],
+      "eventsBasedObjects": []
+    },
+    {
+      "author": "@4ian",
+      "category": "Movement",
+      "extensionNamespace": "",
+      "fullName": "Animated Back and Forth Movement",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLXJlcGVhdCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik0xNywxN0g3VjE0TDMsMThMNywyMlYxOUgxOVYxM0gxN003LDdIMTdWMTBMMjEsNkwxNywyVjVINVYxMUg3VjdaIiAvPjwvc3ZnPg==",
+      "name": "AnimatedBackAndForthMovement",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/repeat.svg",
+      "shortDescription": "Make the object go on the left, then when some distance is reached, flip and go back to the right. Make sure that your object has two animations called \"GoLeft\" and \"TurnLeft\".",
+      "version": "0.0.2",
+      "description": "Make the object go on the left, then when some distance is reached, flip and go back to the right. **Make sure** that your object has **two animations called \"GoLeft\" and \"TurnLeft\"**.",
+      "origin": {
+        "identifier": "AnimatedBackAndForthMovement",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "back",
+        "forth",
+        "movement"
+      ],
+      "authorIds": [
+        "wWP8BSlAW0UP4NeaHa2LcmmDzmH2"
+      ],
+      "dependencies": [],
+      "eventsFunctions": [],
+      "eventsBasedBehaviors": [
+        {
+          "description": "Make the object go on the left, then when some distance is reached, flip and go back to the right. Make sure that your object has two animations called \"GoLeft\" and \"TurnLeft\".",
+          "fullName": "Animated Back and Forth (mirrored) Movement",
+          "name": "AnimatedBackAndForthMirroredMovement",
+          "objectType": "Sprite",
+          "eventsFunctions": [
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPreEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AnimatedBackAndForthMovement::AnimatedBackAndForthMirroredMovement::PropertyInitialX"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatedBackAndForthMovement::AnimatedBackAndForthMirroredMovement::SetPropertyInitialX"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "Object.X()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Move the object to the left or right"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AnimationName"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"GoLeft\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "FlippedX"
+                      },
+                      "parameters": [
+                        "Object"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AddForceXY"
+                      },
+                      "parameters": [
+                        "Object",
+                        "-Object.Behavior::PropertySpeedX()",
+                        "0",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AnimationName"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"GoLeft\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "FlippedX"
+                      },
+                      "parameters": [
+                        "Object"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AddForceXY"
+                      },
+                      "parameters": [
+                        "Object",
+                        "+Object.Behavior::PropertySpeedX()",
+                        "0",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "If the distance \"DistanceX\" is reached, turn the object"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PosX"
+                      },
+                      "parameters": [
+                        "Object",
+                        ">",
+                        "Object.Behavior::PropertyInitialX()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "MettreX"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "Object.Behavior::PropertyInitialX()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"TurnLeft\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "FlipX"
+                      },
+                      "parameters": [
+                        "Object",
+                        "no"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PosX"
+                      },
+                      "parameters": [
+                        "Object",
+                        "<",
+                        "Object.Behavior::PropertyInitialX() - Object.Behavior::PropertyDistanceX()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "MettreX"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "Object.Behavior::PropertyInitialX() - Object.Behavior::PropertyDistanceX()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"TurnLeft\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "FlipX"
+                      },
+                      "parameters": [
+                        "Object",
+                        "yes"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "At the end of the turn, go back to moving to th left (or right if flipped)"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AnimationName"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"TurnLeft\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimationEnded"
+                      },
+                      "parameters": [
+                        "Object"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"GoLeft\""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "AnimatedBackAndForthMovement::AnimatedBackAndForthMirroredMovement",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "200",
+              "type": "Number",
+              "unit": "PixelSpeed",
+              "label": "Speed on X axis, in pixels per second",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "SpeedX"
+            },
+            {
+              "value": "300",
+              "type": "Number",
+              "unit": "Pixel",
+              "label": "Distance traveled on X axis, in pixels",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "DistanceX"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "InitialX"
+            }
+          ],
+          "sharedPropertyDescriptors": []
+        }
+      ],
+      "eventsBasedObjects": []
+    },
+    {
+      "author": "Gruk",
+      "category": "Movement",
+      "extensionNamespace": "",
+      "fullName": "Timed Back and Forth Movement",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLXJlcGVhdCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik0xNywxN0g3VjE0TDMsMThMNywyMlYxOUgxOVYxM0gxN003LDdIMTdWMTBMMjEsNkwxNywyVjVINVYxMUg3VjdaIiAvPjwvc3ZnPg==",
+      "name": "TimedBackAndForthMovement",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/repeat.svg",
+      "shortDescription": "This behavior moves objects back and forth for a chosen time or distance, vertically or horizontally.",
+      "version": "1.0.1",
+      "description": [
+        "This behavior moves an object (like an enemy) for a chosen time or distance, then flips it and starts over, moving the object back and forth, vertically or horizontally.",
+        "",
+        "Note: animations must be facing **Right** (for horizontal) or **Down** (for vertical) direction."
+      ],
+      "origin": {
+        "identifier": "TimedBackAndForthMovement",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "enemy",
+        "movement",
+        "back",
+        "forth",
+        "up",
+        "down",
+        "left",
+        "right"
+      ],
+      "authorIds": [
+        "9hfK9vapfgUot6y3ARuuRkPBWPJ2"
+      ],
+      "dependencies": [],
+      "eventsFunctions": [],
+      "eventsBasedBehaviors": [
+        {
+          "description": "Move an object (e.g. enemy) for a chosen time or distance, then flip it and start over. \nNote: animations should be facing LEFT.",
+          "fullName": "Timed Back and Forth Movement",
+          "name": "TimedBackAndForthMirroredMovement",
+          "objectType": "Sprite",
+          "eventsFunctions": [
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPreEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "vertical mode"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "TimedBackAndForthMovement::TimedBackAndForthMirroredMovement::PropertyVertical"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior"
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "initialize"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "TimedBackAndForthMovement::TimedBackAndForthMirroredMovement::PropertyStartPosition"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "=",
+                            "0"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ResetObjectTimer"
+                          },
+                          "parameters": [
+                            "Object",
+                            "\"BacknForth_timeout\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TimedBackAndForthMovement::TimedBackAndForthMirroredMovement::SetPropertyStartPosition"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "=",
+                            "round(Object.Y())"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "colorB": 228,
+                      "colorG": 176,
+                      "colorR": 74,
+                      "creationTime": 0,
+                      "name": "Flips",
+                      "source": "",
+                      "type": "BuiltinCommonInstructions::Group",
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Comment",
+                          "color": {
+                            "b": 109,
+                            "g": 230,
+                            "r": 255,
+                            "textB": 0,
+                            "textG": 0,
+                            "textR": 0
+                          },
+                          "comment": "distance has been reached, flip it"
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "PosY"
+                              },
+                              "parameters": [
+                                "Object",
+                                "<",
+                                "Object.Behavior::PropertyStartPosition() - Object.Behavior::PropertyDistance()"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "FlippedY"
+                              },
+                              "parameters": [
+                                "Object"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "TimedBackAndForthMovement::TimedBackAndForthMirroredMovement::SetPropertyStartPosition"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                "=",
+                                "round(Object.Y())"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResetObjectTimer"
+                              },
+                              "parameters": [
+                                "Object",
+                                "\"BacknForth_timeout\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "FlipY"
+                              },
+                              "parameters": [
+                                "Object",
+                                "no"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "PosY"
+                              },
+                              "parameters": [
+                                "Object",
+                                ">",
+                                "Object.Behavior::PropertyStartPosition() + Object.Behavior::PropertyDistance()"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "FlippedY"
+                              },
+                              "parameters": [
+                                "Object"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "TimedBackAndForthMovement::TimedBackAndForthMirroredMovement::SetPropertyStartPosition"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                "=",
+                                "round(Object.Y())"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResetObjectTimer"
+                              },
+                              "parameters": [
+                                "Object",
+                                "\"BacknForth_timeout\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "FlipY"
+                              },
+                              "parameters": [
+                                "Object",
+                                "yes"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "parameters": []
+                    },
+                    {
+                      "colorB": 228,
+                      "colorG": 176,
+                      "colorR": 74,
+                      "creationTime": 0,
+                      "name": "Timeout",
+                      "source": "",
+                      "type": "BuiltinCommonInstructions::Group",
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Comment",
+                          "color": {
+                            "b": 109,
+                            "g": 230,
+                            "r": 255,
+                            "textB": 0,
+                            "textG": 0,
+                            "textR": 0
+                          },
+                          "comment": "max time has been reached, flip it"
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "TimedBackAndForthMovement::TimedBackAndForthMirroredMovement::PropertyTimecheck"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                "!=",
+                                "Object.ObjectTimerElapsedTime(\"BacknForth_timeout\")"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "TimedBackAndForthMovement::TimedBackAndForthMirroredMovement::PropertyLastPosition"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                "=",
+                                "round(Object.Y())"
+                              ]
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "ObjectTimer"
+                                  },
+                                  "parameters": [
+                                    "Object",
+                                    "\"BacknForth_timeout\"",
+                                    "Object.Behavior::PropertyTimeout()"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "FlippedY"
+                                  },
+                                  "parameters": [
+                                    "Object"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "TimedBackAndForthMovement::TimedBackAndForthMirroredMovement::SetPropertyStartPosition"
+                                  },
+                                  "parameters": [
+                                    "Object",
+                                    "Behavior",
+                                    "=",
+                                    "round(Object.Y())"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ResetObjectTimer"
+                                  },
+                                  "parameters": [
+                                    "Object",
+                                    "\"BacknForth_timeout\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "FlipY"
+                                  },
+                                  "parameters": [
+                                    "Object",
+                                    "no"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "ObjectTimer"
+                                  },
+                                  "parameters": [
+                                    "Object",
+                                    "\"BacknForth_timeout\"",
+                                    "Object.Behavior::PropertyTimeout()"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "inverted": true,
+                                    "value": "FlippedY"
+                                  },
+                                  "parameters": [
+                                    "Object"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "TimedBackAndForthMovement::TimedBackAndForthMirroredMovement::SetPropertyStartPosition"
+                                  },
+                                  "parameters": [
+                                    "Object",
+                                    "Behavior",
+                                    "=",
+                                    "round(Object.Y())"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ResetObjectTimer"
+                                  },
+                                  "parameters": [
+                                    "Object",
+                                    "\"BacknForth_timeout\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "FlipY"
+                                  },
+                                  "parameters": [
+                                    "Object",
+                                    "yes"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "parameters": []
+                    },
+                    {
+                      "colorB": 228,
+                      "colorG": 176,
+                      "colorR": 74,
+                      "creationTime": 0,
+                      "name": "Movement",
+                      "source": "",
+                      "type": "BuiltinCommonInstructions::Group",
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "FlippedY"
+                              },
+                              "parameters": [
+                                "Object"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "AddForceXY"
+                              },
+                              "parameters": [
+                                "Object",
+                                "0",
+                                "Object.Behavior::PropertySpeed()",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "FlippedY"
+                              },
+                              "parameters": [
+                                "Object"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "AddForceXY"
+                              },
+                              "parameters": [
+                                "Object",
+                                "0",
+                                "- \nObject.Behavior::PropertySpeed()",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "TimedBackAndForthMovement::TimedBackAndForthMirroredMovement::SetPropertyLastPosition"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                "=",
+                                "round(Object.Y())"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "parameters": []
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "horizontal mode"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "TimedBackAndForthMovement::TimedBackAndForthMirroredMovement::PropertyVertical"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior"
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "initialize"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "TimedBackAndForthMovement::TimedBackAndForthMirroredMovement::PropertyStartPosition"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "=",
+                            "0"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ResetObjectTimer"
+                          },
+                          "parameters": [
+                            "Object",
+                            "\"BacknForth_timeout\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TimedBackAndForthMovement::TimedBackAndForthMirroredMovement::SetPropertyStartPosition"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "=",
+                            "round(Object.X())"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "colorB": 228,
+                      "colorG": 176,
+                      "colorR": 74,
+                      "creationTime": 0,
+                      "folded": true,
+                      "name": "Flips",
+                      "source": "",
+                      "type": "BuiltinCommonInstructions::Group",
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Comment",
+                          "color": {
+                            "b": 109,
+                            "g": 230,
+                            "r": 255,
+                            "textB": 0,
+                            "textG": 0,
+                            "textR": 0
+                          },
+                          "comment": "distance has been reached, flip it"
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "PosX"
+                              },
+                              "parameters": [
+                                "Object",
+                                ">",
+                                "Object.Behavior::PropertyStartPosition() + Object.Behavior::PropertyDistance()"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "FlippedX"
+                              },
+                              "parameters": [
+                                "Object"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "TimedBackAndForthMovement::TimedBackAndForthMirroredMovement::SetPropertyStartPosition"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                "=",
+                                "round(Object.X())"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResetObjectTimer"
+                              },
+                              "parameters": [
+                                "Object",
+                                "\"BacknForth_timeout\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "FlipX"
+                              },
+                              "parameters": [
+                                "Object",
+                                "yes"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "PosX"
+                              },
+                              "parameters": [
+                                "Object",
+                                "<",
+                                "Object.Behavior::PropertyStartPosition() - Object.Behavior::PropertyDistance()"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "FlippedX"
+                              },
+                              "parameters": [
+                                "Object"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "TimedBackAndForthMovement::TimedBackAndForthMirroredMovement::SetPropertyStartPosition"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                "=",
+                                "round(Object.X())"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResetObjectTimer"
+                              },
+                              "parameters": [
+                                "Object",
+                                "\"BacknForth_timeout\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "FlipX"
+                              },
+                              "parameters": [
+                                "Object",
+                                "no"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "parameters": []
+                    },
+                    {
+                      "colorB": 228,
+                      "colorG": 176,
+                      "colorR": 74,
+                      "creationTime": 0,
+                      "folded": true,
+                      "name": "Timeout",
+                      "source": "",
+                      "type": "BuiltinCommonInstructions::Group",
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Comment",
+                          "color": {
+                            "b": 109,
+                            "g": 230,
+                            "r": 255,
+                            "textB": 0,
+                            "textG": 0,
+                            "textR": 0
+                          },
+                          "comment": "max time has been reached, flip it"
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "TimedBackAndForthMovement::TimedBackAndForthMirroredMovement::PropertyTimecheck"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                "!=",
+                                "Object.ObjectTimerElapsedTime(\"BacknForth_timeout\")"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "TimedBackAndForthMovement::TimedBackAndForthMirroredMovement::PropertyLastPosition"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                "=",
+                                "round(Object.X())"
+                              ]
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "ObjectTimer"
+                                  },
+                                  "parameters": [
+                                    "Object",
+                                    "\"BacknForth_timeout\"",
+                                    "Object.Behavior::PropertyTimeout()"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "FlippedX"
+                                  },
+                                  "parameters": [
+                                    "Object"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "FlipX"
+                                  },
+                                  "parameters": [
+                                    "Object",
+                                    "no"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "TimedBackAndForthMovement::TimedBackAndForthMirroredMovement::SetPropertyStartPosition"
+                                  },
+                                  "parameters": [
+                                    "Object",
+                                    "Behavior",
+                                    "=",
+                                    "round(Object.X())"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ResetObjectTimer"
+                                  },
+                                  "parameters": [
+                                    "Object",
+                                    "\"BacknForth_timeout\""
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "ObjectTimer"
+                                  },
+                                  "parameters": [
+                                    "Object",
+                                    "\"BacknForth_timeout\"",
+                                    "Object.Behavior::PropertyTimeout()"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "inverted": true,
+                                    "value": "FlippedX"
+                                  },
+                                  "parameters": [
+                                    "Object"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "FlipX"
+                                  },
+                                  "parameters": [
+                                    "Object",
+                                    "yes"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "TimedBackAndForthMovement::TimedBackAndForthMirroredMovement::SetPropertyStartPosition"
+                                  },
+                                  "parameters": [
+                                    "Object",
+                                    "Behavior",
+                                    "=",
+                                    "round(Object.X())"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ResetObjectTimer"
+                                  },
+                                  "parameters": [
+                                    "Object",
+                                    "\"BacknForth_timeout\""
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "parameters": []
+                    },
+                    {
+                      "colorB": 228,
+                      "colorG": 176,
+                      "colorR": 74,
+                      "creationTime": 0,
+                      "folded": true,
+                      "name": "Movement",
+                      "source": "",
+                      "type": "BuiltinCommonInstructions::Group",
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "FlippedX"
+                              },
+                              "parameters": [
+                                "Object"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "AddForceXY"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Object.Behavior::PropertySpeed()",
+                                "0",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "FlippedX"
+                              },
+                              "parameters": [
+                                "Object"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "AddForceXY"
+                              },
+                              "parameters": [
+                                "Object",
+                                "- \nObject.Behavior::PropertySpeed()",
+                                "0",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "TimedBackAndForthMovement::TimedBackAndForthMirroredMovement::SetPropertyLastPosition"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                "=",
+                                "round(Object.X())"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "parameters": []
+                    }
+                  ]
+                },
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "name": "TimeCheck",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "store current elapsed time (to make sure time has passed)"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TimedBackAndForthMovement::TimedBackAndForthMirroredMovement::SetPropertyTimecheck"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "=",
+                            "Object.ObjectTimerElapsedTime(\"BacknForth_timeout\")"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "TimedBackAndForthMovement::TimedBackAndForthMirroredMovement",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "false",
+              "type": "Boolean",
+              "label": "Move the object vertically (instead of horizontally)",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "Vertical"
+            },
+            {
+              "value": "100",
+              "type": "Number",
+              "label": "Moving speed (in pixel/s)",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "Speed"
+            },
+            {
+              "value": "200",
+              "type": "Number",
+              "label": "Moving distance (in pixels)",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "Distance"
+            },
+            {
+              "value": "2",
+              "type": "Number",
+              "label": "Moving maximum time (in seconds)",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "Timeout"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "label": "Distance start point",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "StartPosition"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "label": "position of the sprite at the previous frame",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "LastPosition"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "label": "check that time has elapsed",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "Timecheck"
+            }
+          ],
+          "sharedPropertyDescriptors": []
+        }
+      ],
+      "eventsBasedObjects": []
+    },
+    {
+      "author": "@4ian",
+      "category": "Movement",
+      "extensionNamespace": "",
+      "fullName": "Linear Movement",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLXJheS1zdGFydC1hcnJvdyIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik0yMywxMkwxOSwxNlYxM0g2LjgzQzYuNDIsMTQuMTcgNS4zMSwxNSA0LDE1QTMsMyAwIDAsMSAxLDEyQTMsMyAwIDAsMSA0LDlDNS4zMSw5IDYuNDIsOS44MyA2LjgzLDExSDE5VjhMMjMsMTJaIiAvPjwvc3ZnPg==",
+      "name": "LinearMovement",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/ray-start-arrow.svg",
+      "shortDescription": "Move the object linearly, according to the speed configured on X and Y axis. Useful for simple enemies, bullets or objects following a straight line on the screen.",
+      "version": "0.0.2",
+      "description": "Move the object linearly, according to the speed configured on X and Y axis. Useful for simple enemies, bullets or objects following a straight line on the screen.",
+      "origin": {
+        "identifier": "LinearMovement",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "line",
+        "movement",
+        "linear"
+      ],
+      "authorIds": [
+        "wWP8BSlAW0UP4NeaHa2LcmmDzmH2"
+      ],
+      "dependencies": [],
+      "eventsFunctions": [],
+      "eventsBasedBehaviors": [
+        {
+          "description": "Move the object linearly, according to the speed configured on X and Y axis. Useful for simple enemies, bullets or objects following a straight line on the screen.",
+          "fullName": "Linear movement",
+          "name": "LinearMovement",
+          "objectType": "",
+          "eventsFunctions": [
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPreEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AddForceXY"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Object.Behavior::PropertySpeedX()",
+                        "Object.Behavior::PropertySpeedY()",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "LinearMovement::LinearMovement",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "0",
+              "type": "Number",
+              "unit": "PixelSpeed",
+              "label": "Speed on X axis",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "SpeedX"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "unit": "PixelSpeed",
+              "label": "Speed on Y axis",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "SpeedY"
+            }
+          ],
+          "sharedPropertyDescriptors": []
+        }
+      ],
+      "eventsBasedObjects": []
+    },
     {
       "author": "Tristan Rhodes (https://victrisgames.itch.io/)",
       "category": "Visual effect",
