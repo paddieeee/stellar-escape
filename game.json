@@ -695,7 +695,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.20549959945979854,
+        "zoomFactor": 0.11312430998130493,
         "windowMask": false
       },
       "objectsGroups": [
@@ -763,22 +763,6 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 157,
-          "layer": "",
-          "name": "MovingHorizontalPlatform",
-          "persistentUuid": "38422e75-5d4d-409c-841f-d5a3917dfc8f",
-          "width": 165,
-          "x": 571,
-          "y": 628,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
           "height": 196,
           "layer": "",
           "name": "Astronaut",
@@ -787,22 +771,6 @@
           "x": 182,
           "y": 565,
           "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 123,
-          "layer": "",
-          "name": "stellar_pod",
-          "persistentUuid": "ee10bbc6-c29c-49af-82de-b1715d953ec3",
-          "width": 23,
-          "x": 930,
-          "y": 411,
-          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -859,102 +827,6 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 119,
-          "layer": "",
-          "name": "Platform2",
-          "persistentUuid": "232fec51-d254-4f67-9e45-f9f5f736449c",
-          "width": 164,
-          "x": 814,
-          "y": 847,
-          "zOrder": 12,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 119,
-          "layer": "",
-          "name": "platform4",
-          "persistentUuid": "25b14620-9d8c-47fe-bd9f-2790e42999d4",
-          "width": 151,
-          "x": 846,
-          "y": 537,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 157,
-          "layer": "",
-          "name": "MovingHorizontalPlatform",
-          "persistentUuid": "0b8e0ef8-bf1e-4714-a220-c6ae75b646c6",
-          "width": 165,
-          "x": 1168,
-          "y": 796,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 71,
-          "layer": "",
-          "name": "platform5",
-          "persistentUuid": "edc3484b-88c4-447c-a8ca-ca5407d35a6c",
-          "width": 90,
-          "x": 1120,
-          "y": 441,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 123,
-          "layer": "",
-          "name": "stellar_pod",
-          "persistentUuid": "6b37c3a3-6515-401c-a790-ec9de35ed548",
-          "width": 23,
-          "x": 1150,
-          "y": 317,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 157,
-          "layer": "",
-          "name": "MovingHorizontalPlatform",
-          "persistentUuid": "5102069b-4c96-469a-b398-177fd6c9f79c",
-          "width": 165,
-          "x": 1355,
-          "y": 447,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
           "height": 100,
           "layer": "UI",
           "name": "PauseHeader",
@@ -994,38 +866,6 @@
           "x": -149,
           "y": 1081,
           "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 149,
-          "layer": "",
-          "name": "Enemy",
-          "persistentUuid": "537846ca-4ad1-4fd8-96f4-cd11c7c2c4f5",
-          "width": 162,
-          "x": 1739,
-          "y": 229,
-          "zOrder": 19,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 199,
-          "layer": "",
-          "name": "Plant",
-          "persistentUuid": "44bf8c72-5d85-4a3f-a358-3fda0597bcd0",
-          "width": 353,
-          "x": 952,
-          "y": 752,
-          "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1337,94 +1177,44 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 121,
+          "height": 341,
           "layer": "",
-          "name": "MovingHorizontalPlatform2",
-          "persistentUuid": "d3fb983a-04f0-45b0-8de4-d40c7a3bfc58",
-          "width": 127,
-          "x": 3132,
-          "y": 333,
-          "zOrder": 44,
+          "name": "platform7",
+          "persistentUuid": "39301156-bf76-474b-b3ba-2f79c61ec87d",
+          "width": 3090,
+          "x": 443,
+          "y": 693,
+          "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 121,
+          "customSize": false,
+          "height": 0,
           "layer": "",
-          "name": "MovingHorizontalPlatform",
-          "persistentUuid": "27b25fad-cf4f-41a7-a29b-d4562f78d346",
-          "width": 127,
-          "x": 2847,
-          "y": 575,
-          "zOrder": 46,
+          "name": "RectPlat_High",
+          "persistentUuid": "126a1a30-d790-441a-983f-43751750d4f1",
+          "width": 0,
+          "x": 3667,
+          "y": 843,
+          "zOrder": 41,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 197,
+          "customSize": false,
+          "height": 0,
           "layer": "",
-          "name": "MovingVerticalPlatform3",
-          "persistentUuid": "488c7cd4-33f5-4688-a15d-331847bef93a",
-          "width": 206,
-          "x": 2383,
-          "y": 850,
-          "zOrder": 47,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 154,
-          "layer": "",
-          "name": "MovingHorizontalPlatform2",
-          "persistentUuid": "b7147fa7-750f-4894-8f4a-f03a974d9505",
-          "width": 161,
-          "x": 1422,
-          "y": 882,
-          "zOrder": 48,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 167,
-          "layer": "",
-          "name": "MovingHorizontalPlatform5",
-          "persistentUuid": "89a6eafb-2a57-42a4-b867-e55a505e256e",
-          "width": 175,
-          "x": 1890,
-          "y": 844,
-          "zOrder": 49,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 314,
-          "layer": "",
-          "name": "ElasticPlatform",
-          "persistentUuid": "75f73079-7cd2-4b2a-8e44-afc9f1631707",
-          "width": 329,
-          "x": 3260,
-          "y": 831,
-          "zOrder": 50,
+          "name": "LeftRightPlatform",
+          "persistentUuid": "95d982f6-7167-459e-8060-574409b85944",
+          "width": 0,
+          "x": 4318,
+          "y": 702,
+          "zOrder": 42,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1525,7 +1315,7 @@
         },
         {
           "assetStoreId": "",
-          "name": "MovingHorizontalPlatform",
+          "name": "Platform1",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -1533,536 +1323,11 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
               "canBeGrabbed": true,
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
               "platformType": "NormalPlatform",
               "yGrabOffset": 0
-            }
-          ],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets/Platforms/platform_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 86.25,
-                            "y": 172.25
-                          },
-                          {
-                            "x": 27,
-                            "y": 32.5
-                          },
-                          {
-                            "x": 140.375,
-                            "y": 32.25
-                          },
-                          {
-                            "x": 253.75,
-                            "y": 32
-                          },
-                          {
-                            "x": 367.125,
-                            "y": 31.75
-                          },
-                          {
-                            "x": 480.5,
-                            "y": 31.5
-                          },
-                          {
-                            "x": 286,
-                            "y": 113.5
-                          },
-                          {
-                            "x": 227.5,
-                            "y": 224
-                          },
-                          {
-                            "x": 188,
-                            "y": 402
-                          },
-                          {
-                            "x": 145.5,
-                            "y": 312
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
-          "name": "MovingHorizontalPlatform2",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": false,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
-            },
-            {
-              "name": "SineMovement",
-              "type": "SineMovement::SineMovement",
-              "HorizontalSpeed": 60,
-              "VerticalSpeed": 60,
-              "HorizontalDistance": 100,
-              "VerticalDistance": 0,
-              "CenterPointX": 0,
-              "CenterPointY": 0,
-              "SineProgressX": 0,
-              "SineProgressY": 0
-            }
-          ],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets/Platforms/platform_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 86.25,
-                            "y": 172.25
-                          },
-                          {
-                            "x": 27,
-                            "y": 32.5
-                          },
-                          {
-                            "x": 140.375,
-                            "y": 32.25
-                          },
-                          {
-                            "x": 253.75,
-                            "y": 32
-                          },
-                          {
-                            "x": 367.125,
-                            "y": 31.75
-                          },
-                          {
-                            "x": 480.5,
-                            "y": 31.5
-                          },
-                          {
-                            "x": 286,
-                            "y": 113.5
-                          },
-                          {
-                            "x": 227.5,
-                            "y": 224
-                          },
-                          {
-                            "x": 188,
-                            "y": 402
-                          },
-                          {
-                            "x": 145.5,
-                            "y": 312
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
-          "name": "MovingHorizontalPlatform4",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": false,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
-            },
-            {
-              "name": "SineMovement",
-              "type": "SineMovement::SineMovement",
-              "HorizontalSpeed": 60,
-              "VerticalSpeed": 60,
-              "HorizontalDistance": 100,
-              "VerticalDistance": 500,
-              "CenterPointX": 0,
-              "CenterPointY": 0,
-              "SineProgressX": 0,
-              "SineProgressY": 0
-            }
-          ],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets/Platforms/platform_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 86.25,
-                            "y": 172.25
-                          },
-                          {
-                            "x": 27,
-                            "y": 32.5
-                          },
-                          {
-                            "x": 140.375,
-                            "y": 32.25
-                          },
-                          {
-                            "x": 253.75,
-                            "y": 32
-                          },
-                          {
-                            "x": 367.125,
-                            "y": 31.75
-                          },
-                          {
-                            "x": 480.5,
-                            "y": 31.5
-                          },
-                          {
-                            "x": 286,
-                            "y": 113.5
-                          },
-                          {
-                            "x": 227.5,
-                            "y": 224
-                          },
-                          {
-                            "x": 188,
-                            "y": 402
-                          },
-                          {
-                            "x": 145.5,
-                            "y": 312
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
-          "name": "MovingHorizontalPlatform5",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": false,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
-            },
-            {
-              "name": "SineMovement",
-              "type": "SineMovement::SineMovement",
-              "HorizontalSpeed": 60,
-              "VerticalSpeed": 60,
-              "HorizontalDistance": 300,
-              "VerticalDistance": 300,
-              "CenterPointX": 0,
-              "CenterPointY": 0,
-              "SineProgressX": 0,
-              "SineProgressY": 0
-            }
-          ],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets/Platforms/platform_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 86.25,
-                            "y": 172.25
-                          },
-                          {
-                            "x": 27,
-                            "y": 32.5
-                          },
-                          {
-                            "x": 140.375,
-                            "y": 32.25
-                          },
-                          {
-                            "x": 253.75,
-                            "y": 32
-                          },
-                          {
-                            "x": 367.125,
-                            "y": 31.75
-                          },
-                          {
-                            "x": 480.5,
-                            "y": 31.5
-                          },
-                          {
-                            "x": 286,
-                            "y": 113.5
-                          },
-                          {
-                            "x": 227.5,
-                            "y": 224
-                          },
-                          {
-                            "x": 188,
-                            "y": 402
-                          },
-                          {
-                            "x": 145.5,
-                            "y": 312
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
-          "name": "ElasticPlatform",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": false,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
-            },
-            {
-              "name": "RectangleMovement",
-              "type": "RectangleMovement::RectangleMovement",
-              "Width": 300,
-              "Height": 100,
-              "Clockwise": false,
-              "HorizontalEdgeDuration": 3,
-              "VerticalEdgeDuration": 3,
-              "Left": 1,
-              "Top": 1,
-              "Progress": 1,
-              "OldX": 1,
-              "OldY": 1,
-              "Easing": "elastic",
-              "InitialPosition": "Bottom-right corner",
-              "ToogleClockwise": false
-            }
-          ],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets/Platforms/platform_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 86.25,
-                            "y": 172.25
-                          },
-                          {
-                            "x": 27,
-                            "y": 32.5
-                          },
-                          {
-                            "x": 140.375,
-                            "y": 32.25
-                          },
-                          {
-                            "x": 253.75,
-                            "y": 32
-                          },
-                          {
-                            "x": 367.125,
-                            "y": 31.75
-                          },
-                          {
-                            "x": 480.5,
-                            "y": 31.5
-                          },
-                          {
-                            "x": 286,
-                            "y": 113.5
-                          },
-                          {
-                            "x": 227.5,
-                            "y": 224
-                          },
-                          {
-                            "x": 188,
-                            "y": 402
-                          },
-                          {
-                            "x": 145.5,
-                            "y": 312
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
-          "name": "MovingVerticalPlatform3",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": false,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
-            },
-            {
-              "name": "SineMovement",
-              "type": "SineMovement::SineMovement",
-              "HorizontalSpeed": 60,
-              "VerticalSpeed": 60,
-              "HorizontalDistance": 0,
-              "VerticalDistance": 300,
-              "CenterPointX": 0,
-              "CenterPointY": 0,
-              "SineProgressX": 0,
-              "SineProgressY": 0
             }
           ],
           "animations": [
@@ -2507,21 +1772,622 @@
               "canBeGrabbed": true,
               "platformType": "NormalPlatform",
               "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Platforms/platform_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 12.5,
+                            "y": 51
+                          },
+                          {
+                            "x": 376,
+                            "y": 50.5
+                          },
+                          {
+                            "x": 254.5,
+                            "y": 168.5
+                          },
+                          {
+                            "x": 199,
+                            "y": 243.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "UpDownPlatform",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
             },
             {
-              "name": "TopDownMovement",
-              "type": "TopDownMovementBehavior::TopDownMovementBehavior",
-              "acceleration": 1000,
-              "allowDiagonals": true,
-              "angleOffset": 0,
-              "angularMaxSpeed": 180,
-              "customIsometryAngle": 30,
-              "deceleration": 1000,
-              "ignoreDefaultControls": false,
-              "maxSpeed": 200,
-              "movementAngleOffset": 0,
-              "rotateObject": false,
-              "viewpoint": "TopDown"
+              "name": "SineMovement",
+              "type": "SineMovement::SineMovement",
+              "HorizontalSpeed": 60,
+              "VerticalSpeed": 60,
+              "HorizontalDistance": 0,
+              "VerticalDistance": 300,
+              "CenterPointX": 0,
+              "CenterPointY": 0,
+              "SineProgressX": 0,
+              "SineProgressY": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Platforms/platform_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 86.25,
+                            "y": 172.25
+                          },
+                          {
+                            "x": 27,
+                            "y": 32.5
+                          },
+                          {
+                            "x": 140.375,
+                            "y": 32.25
+                          },
+                          {
+                            "x": 253.75,
+                            "y": 32
+                          },
+                          {
+                            "x": 367.125,
+                            "y": 31.75
+                          },
+                          {
+                            "x": 480.5,
+                            "y": 31.5
+                          },
+                          {
+                            "x": 286,
+                            "y": 113.5
+                          },
+                          {
+                            "x": 227.5,
+                            "y": 224
+                          },
+                          {
+                            "x": 188,
+                            "y": 402
+                          },
+                          {
+                            "x": 145.5,
+                            "y": 312
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "LeftRightPlatform",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": false,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            },
+            {
+              "name": "SineMovement",
+              "type": "SineMovement::SineMovement",
+              "HorizontalSpeed": 60,
+              "VerticalSpeed": 60,
+              "HorizontalDistance": 300,
+              "VerticalDistance": 0,
+              "CenterPointX": 0,
+              "CenterPointY": 0,
+              "SineProgressX": 0,
+              "SineProgressY": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Platforms/platform_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19.5,
+                            "y": 36.5
+                          },
+                          {
+                            "x": 489.5,
+                            "y": 31
+                          },
+                          {
+                            "x": 289,
+                            "y": 128.5
+                          },
+                          {
+                            "x": 185.5,
+                            "y": 275
+                          },
+                          {
+                            "x": 137,
+                            "y": 203.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "RectangularPlatform",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": false,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            },
+            {
+              "name": "RectangleMovement",
+              "type": "RectangleMovement::RectangleMovement",
+              "Width": 200,
+              "Height": 200,
+              "Clockwise": true,
+              "HorizontalEdgeDuration": 1,
+              "VerticalEdgeDuration": 1,
+              "Left": 1,
+              "Top": 1,
+              "Progress": 1,
+              "OldX": 1,
+              "OldY": 1,
+              "Easing": "easeInOutSine",
+              "InitialPosition": "Top-left corner",
+              "ToogleClockwise": false
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Platforms/platform_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7.5,
+                            "y": 32
+                          },
+                          {
+                            "x": 288,
+                            "y": 31
+                          },
+                          {
+                            "x": 149,
+                            "y": 206
+                          },
+                          {
+                            "x": 105,
+                            "y": 138.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "RectPlat_High",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": false,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            },
+            {
+              "name": "RectangleMovement",
+              "type": "RectangleMovement::RectangleMovement",
+              "Width": 200,
+              "Height": 500,
+              "Clockwise": true,
+              "HorizontalEdgeDuration": 1,
+              "VerticalEdgeDuration": 1,
+              "Left": 1,
+              "Top": 1,
+              "Progress": 1,
+              "OldX": 1,
+              "OldY": 1,
+              "Easing": "easeInOutSine",
+              "InitialPosition": "Bottom-right corner",
+              "ToogleClockwise": false
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Platforms/platform_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 21,
+                            "y": 45.5
+                          },
+                          {
+                            "x": 437,
+                            "y": 39
+                          },
+                          {
+                            "x": 289.5,
+                            "y": 203.5
+                          },
+                          {
+                            "x": 111.5,
+                            "y": 253
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "RectPlatform_Wide",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": false,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            },
+            {
+              "name": "RectangleMovement",
+              "type": "RectangleMovement::RectangleMovement",
+              "Width": 500,
+              "Height": 100,
+              "Clockwise": true,
+              "HorizontalEdgeDuration": 1,
+              "VerticalEdgeDuration": 1,
+              "Left": 1,
+              "Top": 1,
+              "Progress": 1,
+              "OldX": 1,
+              "OldY": 1,
+              "Easing": "easeInOutSine",
+              "InitialPosition": "Bottom-left corner",
+              "ToogleClockwise": false
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Platforms/platform_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 57.5
+                          },
+                          {
+                            "x": 405.5,
+                            "y": 49
+                          },
+                          {
+                            "x": 259,
+                            "y": 150
+                          },
+                          {
+                            "x": 199.5,
+                            "y": 243
+                          },
+                          {
+                            "x": 129.5,
+                            "y": 107
+                          },
+                          {
+                            "x": 34,
+                            "y": 128.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "EllipsePlatform",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            },
+            {
+              "name": "SineMovement",
+              "type": "SineMovement::SineMovement",
+              "HorizontalSpeed": 60,
+              "VerticalSpeed": 60,
+              "HorizontalDistance": 200,
+              "VerticalDistance": 200,
+              "CenterPointX": 0,
+              "CenterPointY": 0,
+              "SineProgressX": 0,
+              "SineProgressY": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Platforms/platform_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 25,
+                            "y": 45
+                          },
+                          {
+                            "x": 491.5,
+                            "y": 45
+                          },
+                          {
+                            "x": 270,
+                            "y": 172.5
+                          },
+                          {
+                            "x": 190,
+                            "y": 296.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "QuickPlatform",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            },
+            {
+              "name": "RectangleMovement",
+              "type": "RectangleMovement::RectangleMovement",
+              "Width": 400,
+              "Height": 200,
+              "Clockwise": true,
+              "HorizontalEdgeDuration": 0.5,
+              "VerticalEdgeDuration": 1,
+              "Left": 1,
+              "Top": 1,
+              "Progress": 1,
+              "OldX": 1,
+              "OldY": 1,
+              "Easing": "bouncePast",
+              "InitialPosition": "Top-left corner",
+              "ToogleClockwise": false
             }
           ],
           "animations": [
@@ -3121,6 +2987,7 @@
             {
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "maxSpeed": 550,
               "acceleration": 800,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
@@ -3132,7 +2999,6 @@
               "jumpSustainTime": 0.2,
               "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 700,
-              "maxSpeed": 250,
               "slopeMaxAngle": 60,
               "useLegacyTrajectory": false,
               "xGrabTolerance": 10,
@@ -5794,6 +5660,11 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,
@@ -5841,6 +5712,11 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -7054,10 +6930,6 @@
         {
           "name": "SmoothCamera",
           "type": "SmoothCamera::SmoothCamera"
-        },
-        {
-          "name": "TopDownMovement",
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior"
         }
       ]
     },
