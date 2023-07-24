@@ -16,7 +16,7 @@
     "pixelsRounding": false,
     "projectUuid": "e9d1799e-246c-4c32-b676-bf0fd6da1ebc",
     "scaleMode": "linear",
-    "sizeOnStartupMode": "adaptWidth",
+    "sizeOnStartupMode": "",
     "templateSlug": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
@@ -667,6 +667,140 @@
         "name": "assets/User Interface/Objects/Button_Disabled.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "assets/Sounds/collect_sound.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/Sounds/collect_sound.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Sounds/bg-music/level_bg-music.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/Sounds/bg-music/level_bg-music.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Sounds/normal_jump.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/Sounds/normal_jump.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Sounds/running.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/Sounds/running.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Sounds/blowing_air.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/Sounds/blowing_air.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Sounds/crash.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/Sounds/crash.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/User Interface/Objects/HUD_Forms.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/User Interface/Objects/HUD_Forms.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/User Interface/Objects/MagicStone_HUD.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/User Interface/Objects/MagicStone_HUD.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Sounds/plant_bite.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/Sounds/plant_bite.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Sounds/running_short.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/Sounds/running_short.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Enemy/state-rechts/enemy_flying_1_R.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Enemy/state-rechts/enemy_flying_1_R.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Enemy/state-rechts/enemy_flying_2_R.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Enemy/state-rechts/enemy_flying_2_R.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Enemy/state-rechts/enemy_flying_3_R.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Enemy/state-rechts/enemy_flying_3_R.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Enemy/state-rechts/enemy_flying_4_R.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Enemy/state-rechts/enemy_flying_4_R.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -695,7 +829,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.11312430998130493,
+        "zoomFactor": 0.39054916486950586,
         "windowMask": false
       },
       "objectsGroups": [
@@ -768,7 +902,7 @@
           "name": "Astronaut",
           "persistentUuid": "148d95e0-bfae-40d3-a966-7d7bde7ef883",
           "width": 157,
-          "x": 182,
+          "x": 183,
           "y": 565,
           "zOrder": 3,
           "numberProperties": [],
@@ -776,7 +910,7 @@
           "initialVariables": []
         },
         {
-          "angle": 0,
+          "angle": 357,
           "customSize": true,
           "depth": 0,
           "height": 96,
@@ -784,8 +918,8 @@
           "name": "ScoreText",
           "persistentUuid": "dec98ff4-157c-44ba-952f-ae2f960a3f88",
           "width": 438,
-          "x": 15,
-          "y": 32,
+          "x": 1637,
+          "y": 25,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -799,8 +933,8 @@
           "layer": "Background",
           "name": "Background",
           "persistentUuid": "8a0365a9-9ab0-41ae-8395-f686af498635",
-          "width": 10376,
-          "x": 0,
+          "width": 10821,
+          "x": -445,
           "y": -35,
           "zOrder": 6,
           "numberProperties": [],
@@ -1177,13 +1311,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 341,
+          "height": 470,
           "layer": "",
           "name": "platform7",
           "persistentUuid": "39301156-bf76-474b-b3ba-2f79c61ec87d",
-          "width": 3090,
-          "x": 443,
-          "y": 693,
+          "width": 1044,
+          "x": 695,
+          "y": 674,
           "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
@@ -1191,30 +1325,320 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 586,
           "layer": "",
-          "name": "RectPlat_High",
-          "persistentUuid": "126a1a30-d790-441a-983f-43751750d4f1",
-          "width": 0,
-          "x": 3667,
-          "y": 843,
-          "zOrder": 41,
+          "name": "platform7",
+          "persistentUuid": "b88a2015-462f-4785-ac1f-6a420dcfd917",
+          "width": 1044,
+          "x": 1997,
+          "y": 547,
+          "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544,
           "layer": "",
-          "name": "LeftRightPlatform",
-          "persistentUuid": "95d982f6-7167-459e-8060-574409b85944",
-          "width": 0,
-          "x": 4318,
-          "y": 702,
-          "zOrder": 42,
+          "name": "platform7",
+          "persistentUuid": "38686b3b-9502-4a42-8570-d6270b449616",
+          "width": 1044,
+          "x": 3275,
+          "y": 603,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 191,
+          "layer": "",
+          "name": "stellar_pod",
+          "persistentUuid": "9c7c29f5-ca85-4a2c-b4ed-d3685331e494",
+          "width": 35,
+          "x": 600,
+          "y": 451,
+          "zOrder": 43,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 191,
+          "layer": "",
+          "name": "stellar_pod",
+          "persistentUuid": "aab2444b-2202-45b2-a3bf-09c0427a92ea",
+          "width": 35,
+          "x": 862,
+          "y": 557,
+          "zOrder": 43,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 191,
+          "layer": "",
+          "name": "stellar_pod",
+          "persistentUuid": "54744d5d-a3a0-49f2-8a00-8f51698518b1",
+          "width": 35,
+          "x": 1102,
+          "y": 356,
+          "zOrder": 43,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 191,
+          "layer": "",
+          "name": "stellar_pod",
+          "persistentUuid": "592e3d1e-76bd-4aea-8cf9-bfe2612e26e7",
+          "width": 35,
+          "x": 1388,
+          "y": 480,
+          "zOrder": 43,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 182,
+          "layer": "",
+          "name": "UpDownPlatform",
+          "persistentUuid": "5bbd350b-4043-4326-899c-3ffac840875e",
+          "width": 191,
+          "x": 4479,
+          "y": 625,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 206,
+          "layer": "",
+          "name": "Platform1",
+          "persistentUuid": "ad7b6d74-b1d9-4ae5-a549-788bc27ef389",
+          "width": 264,
+          "x": 4841,
+          "y": 541,
+          "zOrder": 45,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 191,
+          "layer": "",
+          "name": "stellar_pod",
+          "persistentUuid": "9b7c36d4-71e5-4ced-a060-2ebf706f2f8a",
+          "width": 35,
+          "x": 1752,
+          "y": 561,
+          "zOrder": 43,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 191,
+          "layer": "",
+          "name": "stellar_pod",
+          "persistentUuid": "c107cce6-fb16-41a7-8a17-d26cde887775",
+          "width": 35,
+          "x": 1842,
+          "y": 304,
+          "zOrder": 43,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 191,
+          "layer": "",
+          "name": "stellar_pod",
+          "persistentUuid": "49571aa0-8d56-474c-a37a-07833d831c06",
+          "width": 35,
+          "x": 3150,
+          "y": 214,
+          "zOrder": 43,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 191,
+          "layer": "",
+          "name": "stellar_pod",
+          "persistentUuid": "6f4fb62a-0f10-4260-abd7-9924b263721c",
+          "width": 35,
+          "x": 4547,
+          "y": -17,
+          "zOrder": 43,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 191,
+          "layer": "",
+          "name": "stellar_pod",
+          "persistentUuid": "0e06c609-9315-40df-988e-8ec0e4f05b23",
+          "width": 35,
+          "x": 4543,
+          "y": 720,
+          "zOrder": 43,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 191,
+          "layer": "",
+          "name": "stellar_pod",
+          "persistentUuid": "cadf9e16-8104-44f2-8cdd-0a5aa52e6cde",
+          "width": 35,
+          "x": 4747,
+          "y": 103,
+          "zOrder": 43,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 130,
+          "layer": "UI",
+          "name": "GameUI",
+          "persistentUuid": "34e01d3b-4190-466e-ab30-22df91bdb881",
+          "width": 1924,
+          "x": -4,
+          "y": -1,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 60,
+          "layer": "UI",
+          "name": "Stellar_UI",
+          "persistentUuid": "264fa777-59b9-4b3b-ae26-57d6372dc730",
+          "width": 34,
+          "x": 1590,
+          "y": 48,
+          "zOrder": 46,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 722,
+          "layer": "",
+          "name": "maneater",
+          "persistentUuid": "5641491d-036e-4e6b-b500-03bcab9df598",
+          "width": 1284,
+          "x": 2108,
+          "y": 41,
+          "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 167,
+          "layer": "",
+          "name": "Enemy",
+          "persistentUuid": "eb0eef9c-8cf2-4bb7-b523-3ce2fc5ed53b",
+          "width": 183,
+          "x": 1579,
+          "y": 395,
+          "zOrder": 47,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 1120,
+          "layer": "",
+          "name": "LeftBoundary",
+          "persistentUuid": "072e0885-f6ed-49e9-b8f3-30ff75fa5a3e",
+          "width": 363,
+          "x": -346,
+          "y": 24,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 107,
+          "layer": "",
+          "name": "UpDownPlattformSlow",
+          "persistentUuid": "fcda17df-bf85-4cd4-bce0-b10da3fc5224",
+          "width": 150,
+          "x": 2388,
+          "y": 462,
+          "zOrder": 49,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1615,6 +2039,86 @@
         },
         {
           "assetStoreId": "",
+          "name": "UpDownPlattformSlow",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": false,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            },
+            {
+              "name": "SineMovement",
+              "type": "SineMovement::SineMovement",
+              "HorizontalSpeed": 50,
+              "VerticalSpeed": 50,
+              "HorizontalDistance": 0,
+              "VerticalDistance": 50,
+              "CenterPointX": 0,
+              "CenterPointY": 0,
+              "SineProgressX": 0,
+              "SineProgressY": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Platforms/platform_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 21,
+                            "y": 45.5
+                          },
+                          {
+                            "x": 437,
+                            "y": 39
+                          },
+                          {
+                            "x": 289.5,
+                            "y": 203.5
+                          },
+                          {
+                            "x": 111.5,
+                            "y": 253
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
           "name": "platform5",
           "tags": "",
           "type": "Sprite",
@@ -1801,12 +2305,12 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 12.5,
-                            "y": 51
+                            "x": 0,
+                            "y": 40
                           },
                           {
-                            "x": 376,
-                            "y": 50.5
+                            "x": 378,
+                            "y": 40
                           },
                           {
                             "x": 254.5,
@@ -2616,16 +3120,16 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "",
+              "name": "Idle",
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "looping": true,
+                  "timeBetweenFrames": 0.3,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets/Objects/maneater_plant.png",
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Objects/Plant/Plant_01.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2638,7 +3142,1066 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1299.5,
+                            "y": 1235.5
+                          },
+                          {
+                            "x": 1312.5,
+                            "y": 1160.5
+                          },
+                          {
+                            "x": 1320.5,
+                            "y": 1107.5
+                          },
+                          {
+                            "x": 1275,
+                            "y": 1112
+                          },
+                          {
+                            "x": 1265.5,
+                            "y": 1064
+                          },
+                          {
+                            "x": 1304,
+                            "y": 1051.5
+                          },
+                          {
+                            "x": 1408,
+                            "y": 1053.5
+                          },
+                          {
+                            "x": 1391.5,
+                            "y": 987
+                          },
+                          {
+                            "x": 1363,
+                            "y": 924.5
+                          },
+                          {
+                            "x": 1351,
+                            "y": 896.5
+                          },
+                          {
+                            "x": 1310.5,
+                            "y": 867.5
+                          },
+                          {
+                            "x": 1286,
+                            "y": 838.5
+                          },
+                          {
+                            "x": 1290.5,
+                            "y": 766
+                          },
+                          {
+                            "x": 1307,
+                            "y": 703
+                          },
+                          {
+                            "x": 1426.5,
+                            "y": 694.5
+                          },
+                          {
+                            "x": 1494,
+                            "y": 733.5
+                          },
+                          {
+                            "x": 1525,
+                            "y": 777.5
+                          },
+                          {
+                            "x": 1514,
+                            "y": 827.5
+                          },
+                          {
+                            "x": 1482.5,
+                            "y": 860.5
+                          },
+                          {
+                            "x": 1448,
+                            "y": 899.5
+                          },
+                          {
+                            "x": 1376.5,
+                            "y": 914
+                          },
+                          {
+                            "x": 1417,
+                            "y": 980.5
+                          },
+                          {
+                            "x": 1428.5,
+                            "y": 1020
+                          },
+                          {
+                            "x": 1481.5,
+                            "y": 952.5
+                          },
+                          {
+                            "x": 1530,
+                            "y": 953.5
+                          },
+                          {
+                            "x": 1538,
+                            "y": 1014.5
+                          },
+                          {
+                            "x": 1476.5,
+                            "y": 1112.5
+                          },
+                          {
+                            "x": 1428,
+                            "y": 1203.5
+                          },
+                          {
+                            "x": 1385.5,
+                            "y": 1280.5
+                          },
+                          {
+                            "x": 1372.5,
+                            "y": 1338
+                          },
+                          {
+                            "x": 1312,
+                            "y": 1344.5
+                          },
+                          {
+                            "x": 1259.5,
+                            "y": 1336.5
+                          },
+                          {
+                            "x": 1256.5,
+                            "y": 1256.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Objects/Plant/Plant_02.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1299.5,
+                            "y": 1235.5
+                          },
+                          {
+                            "x": 1312.5,
+                            "y": 1160.5
+                          },
+                          {
+                            "x": 1320.5,
+                            "y": 1107.5
+                          },
+                          {
+                            "x": 1275,
+                            "y": 1112
+                          },
+                          {
+                            "x": 1265.5,
+                            "y": 1064
+                          },
+                          {
+                            "x": 1304,
+                            "y": 1051.5
+                          },
+                          {
+                            "x": 1408,
+                            "y": 1053.5
+                          },
+                          {
+                            "x": 1391.5,
+                            "y": 987
+                          },
+                          {
+                            "x": 1363,
+                            "y": 924.5
+                          },
+                          {
+                            "x": 1351,
+                            "y": 896.5
+                          },
+                          {
+                            "x": 1310.5,
+                            "y": 867.5
+                          },
+                          {
+                            "x": 1286,
+                            "y": 838.5
+                          },
+                          {
+                            "x": 1290.5,
+                            "y": 766
+                          },
+                          {
+                            "x": 1307,
+                            "y": 703
+                          },
+                          {
+                            "x": 1426.5,
+                            "y": 694.5
+                          },
+                          {
+                            "x": 1494,
+                            "y": 733.5
+                          },
+                          {
+                            "x": 1525,
+                            "y": 777.5
+                          },
+                          {
+                            "x": 1514,
+                            "y": 827.5
+                          },
+                          {
+                            "x": 1482.5,
+                            "y": 860.5
+                          },
+                          {
+                            "x": 1448,
+                            "y": 899.5
+                          },
+                          {
+                            "x": 1376.5,
+                            "y": 914
+                          },
+                          {
+                            "x": 1417,
+                            "y": 980.5
+                          },
+                          {
+                            "x": 1428.5,
+                            "y": 1020
+                          },
+                          {
+                            "x": 1481.5,
+                            "y": 952.5
+                          },
+                          {
+                            "x": 1530,
+                            "y": 953.5
+                          },
+                          {
+                            "x": 1538,
+                            "y": 1014.5
+                          },
+                          {
+                            "x": 1476.5,
+                            "y": 1112.5
+                          },
+                          {
+                            "x": 1428,
+                            "y": 1203.5
+                          },
+                          {
+                            "x": 1385.5,
+                            "y": 1280.5
+                          },
+                          {
+                            "x": 1372.5,
+                            "y": 1338
+                          },
+                          {
+                            "x": 1312,
+                            "y": 1344.5
+                          },
+                          {
+                            "x": 1259.5,
+                            "y": 1336.5
+                          },
+                          {
+                            "x": 1256.5,
+                            "y": 1256.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Objects/Plant/Plant_03.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1299.5,
+                            "y": 1235.5
+                          },
+                          {
+                            "x": 1312.5,
+                            "y": 1160.5
+                          },
+                          {
+                            "x": 1320.5,
+                            "y": 1107.5
+                          },
+                          {
+                            "x": 1275,
+                            "y": 1112
+                          },
+                          {
+                            "x": 1265.5,
+                            "y": 1064
+                          },
+                          {
+                            "x": 1304,
+                            "y": 1051.5
+                          },
+                          {
+                            "x": 1408,
+                            "y": 1053.5
+                          },
+                          {
+                            "x": 1391.5,
+                            "y": 987
+                          },
+                          {
+                            "x": 1363,
+                            "y": 924.5
+                          },
+                          {
+                            "x": 1351,
+                            "y": 896.5
+                          },
+                          {
+                            "x": 1310.5,
+                            "y": 867.5
+                          },
+                          {
+                            "x": 1286,
+                            "y": 838.5
+                          },
+                          {
+                            "x": 1290.5,
+                            "y": 766
+                          },
+                          {
+                            "x": 1307,
+                            "y": 703
+                          },
+                          {
+                            "x": 1426.5,
+                            "y": 694.5
+                          },
+                          {
+                            "x": 1494,
+                            "y": 733.5
+                          },
+                          {
+                            "x": 1525,
+                            "y": 777.5
+                          },
+                          {
+                            "x": 1514,
+                            "y": 827.5
+                          },
+                          {
+                            "x": 1482.5,
+                            "y": 860.5
+                          },
+                          {
+                            "x": 1448,
+                            "y": 899.5
+                          },
+                          {
+                            "x": 1376.5,
+                            "y": 914
+                          },
+                          {
+                            "x": 1417,
+                            "y": 980.5
+                          },
+                          {
+                            "x": 1428.5,
+                            "y": 1020
+                          },
+                          {
+                            "x": 1481.5,
+                            "y": 952.5
+                          },
+                          {
+                            "x": 1530,
+                            "y": 953.5
+                          },
+                          {
+                            "x": 1538,
+                            "y": 1014.5
+                          },
+                          {
+                            "x": 1476.5,
+                            "y": 1112.5
+                          },
+                          {
+                            "x": 1428,
+                            "y": 1203.5
+                          },
+                          {
+                            "x": 1385.5,
+                            "y": 1280.5
+                          },
+                          {
+                            "x": 1372.5,
+                            "y": 1338
+                          },
+                          {
+                            "x": 1312,
+                            "y": 1344.5
+                          },
+                          {
+                            "x": 1259.5,
+                            "y": 1336.5
+                          },
+                          {
+                            "x": 1256.5,
+                            "y": 1256.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Objects/Plant/Plant_04.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1299.5,
+                            "y": 1235.5
+                          },
+                          {
+                            "x": 1312.5,
+                            "y": 1160.5
+                          },
+                          {
+                            "x": 1320.5,
+                            "y": 1107.5
+                          },
+                          {
+                            "x": 1275,
+                            "y": 1112
+                          },
+                          {
+                            "x": 1265.5,
+                            "y": 1064
+                          },
+                          {
+                            "x": 1304,
+                            "y": 1051.5
+                          },
+                          {
+                            "x": 1408,
+                            "y": 1053.5
+                          },
+                          {
+                            "x": 1391.5,
+                            "y": 987
+                          },
+                          {
+                            "x": 1363,
+                            "y": 924.5
+                          },
+                          {
+                            "x": 1351,
+                            "y": 896.5
+                          },
+                          {
+                            "x": 1310.5,
+                            "y": 867.5
+                          },
+                          {
+                            "x": 1286,
+                            "y": 838.5
+                          },
+                          {
+                            "x": 1290.5,
+                            "y": 766
+                          },
+                          {
+                            "x": 1307,
+                            "y": 703
+                          },
+                          {
+                            "x": 1426.5,
+                            "y": 694.5
+                          },
+                          {
+                            "x": 1494,
+                            "y": 733.5
+                          },
+                          {
+                            "x": 1525,
+                            "y": 777.5
+                          },
+                          {
+                            "x": 1514,
+                            "y": 827.5
+                          },
+                          {
+                            "x": 1482.5,
+                            "y": 860.5
+                          },
+                          {
+                            "x": 1448,
+                            "y": 899.5
+                          },
+                          {
+                            "x": 1376.5,
+                            "y": 914
+                          },
+                          {
+                            "x": 1417,
+                            "y": 980.5
+                          },
+                          {
+                            "x": 1428.5,
+                            "y": 1020
+                          },
+                          {
+                            "x": 1481.5,
+                            "y": 952.5
+                          },
+                          {
+                            "x": 1530,
+                            "y": 953.5
+                          },
+                          {
+                            "x": 1538,
+                            "y": 1014.5
+                          },
+                          {
+                            "x": 1476.5,
+                            "y": 1112.5
+                          },
+                          {
+                            "x": 1428,
+                            "y": 1203.5
+                          },
+                          {
+                            "x": 1385.5,
+                            "y": 1280.5
+                          },
+                          {
+                            "x": 1372.5,
+                            "y": 1338
+                          },
+                          {
+                            "x": 1312,
+                            "y": 1344.5
+                          },
+                          {
+                            "x": 1259.5,
+                            "y": 1336.5
+                          },
+                          {
+                            "x": 1256.5,
+                            "y": 1256.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Eating",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.2,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Objects/Plant/Plant_05.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1299.5,
+                            "y": 1235.5
+                          },
+                          {
+                            "x": 1312.5,
+                            "y": 1160.5
+                          },
+                          {
+                            "x": 1320.5,
+                            "y": 1107.5
+                          },
+                          {
+                            "x": 1275,
+                            "y": 1112
+                          },
+                          {
+                            "x": 1265.5,
+                            "y": 1064
+                          },
+                          {
+                            "x": 1304,
+                            "y": 1051.5
+                          },
+                          {
+                            "x": 1408,
+                            "y": 1053.5
+                          },
+                          {
+                            "x": 1391.5,
+                            "y": 987
+                          },
+                          {
+                            "x": 1363,
+                            "y": 924.5
+                          },
+                          {
+                            "x": 1351,
+                            "y": 896.5
+                          },
+                          {
+                            "x": 1310.5,
+                            "y": 867.5
+                          },
+                          {
+                            "x": 1286,
+                            "y": 838.5
+                          },
+                          {
+                            "x": 1290.5,
+                            "y": 766
+                          },
+                          {
+                            "x": 1307,
+                            "y": 703
+                          },
+                          {
+                            "x": 1426.5,
+                            "y": 694.5
+                          },
+                          {
+                            "x": 1494,
+                            "y": 733.5
+                          },
+                          {
+                            "x": 1525,
+                            "y": 777.5
+                          },
+                          {
+                            "x": 1514,
+                            "y": 827.5
+                          },
+                          {
+                            "x": 1482.5,
+                            "y": 860.5
+                          },
+                          {
+                            "x": 1448,
+                            "y": 899.5
+                          },
+                          {
+                            "x": 1376.5,
+                            "y": 914
+                          },
+                          {
+                            "x": 1417,
+                            "y": 980.5
+                          },
+                          {
+                            "x": 1428.5,
+                            "y": 1020
+                          },
+                          {
+                            "x": 1481.5,
+                            "y": 952.5
+                          },
+                          {
+                            "x": 1530,
+                            "y": 953.5
+                          },
+                          {
+                            "x": 1538,
+                            "y": 1014.5
+                          },
+                          {
+                            "x": 1476.5,
+                            "y": 1112.5
+                          },
+                          {
+                            "x": 1428,
+                            "y": 1203.5
+                          },
+                          {
+                            "x": 1385.5,
+                            "y": 1280.5
+                          },
+                          {
+                            "x": 1372.5,
+                            "y": 1338
+                          },
+                          {
+                            "x": 1312,
+                            "y": 1344.5
+                          },
+                          {
+                            "x": 1259.5,
+                            "y": 1336.5
+                          },
+                          {
+                            "x": 1256.5,
+                            "y": 1256.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Objects/Plant/Plant_05.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1299.5,
+                            "y": 1235.5
+                          },
+                          {
+                            "x": 1312.5,
+                            "y": 1160.5
+                          },
+                          {
+                            "x": 1320.5,
+                            "y": 1107.5
+                          },
+                          {
+                            "x": 1275,
+                            "y": 1112
+                          },
+                          {
+                            "x": 1265.5,
+                            "y": 1064
+                          },
+                          {
+                            "x": 1304,
+                            "y": 1051.5
+                          },
+                          {
+                            "x": 1408,
+                            "y": 1053.5
+                          },
+                          {
+                            "x": 1391.5,
+                            "y": 987
+                          },
+                          {
+                            "x": 1363,
+                            "y": 924.5
+                          },
+                          {
+                            "x": 1351,
+                            "y": 896.5
+                          },
+                          {
+                            "x": 1310.5,
+                            "y": 867.5
+                          },
+                          {
+                            "x": 1286,
+                            "y": 838.5
+                          },
+                          {
+                            "x": 1290.5,
+                            "y": 766
+                          },
+                          {
+                            "x": 1307,
+                            "y": 703
+                          },
+                          {
+                            "x": 1426.5,
+                            "y": 694.5
+                          },
+                          {
+                            "x": 1494,
+                            "y": 733.5
+                          },
+                          {
+                            "x": 1525,
+                            "y": 777.5
+                          },
+                          {
+                            "x": 1514,
+                            "y": 827.5
+                          },
+                          {
+                            "x": 1482.5,
+                            "y": 860.5
+                          },
+                          {
+                            "x": 1448,
+                            "y": 899.5
+                          },
+                          {
+                            "x": 1376.5,
+                            "y": 914
+                          },
+                          {
+                            "x": 1417,
+                            "y": 980.5
+                          },
+                          {
+                            "x": 1428.5,
+                            "y": 1020
+                          },
+                          {
+                            "x": 1481.5,
+                            "y": 952.5
+                          },
+                          {
+                            "x": 1530,
+                            "y": 953.5
+                          },
+                          {
+                            "x": 1538,
+                            "y": 1014.5
+                          },
+                          {
+                            "x": 1476.5,
+                            "y": 1112.5
+                          },
+                          {
+                            "x": 1428,
+                            "y": 1203.5
+                          },
+                          {
+                            "x": 1385.5,
+                            "y": 1280.5
+                          },
+                          {
+                            "x": 1372.5,
+                            "y": 1338
+                          },
+                          {
+                            "x": 1312,
+                            "y": 1344.5
+                          },
+                          {
+                            "x": 1259.5,
+                            "y": 1336.5
+                          },
+                          {
+                            "x": 1256.5,
+                            "y": 1256.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Objects/Plant/Plant_06.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1299.5,
+                            "y": 1235.5
+                          },
+                          {
+                            "x": 1312.5,
+                            "y": 1160.5
+                          },
+                          {
+                            "x": 1320.5,
+                            "y": 1107.5
+                          },
+                          {
+                            "x": 1275,
+                            "y": 1112
+                          },
+                          {
+                            "x": 1265.5,
+                            "y": 1064
+                          },
+                          {
+                            "x": 1304,
+                            "y": 1051.5
+                          },
+                          {
+                            "x": 1408,
+                            "y": 1053.5
+                          },
+                          {
+                            "x": 1391.5,
+                            "y": 987
+                          },
+                          {
+                            "x": 1363,
+                            "y": 924.5
+                          },
+                          {
+                            "x": 1351,
+                            "y": 896.5
+                          },
+                          {
+                            "x": 1310.5,
+                            "y": 867.5
+                          },
+                          {
+                            "x": 1286,
+                            "y": 838.5
+                          },
+                          {
+                            "x": 1290.5,
+                            "y": 766
+                          },
+                          {
+                            "x": 1307,
+                            "y": 703
+                          },
+                          {
+                            "x": 1426.5,
+                            "y": 694.5
+                          },
+                          {
+                            "x": 1494,
+                            "y": 733.5
+                          },
+                          {
+                            "x": 1525,
+                            "y": 777.5
+                          },
+                          {
+                            "x": 1514,
+                            "y": 827.5
+                          },
+                          {
+                            "x": 1482.5,
+                            "y": 860.5
+                          },
+                          {
+                            "x": 1448,
+                            "y": 899.5
+                          },
+                          {
+                            "x": 1376.5,
+                            "y": 914
+                          },
+                          {
+                            "x": 1417,
+                            "y": 980.5
+                          },
+                          {
+                            "x": 1428.5,
+                            "y": 1020
+                          },
+                          {
+                            "x": 1481.5,
+                            "y": 952.5
+                          },
+                          {
+                            "x": 1530,
+                            "y": 953.5
+                          },
+                          {
+                            "x": 1538,
+                            "y": 1014.5
+                          },
+                          {
+                            "x": 1476.5,
+                            "y": 1112.5
+                          },
+                          {
+                            "x": 1428,
+                            "y": 1203.5
+                          },
+                          {
+                            "x": 1385.5,
+                            "y": 1280.5
+                          },
+                          {
+                            "x": 1372.5,
+                            "y": 1338
+                          },
+                          {
+                            "x": 1312,
+                            "y": 1344.5
+                          },
+                          {
+                            "x": 1259.5,
+                            "y": 1336.5
+                          },
+                          {
+                            "x": 1256.5,
+                            "y": 1256.5
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -2788,7 +4351,7 @@
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets/Objects/stellar_pod.png",
                       "points": [],
                       "originPoint": {
@@ -2802,7 +4365,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11.5,
+                            "y": 218.5
+                          },
+                          {
+                            "x": 43,
+                            "y": 179.5
+                          },
+                          {
+                            "x": 68,
+                            "y": 222.5
+                          },
+                          {
+                            "x": 41,
+                            "y": 271.5
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -2985,6 +4567,7 @@
           "effects": [],
           "behaviors": [
             {
+              "jumpSpeed": 600,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
               "maxSpeed": 550,
@@ -2995,7 +4578,6 @@
               "deceleration": 800,
               "gravity": 1000,
               "ignoreDefaultControls": false,
-              "jumpSpeed": 600,
               "jumpSustainTime": 0.2,
               "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 700,
@@ -3716,10 +5298,10 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Score: 0",
+          "string": "0",
           "font": "assets/rocket_wildness/ROCKET WILDNESS.otf",
           "textAlignment": "left",
-          "characterSize": 40,
+          "characterSize": 55,
           "color": {
             "b": 255,
             "g": 255,
@@ -4062,21 +5644,20 @@
           "effects": [],
           "behaviors": [
             {
-              "name": "RectangleMovement",
-              "type": "RectangleMovement::RectangleMovement",
-              "Width": -500,
-              "Height": 0,
-              "Clockwise": false,
-              "HorizontalEdgeDuration": 4,
-              "VerticalEdgeDuration": 1,
-              "Left": 1,
-              "Top": 1,
-              "Progress": 1,
-              "OldX": 1,
-              "OldY": 1,
-              "Easing": "easeInOutSine",
-              "InitialPosition": "Top-left corner",
-              "ToogleClockwise": false
+              "name": "EllipseMovement",
+              "type": "EllipseMovement::EllipseMovement",
+              "RadiusX": -1600,
+              "RadiusY": 100,
+              "LoopDuration": 40,
+              "InitialTurningLeft": false,
+              "InitialDirectionAngle": 0,
+              "ShouldRotate": false,
+              "RotationOffset": 0,
+              "CenterX": 0,
+              "CenterY": 0,
+              "MovementAngle": 0,
+              "OldX": 0,
+              "OldY": 0
             },
             {
               "name": "ShakeObject_PositionAngle",
@@ -4085,7 +5666,7 @@
           ],
           "animations": [
             {
-              "name": "",
+              "name": "Flying-Left",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -4095,7 +5676,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "assets/Enemy/states_links/enemy_flying_1_L.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "WallCheck",
+                          "x": 196.5,
+                          "y": 771.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -4235,7 +5822,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "assets/Enemy/states_links/enemy_flying_2_L.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "WallCheck",
+                          "x": 196.5,
+                          "y": 771.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -4375,7 +5968,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "assets/Enemy/states_links/enemy_flying_3_L.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "WallCheck",
+                          "x": 196.5,
+                          "y": 771.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -4515,7 +6114,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "assets/Enemy/states_links/enemy_flying_4_L.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "WallCheck",
+                          "x": 196.5,
+                          "y": 771.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -4651,6 +6256,110 @@
                           }
                         ]
                       ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Flying-Right",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.2,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Enemy/state-rechts/enemy_flying_1_R.png",
+                      "points": [
+                        {
+                          "name": "WallCheck",
+                          "x": 196.5,
+                          "y": 771.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Enemy/state-rechts/enemy_flying_2_R.png",
+                      "points": [
+                        {
+                          "name": "WallCheck",
+                          "x": 196.5,
+                          "y": 771.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Enemy/state-rechts/enemy_flying_3_R.png",
+                      "points": [
+                        {
+                          "name": "WallCheck",
+                          "x": 196.5,
+                          "y": 771.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Enemy/state-rechts/enemy_flying_4_R.png",
+                      "points": [
+                        {
+                          "name": "WallCheck",
+                          "x": 196.5,
+                          "y": 771.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
                     }
                   ]
                 }
@@ -4911,6 +6620,47 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "assets/User Interface/Objects/Button_Disabled.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "GameUI",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/User Interface/Objects/HUD_Forms.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5614,6 +7364,59 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "NewTiledSprite",
+          "tags": "",
+          "texture": "",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "name": "Stellar_UI",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/User Interface/Objects/MagicStone_HUD.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -5656,30 +7459,19 @@
               "parameters": [
                 "HelperObjects"
               ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Background motion (parallax) and adjust size to fit screen\n"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets/Sounds/bg-music/level_bg-music.mp3",
+                "",
+                "",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "TiledSpriteObject::XOffset"
@@ -5701,6 +7493,11 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         },
         {
           "colorB": 228,
@@ -5744,6 +7541,18 @@
                 "=",
                 "565"
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets/Sounds/crash.mp3",
+                "",
+                "",
+                ""
+              ]
             }
           ]
         },
@@ -5782,6 +7591,18 @@
                 "+",
                 "1"
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets/Sounds/collect_sound.mp3",
+                "",
+                "",
+                ""
+              ]
             }
           ]
         },
@@ -5796,7 +7617,7 @@
               "parameters": [
                 "ScoreText",
                 "=",
-                "\"Score: \"+VariableString(ScoreText)"
+                "\"\"+VariableString(ScoreText)"
               ]
             }
           ]
@@ -5878,7 +7699,7 @@
                     "",
                     "0",
                     "0",
-                    "3542",
+                    "100000",
                     "1087",
                     "",
                     ""
@@ -5894,23 +7715,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Plant",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [],
-          "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "name": "Fly enemy",
+          "name": "Events",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -5919,7 +7724,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "name": "Player collides with Fly",
+              "name": "Plant",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
               "events": [],
@@ -5927,53 +7732,467 @@
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
+              "conditions": [],
+              "actions": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Plant enemy",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
                 {
-                  "type": {
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Enemy",
-                    "dead",
-                    ""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Astronaut",
+                        "maneater",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "maneater",
+                        "\"Eating\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "assets/Sounds/plant_bite.mp3",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "Astronaut"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "MettreXY"
+                      },
+                      "parameters": [
+                        "Astronaut",
+                        "=",
+                        "182",
+                        "=",
+                        "565"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "Astronaut",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TopDownMovementBehavior::AllowDiagonals"
+                      },
+                      "parameters": [
+                        "Astronaut",
+                        "",
+                        "yes"
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Astronaut",
-                    "Enemy",
-                    "",
-                    "",
-                    ""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AnimationEnded2"
+                      },
+                      "parameters": [
+                        "maneater"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "maneater",
+                        "\"Idle\""
+                      ]
+                    }
                   ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
                 }
               ],
-              "actions": [],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Fly enemy",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
               "events": [
                 {
                   "colorB": 228,
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "name": "Fly defeated",
+                  "name": "Fly left and right",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
                   "events": [
                     {
-                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
                           "type": {
+                            "value": "CollisionPoint"
+                          },
+                          "parameters": [
+                            "LeftBoundary",
+                            "Enemy.PointX(\"WallCheck\")",
+                            "Enemy.PointY(\"WallCheck\")"
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "FlippedX"
+                              },
+                              "parameters": [
+                                "Enemy"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "FlipX"
+                              },
+                              "parameters": [
+                                "Enemy",
+                                "no"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionPoint"
+                          },
+                          "parameters": [
+                            "LeftBoundary",
+                            "Enemy.PointX(\"WallCheck\")",
+                            "Enemy.PointY(\"WallCheck\")"
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "FlippedX"
+                              },
+                              "parameters": [
+                                "Enemy"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "FlipX"
+                              },
+                              "parameters": [
+                                "Enemy",
+                                "yes"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "name": "Player collides with Fly",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [],
+                  "parameters": []
+                },
+                {
+                  "folded": true,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Enemy",
+                        "dead",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Astronaut",
+                        "Enemy",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "colorB": 228,
+                      "colorG": 176,
+                      "colorR": 74,
+                      "creationTime": 0,
+                      "name": "Fly defeated",
+                      "source": "",
+                      "type": "BuiltinCommonInstructions::Group",
+                      "events": [
+                        {
+                          "folded": true,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::IsFalling"
+                              },
+                              "parameters": [
+                                "Astronaut",
+                                "PlatformerObject"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetObjectVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "Enemy",
+                                "dead",
+                                "True"
+                              ]
+                            }
+                          ],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Comment",
+                              "color": {
+                                "b": 109,
+                                "g": 230,
+                                "r": 255,
+                                "textB": 0,
+                                "textG": 0,
+                                "textR": 0
+                              },
+                              "comment": "Make player bounce up from fly (using a jump)"
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "PlatformBehavior::SetCanJump"
+                                  },
+                                  "parameters": [
+                                    "Astronaut",
+                                    "PlatformerObject"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "PlatformBehavior::SimulateJumpKey"
+                                  },
+                                  "parameters": [
+                                    "Astronaut",
+                                    "PlatformerObject"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Comment",
+                              "color": {
+                                "b": 109,
+                                "g": 230,
+                                "r": 255,
+                                "textB": 0,
+                                "textG": 0,
+                                "textR": 0
+                              },
+                              "comment": "Update score"
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "ModVarScene"
+                                  },
+                                  "parameters": [
+                                    "ScoreText",
+                                    "+",
+                                    "5"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Comment",
+                              "color": {
+                                "b": 109,
+                                "g": 230,
+                                "r": 255,
+                                "textB": 0,
+                                "textG": 0,
+                                "textR": 0
+                              },
+                              "comment": "Disable the behavior that moved fly up and down, add a downward force (90 degrees = down) and make fly rotate back and forth"
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "ActivateBehavior"
+                                  },
+                                  "parameters": [
+                                    "Enemy",
+                                    "RectangularMovement",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "AddForceXY"
+                                  },
+                                  "parameters": [
+                                    "Enemy",
+                                    "90",
+                                    "150",
+                                    "1"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
+                                  },
+                                  "parameters": [
+                                    "Enemy",
+                                    "ShakeObject_PositionAngle",
+                                    "300",
+                                    "0",
+                                    "0",
+                                    "30",
+                                    "0.3",
+                                    "yes",
+                                    ""
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "parameters": []
+                    },
+                    {
+                      "colorB": 228,
+                      "colorG": 176,
+                      "colorR": 74,
+                      "creationTime": 0,
+                      "name": "Player defetead",
+                      "source": "",
+                      "type": "BuiltinCommonInstructions::Group",
+                      "events": [],
+                      "parameters": []
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
                             "value": "PlatformBehavior::IsFalling"
                           },
                           "parameters": [
@@ -5988,176 +8207,17 @@
                             "value": "SetObjectVariableAsBoolean"
                           },
                           "parameters": [
-                            "Enemy",
+                            "Astronaut",
                             "dead",
                             "True"
                           ]
                         }
-                      ],
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Comment",
-                          "color": {
-                            "b": 109,
-                            "g": 230,
-                            "r": 255,
-                            "textB": 0,
-                            "textG": 0,
-                            "textR": 0
-                          },
-                          "comment": "Make player bounce up from fly (using a jump)"
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "PlatformBehavior::SetCanJump"
-                              },
-                              "parameters": [
-                                "Astronaut",
-                                "PlatformerObject"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "PlatformBehavior::SimulateJumpKey"
-                              },
-                              "parameters": [
-                                "Astronaut",
-                                "PlatformerObject"
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Comment",
-                          "color": {
-                            "b": 109,
-                            "g": 230,
-                            "r": 255,
-                            "textB": 0,
-                            "textG": 0,
-                            "textR": 0
-                          },
-                          "comment": "Update score"
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "ModVarScene"
-                              },
-                              "parameters": [
-                                "ScoreText",
-                                "+",
-                                "5"
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Comment",
-                          "color": {
-                            "b": 109,
-                            "g": 230,
-                            "r": 255,
-                            "textB": 0,
-                            "textG": 0,
-                            "textR": 0
-                          },
-                          "comment": "Disable the behavior that moved fly up and down, add a downward force (90 degrees = down) and make fly rotate back and forth"
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "ActivateBehavior"
-                              },
-                              "parameters": [
-                                "Enemy",
-                                "RectangularMovement",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "AddForceXY"
-                              },
-                              "parameters": [
-                                "Enemy",
-                                "90",
-                                "150",
-                                "1"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
-                              },
-                              "parameters": [
-                                "Enemy",
-                                "ShakeObject_PositionAngle",
-                                "300",
-                                "0",
-                                "0",
-                                "30",
-                                "0.3",
-                                "yes",
-                                ""
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ],
-                  "parameters": []
-                },
-                {
-                  "colorB": 228,
-                  "colorG": 176,
-                  "colorR": 74,
-                  "creationTime": 0,
-                  "name": "Player defetead",
-                  "source": "",
-                  "type": "BuiltinCommonInstructions::Group",
-                  "events": [],
-                  "parameters": []
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "PlatformBehavior::IsFalling"
-                      },
-                      "parameters": [
-                        "Astronaut",
-                        "PlatformerObject"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetObjectVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "Astronaut",
-                        "dead",
-                        "True"
                       ]
                     }
                   ]
                 }
-              ]
+              ],
+              "parameters": []
             }
           ],
           "parameters": []
@@ -6273,8 +8333,25 @@
                     "Astronaut",
                     "\"Run\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets/Sounds/running_short.mp3",
+                    "no",
+                    "",
+                    ""
+                  ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -6303,6 +8380,18 @@
                   "parameters": [
                     "Astronaut",
                     "\"Jump\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets/Sounds/normal_jump.mp3",
+                    "",
+                    "",
+                    ""
                   ]
                 }
               ]
@@ -6366,105 +8455,160 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Pause Menu",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
-          "events": [],
-          "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "PauseBackground"
-              ]
-            },
-            {
-              "type": {
-                "value": "Opacity"
-              },
-              "parameters": [
-                "PauseBackground",
-                "=",
-                "128"
-              ]
-            }
-          ],
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "Escape"
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "PauseBackground"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "PauseBackground",
+                    "=",
+                    "128"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
+                }
               ]
             },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ToggleSceneVariableAsBoolean"
-              },
-              "parameters": [
-                "GamePause"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SceneVariableAsBoolean"
-              },
-              "parameters": [
-                "GamePause ",
-                "True"
-              ]
-            }
-          ],
-          "actions": [],
-          "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Escape"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "BuiltinCommonInstructions::Once"
                   },
                   "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ToggleSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "GamePause"
+                  ]
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "GamePause ",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeTimeScale"
+                      },
+                      "parameters": [
+                        "",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "PauseHeader",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetCameraCenterY"
+                      },
+                      "parameters": [
+                        "",
+                        "=",
+                        "lerp(CameraY(\"UI\", 0), CameraY(\"\", 0)+SceneWindowHeight(), 0.10)",
+                        "\"UI\"",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "GamePause ",
+                    "False"
+                  ]
                 }
               ],
               "actions": [
@@ -6474,15 +8618,109 @@
                   },
                   "parameters": [
                     "",
-                    "0"
+                    "1"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "PauseHeader"
+                      ]
+                    }
                   ]
                 },
                 {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetCameraCenterY"
+                      },
+                      "parameters": [
+                        "",
+                        "=",
+                        "lerp(CameraY(\"UI\", 0), CameraY(\"\", 0), 0.10)",
+                        "\"UI\"",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
                   "type": {
-                    "value": "Montre"
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
                   },
                   "parameters": [
-                    "PauseHeader",
+                    "ResumeBtn",
+                    "ButtonFSM",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ToggleSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "GamePause"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "ExitBtn",
+                    "ButtonFSM",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Quit"
+                  },
+                  "parameters": [
                     ""
                   ]
                 }
@@ -6490,66 +8728,62 @@
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetCameraCenterY"
-                  },
-                  "parameters": [
-                    "",
-                    "=",
-                    "lerp(CameraY(\"UI\", 0), CameraY(\"\", 0)+SceneWindowHeight(), 0.10)",
-                    "\"UI\"",
-                    "0"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SceneVariableAsBoolean"
-              },
-              "parameters": [
-                "GamePause ",
-                "False"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ChangeTimeScale"
-              },
-              "parameters": [
-                "",
-                "1"
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "BuiltinCommonInstructions::Once"
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
                   },
-                  "parameters": []
+                  "parameters": [
+                    "SetBtn",
+                    "ButtonFSM",
+                    ""
+                  ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "value": "Cache"
+                    "value": "Tween::TweenCameraPosition"
                   },
                   "parameters": [
-                    "PauseHeader"
+                    "",
+                    "\"CameraMove\"",
+                    "SetHeader.CenterX()",
+                    "CameraCenterY()",
+                    "\"UI\"",
+                    "500",
+                    "\"easeInOutQuad\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "BackBtn",
+                    "ButtonFSM",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::TweenCameraPosition"
+                  },
+                  "parameters": [
+                    "",
+                    "\"CameraMove\"",
+                    "PauseHeader.CenterX()",
+                    "CameraCenterY()",
+                    "\"UI\"",
+                    "500",
+                    "\"easeInOutQuad\""
                   ]
                 }
               ]
@@ -6557,151 +8791,10 @@
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetCameraCenterY"
-                  },
-                  "parameters": [
-                    "",
-                    "=",
-                    "lerp(CameraY(\"UI\", 0), CameraY(\"\", 0), 0.10)",
-                    "\"UI\"",
-                    "0"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "ButtonStates::ButtonFSM::IsClicked"
-              },
-              "parameters": [
-                "ResumeBtn",
-                "ButtonFSM",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ToggleSceneVariableAsBoolean"
-              },
-              "parameters": [
-                "GamePause"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
               "actions": []
             }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "ButtonStates::ButtonFSM::IsClicked"
-              },
-              "parameters": [
-                "ExitBtn",
-                "ButtonFSM",
-                ""
-              ]
-            }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "Quit"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "ButtonStates::ButtonFSM::IsClicked"
-              },
-              "parameters": [
-                "SetBtn",
-                "ButtonFSM",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Tween::TweenCameraPosition"
-              },
-              "parameters": [
-                "",
-                "\"CameraMove\"",
-                "SetHeader.CenterX()",
-                "CameraCenterY()",
-                "\"UI\"",
-                "500",
-                "\"easeInOutQuad\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "ButtonStates::ButtonFSM::IsClicked"
-              },
-              "parameters": [
-                "BackBtn",
-                "ButtonFSM",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Tween::TweenCameraPosition"
-              },
-              "parameters": [
-                "",
-                "\"CameraMove\"",
-                "PauseHeader.CenterX()",
-                "CameraCenterY()",
-                "\"UI\"",
-                "500",
-                "\"easeInOutQuad\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "parameters": []
         },
         {
           "colorB": 228,
@@ -6906,6 +8999,10 @@
         {
           "name": "ButtonFSM",
           "type": "ButtonStates::ButtonFSM"
+        },
+        {
+          "name": "EllipseMovement",
+          "type": "EllipseMovement::EllipseMovement"
         },
         {
           "name": "Platform",
@@ -8759,6 +10856,1468 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "author": "@4ian, Tristan Rhodes (https://victrisgames.itch.io/)",
+      "category": "Movement",
+      "extensionNamespace": "",
+      "fullName": "Ellipse movement",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLXNpbmUtd2F2ZSIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik0xNi41LDIxQzEzLjUsMjEgMTIuMzEsMTYuNzYgMTEuMDUsMTIuMjhDMTAuMTQsOS4wNCA5LDUgNy41LDVDNC4xMSw1IDQsMTEuOTMgNCwxMkgyQzIsMTEuNjMgMi4wNiwzIDcuNSwzQzEwLjUsMyAxMS43MSw3LjI1IDEyLjk3LDExLjc0QzEzLjgzLDE0LjggMTUsMTkgMTYuNSwxOUMxOS45NCwxOSAyMC4wMywxMi4wNyAyMC4wMywxMkgyMi4wM0MyMi4wMywxMi4zNyAyMS45NywyMSAxNi41LDIxWiIgLz48L3N2Zz4=",
+      "name": "EllipseMovement",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/sine-wave.svg",
+      "shortDescription": "Move objects on ellipses or smoothly back and forth in one direction.",
+      "version": "1.0.2",
+      "description": [
+        "It allows objects to move:",
+        "- on an ellipsis or arcs",
+        "- smoothly vertically or horizontally (by setting one radius to 0)",
+        "- on a sine wave (by adding a force)",
+        "",
+        "It can be used for:",
+        "- Making objects float, such as powerups or coins",
+        "- Moving platforms",
+        "- Enemy movement patterns",
+        "- Making a player constantly turn right or left ([open the project online](https://editor.gdevelop.io/?project=example://star-seeker))"
+      ],
+      "origin": {
+        "identifier": "EllipseMovement",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "sine",
+        "ellipse",
+        "movement",
+        "circular",
+        "circle",
+        "floating",
+        "platform",
+        "enemy"
+      ],
+      "authorIds": [
+        "wWP8BSlAW0UP4NeaHa2LcmmDzmH2",
+        "gqDaZjCfevOOxBYkK6zlhtZnXCg1",
+        "IWykYNRvhCZBN3vEgKEbBPOR3Oc2"
+      ],
+      "dependencies": [],
+      "eventsFunctions": [],
+      "eventsBasedBehaviors": [
+        {
+          "description": "Move objects on ellipses or smoothly back and forth in one direction.",
+          "fullName": "Ellipse movement",
+          "name": "EllipseMovement",
+          "objectType": "",
+          "eventsFunctions": [
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "onCreated",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::SetPropertyOldX"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "Object.X()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::SetPropertyOldY"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "Object.Y()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Evaluate the center of movement from the object position and properties."
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::PropertyInitialTurningLeft"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::SetPropertyLoopDuration"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "*",
+                        "-1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::PropertyLoopDuration"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "<",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::SetPropertyMovementAngle"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "Object.Behavior::PropertyInitialDirectionAngle() + 90"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::PropertyLoopDuration"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ">=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::SetPropertyMovementAngle"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "Object.Behavior::PropertyInitialDirectionAngle() - 90"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::SetPropertyCenterX"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "Object.X() - Object.Behavior::DeltaX()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::SetPropertyCenterY"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "Object.Y() - Object.Behavior::DeltaY()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "EllipseMovement::EllipseMovement",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPreEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Update the center when the object is moved outside of the behavior."
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::SetPropertyCenterX"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "+",
+                        "Object.X() - Object.Behavior::PropertyOldX()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::SetPropertyCenterY"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "+",
+                        "Object.Y() - Object.Behavior::PropertyOldY()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Place the object according to the movement angle."
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::PropertyRadiusX"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "!=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "MettreX"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "Object.Behavior::PropertyCenterX() + Object.Behavior::DeltaX()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::PropertyRadiusY"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "!=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "MettreY"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "Object.Behavior::PropertyCenterY() + Object.Behavior::DeltaY()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::PropertyShouldRotate"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetAngle"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "Object.Behavior::DirectionAngle() + Object.Behavior::PropertyRotationOffset()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Save the position to detect when the object is moved outside of the behavior."
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::SetPropertyOldX"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "Object.X()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::SetPropertyOldY"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "Object.Y()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "EllipseMovement::EllipseMovement",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPostEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Update the movement angle for the next frame."
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::SetPropertyMovementAngle"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "+",
+                        "360 * TimeDelta() / Object.Behavior::PropertyLoopDuration()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "EllipseMovement::EllipseMovement",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Change the turning direction (left or right).",
+              "fullName": "Turn the other way",
+              "functionType": "Action",
+              "name": "ToggleTurningLeft",
+              "sentence": "_PARAM0_ turn the other way",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::SetPropertyCenterX"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "2 * Object.X() - Object.Behavior::CenterX()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::SetPropertyCenterY"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "2 * Object.Y() - Object.Behavior::CenterY()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::SetPropertyMovementAngle"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "+",
+                        "180"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::SetPropertyLoopDuration"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "*",
+                        "-1"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "EllipseMovement::EllipseMovement",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Change the in which side the object is turning (left or right).",
+              "fullName": "Turn left or right",
+              "functionType": "Action",
+              "name": "SetTurningLeft",
+              "sentence": "_PARAM0_ turn left: _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::And"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "EllipseMovement::EllipseMovement::IsTurningLeft"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                "yes",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "GetArgumentAsBoolean"
+                              },
+                              "parameters": [
+                                "\"TurnLeft\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::And"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "EllipseMovement::EllipseMovement::IsTurningLeft"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "GetArgumentAsBoolean"
+                              },
+                              "parameters": [
+                                "\"TurnLeft\""
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::ToggleTurningLeft"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "EllipseMovement::EllipseMovement",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Turn left",
+                  "name": "TurnLeft",
+                  "type": "yesorno"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Check if the object is turning left.",
+              "fullName": "Is turning left",
+              "functionType": "Condition",
+              "name": "IsTurningLeft",
+              "sentence": "_PARAM0_ is turning left",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::PropertyLoopDuration"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "<",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "EllipseMovement::EllipseMovement",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Return the movement angle of the object.",
+              "fullName": "Movement angle",
+              "functionType": "Expression",
+              "name": "MovementAngle",
+              "sentence": "Set initial Y of _PARAM0_ to _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Object.Behavior::PropertyMovementAngle()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "EllipseMovement::EllipseMovement",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Return the loop duration (in seconds).",
+              "fullName": "Loop duration",
+              "functionType": "Expression",
+              "group": "Configuration",
+              "name": "LoopDuration",
+              "sentence": "Set initial Y of _PARAM0_ to _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "abs(Object.Behavior::PropertyLoopDuration())"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "EllipseMovement::EllipseMovement",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Return the ellipse radius on X axis.",
+              "fullName": "Radius X",
+              "functionType": "Expression",
+              "group": "Configuration",
+              "name": "RadiusX",
+              "sentence": "Set initial Y of _PARAM0_ to _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Object.Behavior::PropertyRadiusX()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "EllipseMovement::EllipseMovement",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Return the ellipse radius on X axis.",
+              "fullName": "Radius Y",
+              "functionType": "Expression",
+              "group": "Configuration",
+              "name": "RadiusY",
+              "sentence": "Set initial Y of _PARAM0_ to _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Object.Behavior::PropertyRadiusY()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "EllipseMovement::EllipseMovement",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Return the movement center position on X axis.",
+              "fullName": "Movement center X",
+              "functionType": "Expression",
+              "group": "Configuration",
+              "name": "CenterX",
+              "sentence": "Set initial Y of _PARAM0_ to _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Object.Behavior::PropertyCenterX()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "EllipseMovement::EllipseMovement",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Return the movement center position on Y axis.",
+              "fullName": "Movement center Y",
+              "functionType": "Expression",
+              "group": "Configuration",
+              "name": "CenterY",
+              "sentence": "Set initial Y of _PARAM0_ to _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Object.Behavior::PropertyCenterY()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "EllipseMovement::EllipseMovement",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Change the radius on X axis of the movement.",
+              "fullName": "Radius X",
+              "functionType": "Action",
+              "group": "Elliptical movement configuration",
+              "name": "SetRadiusX",
+              "sentence": "Change the radius on X axis of the movement of _PARAM0_ to _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::SetPropertyRadiusX"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsNumber(\"Value\")"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "EllipseMovement::EllipseMovement",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Radius X",
+                  "name": "Value",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Change the radius on Y axis of the movement.",
+              "fullName": "Radius Y",
+              "functionType": "Action",
+              "group": "Elliptical movement configuration",
+              "name": "SetRadiusY",
+              "sentence": "Change the radius on Y axis of the movement of _PARAM0_ to _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::SetPropertyRadiusY"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsNumber(\"Value\")"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "EllipseMovement::EllipseMovement",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Radius Y",
+                  "name": "Value",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Change the loop duration.",
+              "fullName": "Loop duration",
+              "functionType": "Action",
+              "group": "Elliptical movement configuration",
+              "name": "SetLoopDuration",
+              "sentence": "Change the loop duration of _PARAM0_ to _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::IsTurningLeft"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::SetPropertyLoopDuration"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "-GetArgumentAsNumber(\"Value\")"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "EllipseMovement::EllipseMovement::IsTurningLeft"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::SetPropertyLoopDuration"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsNumber(\"Value\")"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "EllipseMovement::EllipseMovement",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Speed (in degrees per second)",
+                  "name": "Value",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Change the movement angle. The object is teleported according to the angle.",
+              "fullName": "Teleport at an angle",
+              "functionType": "Action",
+              "name": "SetMovementAngle",
+              "sentence": "Teleport _PARAM0_ on the ellipse at _PARAM2_°",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::SetPropertyMovementAngle"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsNumber(\"Value\")"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "EllipseMovement::EllipseMovement",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Movement angle",
+                  "name": "Value",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "Delta X",
+              "functionType": "Expression",
+              "name": "DeltaX",
+              "private": true,
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "cos(ToRad(Object.Behavior::PropertyMovementAngle())) * Object.Behavior::PropertyRadiusX()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "EllipseMovement::EllipseMovement",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "Delta Y",
+              "functionType": "Expression",
+              "name": "DeltaY",
+              "private": true,
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "sin(ToRad(Object.Behavior::PropertyMovementAngle())) * Object.Behavior::PropertyRadiusY()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "EllipseMovement::EllipseMovement",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "Direction angle",
+              "functionType": "Expression",
+              "name": "DirectionAngle",
+              "private": true,
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::PropertyLoopDuration"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "<",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Object.Behavior::PropertyMovementAngle() + 90"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::PropertyLoopDuration"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ">=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Object.Behavior::PropertyMovementAngle() - 90"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "EllipseMovement::EllipseMovement",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "100",
+              "type": "Number",
+              "unit": "Pixel",
+              "label": "Radius of the movement on X axis",
+              "description": "",
+              "group": "Ellipse",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "RadiusX"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "unit": "Pixel",
+              "label": "Radius of the movement on Y axis",
+              "description": "",
+              "group": "Ellipse",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "RadiusY"
+            },
+            {
+              "value": "6",
+              "type": "Number",
+              "unit": "Second",
+              "label": "Loop duration",
+              "description": "",
+              "group": "Speed",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "LoopDuration"
+            },
+            {
+              "value": "",
+              "type": "Boolean",
+              "label": "Turn left",
+              "description": "",
+              "group": "Speed",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "InitialTurningLeft"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "unit": "DegreeAngle",
+              "label": "Initial direction",
+              "description": "",
+              "group": "Speed",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "InitialDirectionAngle"
+            },
+            {
+              "value": "",
+              "type": "Boolean",
+              "label": "Rotate",
+              "description": "",
+              "group": "Rotation",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "ShouldRotate"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "unit": "DegreeAngle",
+              "label": "Rotation offset",
+              "description": "",
+              "group": "Rotation",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "RotationOffset"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "CenterX"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "CenterY"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "MovementAngle"
+            },
+            {
+              "value": "",
+              "type": "Number",
+              "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "OldX"
+            },
+            {
+              "value": "",
+              "type": "Number",
+              "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "OldY"
+            }
+          ],
+          "sharedPropertyDescriptors": []
+        }
+      ],
+      "eventsBasedObjects": []
+    },
     {
       "author": "@4ian, Tristan Rhodes (https://victrisgames.itch.io/)",
       "category": "Movement",
