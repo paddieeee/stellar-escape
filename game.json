@@ -865,7 +865,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.34202943511401973,
+        "zoomFactor": 0.2623246018876967,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1033,7 +1033,7 @@
           "name": "PauseBackground",
           "persistentUuid": "101496a4-2fc3-465b-9d6c-ca801034f553",
           "width": 2097,
-          "x": -149,
+          "x": -125,
           "y": 1081,
           "zOrder": 1,
           "numberProperties": [],
@@ -9741,7 +9741,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Pause Menu",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -9818,7 +9817,6 @@
               ]
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -9833,6 +9831,28 @@
               ],
               "actions": [],
               "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "PauseBackground",
+                        ""
+                      ]
+                    }
+                  ]
+                },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
@@ -10073,11 +10093,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
             }
           ],
           "parameters": []
