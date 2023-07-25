@@ -801,6 +801,42 @@
         "name": "assets/Enemy/state-rechts/enemy_flying_4_R.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/User Interface/Objects/Bushes_Minimap.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/User Interface/Objects/Bushes_Minimap.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite6",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Checkpoint.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Checkpoint",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Platforms/EscapeStellar 11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Platforms/EscapeStellar 11.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -829,7 +865,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.39054916486950586,
+        "zoomFactor": 0.21499119660464697,
         "windowMask": false
       },
       "objectsGroups": [
@@ -933,7 +969,7 @@
           "layer": "Background",
           "name": "Background",
           "persistentUuid": "8a0365a9-9ab0-41ae-8395-f686af498635",
-          "width": 10821,
+          "width": 20821,
           "x": -445,
           "y": -35,
           "zOrder": 6,
@@ -946,7 +982,7 @@
           "customSize": true,
           "depth": 0,
           "height": 1756,
-          "layer": "Foreground",
+          "layer": "",
           "name": "BackgroundFloor",
           "persistentUuid": "3125e845-450f-4a66-a82b-a5bc1d69e01f",
           "width": 1957,
@@ -1477,7 +1513,7 @@
           "persistentUuid": "c107cce6-fb16-41a7-8a17-d26cde887775",
           "width": 35,
           "x": 1842,
-          "y": 304,
+          "y": 324,
           "zOrder": 43,
           "numberProperties": [],
           "stringProperties": [],
@@ -1493,7 +1529,7 @@
           "persistentUuid": "49571aa0-8d56-474c-a37a-07833d831c06",
           "width": 35,
           "x": 3150,
-          "y": 214,
+          "y": 249,
           "zOrder": 43,
           "numberProperties": [],
           "stringProperties": [],
@@ -1509,7 +1545,7 @@
           "persistentUuid": "6f4fb62a-0f10-4260-abd7-9924b263721c",
           "width": 35,
           "x": 4547,
-          "y": -17,
+          "y": 73,
           "zOrder": 43,
           "numberProperties": [],
           "stringProperties": [],
@@ -1541,7 +1577,7 @@
           "persistentUuid": "cadf9e16-8104-44f2-8cdd-0a5aa52e6cde",
           "width": 35,
           "x": 4747,
-          "y": 103,
+          "y": 138,
           "zOrder": 43,
           "numberProperties": [],
           "stringProperties": [],
@@ -1575,22 +1611,6 @@
           "x": 1590,
           "y": 48,
           "zOrder": 46,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 722,
-          "layer": "",
-          "name": "maneater",
-          "persistentUuid": "5641491d-036e-4e6b-b500-03bcab9df598",
-          "width": 1284,
-          "x": 2108,
-          "y": 41,
-          "zOrder": 38,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1639,6 +1659,1002 @@
           "x": 2388,
           "y": 462,
           "zOrder": 49,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "platform6",
+          "persistentUuid": "6303e3aa-8a70-4440-8b99-54a318b3f853",
+          "width": 0,
+          "x": 5073,
+          "y": 803,
+          "zOrder": 50,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "platform5",
+          "persistentUuid": "0a9ae183-87c2-4a49-847b-fa8b38b7ba8d",
+          "width": 0,
+          "x": 5720,
+          "y": 667,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 223,
+          "layer": "",
+          "name": "UpDownPlattformSlow",
+          "persistentUuid": "19501909-20d0-4d11-a774-2697287be413",
+          "width": 283,
+          "x": 6238,
+          "y": 707,
+          "zOrder": 52,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 476,
+          "layer": "",
+          "name": "Platform1",
+          "persistentUuid": "062f2995-5a4f-44c4-abc5-39a58b72a5b4",
+          "width": 1099,
+          "x": 7240,
+          "y": 816,
+          "zOrder": 54,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "platform4",
+          "persistentUuid": "61c4c8a3-d624-49b2-a6e0-5f92939bd415",
+          "width": 0,
+          "x": 8261,
+          "y": 659,
+          "zOrder": 55,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Platform3",
+          "persistentUuid": "9fdf470e-5cd5-408c-984a-6c14739073a7",
+          "width": 0,
+          "x": 8699,
+          "y": 854,
+          "zOrder": 56,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "EllipsePlatform",
+          "persistentUuid": "50a9e5f5-3123-40e6-b487-73ab62d59beb",
+          "width": 0,
+          "x": 9387,
+          "y": 829,
+          "zOrder": 57,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Platform1",
+          "persistentUuid": "6656267f-8a29-4e7a-b5c9-96bf8ccd27f9",
+          "width": 0,
+          "x": 10039,
+          "y": 579,
+          "zOrder": 58,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 266,
+          "layer": "",
+          "name": "UpDownPlatform",
+          "persistentUuid": "ac480338-4ef9-4b96-91f4-69048290b464",
+          "width": 279,
+          "x": 6613,
+          "y": 681,
+          "zOrder": 59,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Background",
+          "name": "Bush",
+          "persistentUuid": "02687b13-cbbb-4ce7-9063-67a9b4eb1c47",
+          "width": 0,
+          "x": 7419,
+          "y": 707,
+          "zOrder": 61,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 1164,
+          "layer": "Background",
+          "name": "Tree",
+          "persistentUuid": "a0777bd7-a2df-49e2-a80e-4684a869a076",
+          "width": 1280,
+          "x": 7197,
+          "y": -20,
+          "zOrder": 62,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 1143,
+          "layer": "Background",
+          "name": "Tree2",
+          "persistentUuid": "544e04bf-f502-46ea-b46b-a614adb33ac6",
+          "width": 1842,
+          "x": 6469,
+          "y": -34,
+          "zOrder": 63,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Background",
+          "name": "Tree2",
+          "persistentUuid": "f0ab8716-3804-4cf0-96c2-632a5656ac13",
+          "width": 0,
+          "x": 15054,
+          "y": -34,
+          "zOrder": 64,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 1061,
+          "layer": "Background",
+          "name": "Tree",
+          "persistentUuid": "486a2423-e473-4540-b4a7-04e417bd3152",
+          "width": 1372,
+          "x": 14340,
+          "y": 82,
+          "zOrder": 65,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 191,
+          "layer": "",
+          "name": "stellar_pod",
+          "persistentUuid": "95a7deed-2d0a-4c83-8af4-f65849a5f54d",
+          "width": 35,
+          "x": 5308,
+          "y": 380,
+          "zOrder": 67,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "stellar_pod",
+          "persistentUuid": "b06e2895-1e1b-4647-b508-d37734142b53",
+          "width": 0,
+          "x": 6154,
+          "y": 282,
+          "zOrder": 68,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "stellar_pod",
+          "persistentUuid": "bb4a6854-26f7-400b-9a33-46d6d61dba57",
+          "width": 0,
+          "x": 6723,
+          "y": 336,
+          "zOrder": 69,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "stellar_pod",
+          "persistentUuid": "821fd25d-6608-4908-b0fd-f3311add20c8",
+          "width": 0,
+          "x": 7143,
+          "y": 322,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "stellar_pod",
+          "persistentUuid": "24663116-6c05-4b74-80de-3a84c2f64895",
+          "width": 0,
+          "x": 9161,
+          "y": 395,
+          "zOrder": 71,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "stellar_pod",
+          "persistentUuid": "b0a1e96b-b1d5-4747-a205-310c858ae14e",
+          "width": 0,
+          "x": 10221,
+          "y": 233,
+          "zOrder": 72,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "RectPlatform_Wide",
+          "persistentUuid": "e39086aa-9f07-4580-a5af-ddf731540088",
+          "width": 0,
+          "x": 10687,
+          "y": 798,
+          "zOrder": 73,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Platform2",
+          "persistentUuid": "7c4ecd7e-a4e7-4d7a-badf-5bfd5ccae9a5",
+          "width": 0,
+          "x": 11601,
+          "y": 759,
+          "zOrder": 75,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 107,
+          "layer": "",
+          "name": "EllipsePlatform",
+          "persistentUuid": "a4dc0c09-bd8f-4381-a242-77bc15d0beb6",
+          "width": 140,
+          "x": 12272,
+          "y": 715,
+          "zOrder": 76,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 232,
+          "layer": "",
+          "name": "QuickPlatform",
+          "persistentUuid": "b99246b9-dee7-4465-875d-98625d7d8954",
+          "width": 265,
+          "x": 12683,
+          "y": 683,
+          "zOrder": 77,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 682,
+          "layer": "",
+          "name": "platform5",
+          "persistentUuid": "6156a033-3be9-4600-8c42-9fc5c615ad10",
+          "width": 1000,
+          "x": 13187,
+          "y": 769,
+          "zOrder": 78,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 216,
+          "layer": "",
+          "name": "LeftRightPlatform",
+          "persistentUuid": "0630f4f5-1860-4c20-8985-01aa9caddc2c",
+          "width": 297,
+          "x": 14435,
+          "y": 852,
+          "zOrder": 79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "RectPlat_High",
+          "persistentUuid": "567a5899-899a-4452-ae57-e9ddfc00db77",
+          "width": 0,
+          "x": 14902,
+          "y": 793,
+          "zOrder": 80,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 231,
+          "layer": "",
+          "name": "LeftRightPlatform",
+          "persistentUuid": "506d1f0a-f494-4536-a0e7-695faedc5634",
+          "width": 319,
+          "x": 15419,
+          "y": 503,
+          "zOrder": 81,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "platform6",
+          "persistentUuid": "bb7604e5-25da-4159-a20a-6d638b1f1f65",
+          "width": 0,
+          "x": 15987,
+          "y": 647,
+          "zOrder": 82,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "platform5",
+          "persistentUuid": "7db19eef-fae8-4282-ac6b-e95c34bb1f67",
+          "width": 0,
+          "x": 16585,
+          "y": 525,
+          "zOrder": 83,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Platform2",
+          "persistentUuid": "1046c15a-dcaa-4341-8c34-0a1a17ae773a",
+          "width": 0,
+          "x": 17055,
+          "y": 351,
+          "zOrder": 84,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "QuickPlatform",
+          "persistentUuid": "699d90a0-4556-48b9-adc0-d7021288876f",
+          "width": 0,
+          "x": 17656,
+          "y": 786,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "platform4",
+          "persistentUuid": "7af2bff0-f188-4fa8-b845-d42628f3ecae",
+          "width": 0,
+          "x": 18199,
+          "y": 554,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 66,
+          "layer": "",
+          "name": "Platform1",
+          "persistentUuid": "73802f1b-e37b-4475-b758-c0d5f2b10fad",
+          "width": 69,
+          "x": 17855,
+          "y": 334,
+          "zOrder": 87,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "LeftRightPlatform",
+          "persistentUuid": "f72dc1ab-f417-42c1-857d-d19674e31508",
+          "width": 0,
+          "x": 18966,
+          "y": 677,
+          "zOrder": 89,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "EscapeStellar",
+          "persistentUuid": "3253b20f-2d50-4851-b6f4-e87d44dc66c4",
+          "width": 0,
+          "x": 19788,
+          "y": 326,
+          "zOrder": 90,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 925,
+          "layer": "",
+          "name": "maneater",
+          "persistentUuid": "c301a03c-5c9b-4a43-87ad-85850b2b8f38",
+          "width": 1644,
+          "x": 2026,
+          "y": -100,
+          "zOrder": 91,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Background",
+          "name": "Bush",
+          "persistentUuid": "2dff264c-02e9-434a-b285-5cdbac034194",
+          "width": 0,
+          "x": 3219,
+          "y": 951,
+          "zOrder": 92,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 245,
+          "layer": "Background",
+          "name": "Flower",
+          "persistentUuid": "60b39185-b0e3-4c4f-b857-36d3a2a9130d",
+          "width": 192,
+          "x": 3815,
+          "y": 432,
+          "zOrder": 93,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 254,
+          "layer": "Background",
+          "name": "Flower",
+          "persistentUuid": "8c03e71a-5f01-4c34-8d91-75ef8e557c69",
+          "width": 199,
+          "x": 2897,
+          "y": 843,
+          "zOrder": 94,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Background",
+          "name": "Flower2",
+          "persistentUuid": "2d49f7e4-c431-4117-be22-9157acc16cb8",
+          "width": 0,
+          "x": 4587,
+          "y": 816,
+          "zOrder": 95,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 174,
+          "layer": "Background",
+          "name": "Flower2",
+          "persistentUuid": "c5ff927d-2beb-412a-9440-fddb4a153130",
+          "width": 173,
+          "x": 5096,
+          "y": 697,
+          "zOrder": 96,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 453,
+          "layer": "Background",
+          "name": "Bush",
+          "persistentUuid": "2348dd56-2eb6-48ac-a6f6-4e4c24a69b8b",
+          "width": 518,
+          "x": 5410,
+          "y": 791,
+          "zOrder": 97,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Background",
+          "name": "Bush",
+          "persistentUuid": "b78f6d67-dd39-4acf-a073-b179115fd0e4",
+          "width": 0,
+          "x": 6613,
+          "y": 570,
+          "zOrder": 98,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 338,
+          "layer": "Background",
+          "name": "Flower",
+          "persistentUuid": "05d7974e-889d-4947-9909-2f00a60a4caf",
+          "width": 265,
+          "x": 7574,
+          "y": 548,
+          "zOrder": 99,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 91,
+          "layer": "Background",
+          "name": "Flower2",
+          "persistentUuid": "6957e340-f3c1-43d0-899f-d97880f25883",
+          "width": 91,
+          "x": 9747,
+          "y": 790,
+          "zOrder": 100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 180,
+          "layer": "Background",
+          "name": "Flower",
+          "persistentUuid": "4fadf6c1-aa59-4b45-9873-431b4ba54989",
+          "width": 141,
+          "x": 9729,
+          "y": 718,
+          "zOrder": 101,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 234,
+          "layer": "Background",
+          "name": "Bush",
+          "persistentUuid": "2c65923c-29ef-4e69-bbbc-1e7360bb9bb1",
+          "width": 267,
+          "x": 11059,
+          "y": 946,
+          "zOrder": 102,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 228,
+          "layer": "Background",
+          "name": "Flower",
+          "persistentUuid": "07757d3a-1e14-4f07-8b0d-2e5de216f171",
+          "width": 179,
+          "x": 12117,
+          "y": 871,
+          "zOrder": 103,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Background",
+          "name": "Flower2",
+          "persistentUuid": "fd4b5d29-9342-46eb-b2fd-1dea03aaaae6",
+          "width": 0,
+          "x": 12639,
+          "y": 837,
+          "zOrder": 104,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 179,
+          "layer": "Background",
+          "name": "Flower2",
+          "persistentUuid": "b180f0d6-583c-4afb-8ea7-5f8f475820c1",
+          "width": 178,
+          "x": 11623,
+          "y": 634,
+          "zOrder": 105,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 157,
+          "layer": "Background",
+          "name": "Flower",
+          "persistentUuid": "14f1ada4-ceb3-4974-8158-4c020fc7fdda",
+          "width": 123,
+          "x": 13696,
+          "y": 692,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 70,
+          "layer": "Background",
+          "name": "Flower2",
+          "persistentUuid": "2bc1a252-c854-4318-b557-67aaeb22e9ad",
+          "width": 70,
+          "x": 13714,
+          "y": 773,
+          "zOrder": 107,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Background",
+          "name": "Bush",
+          "persistentUuid": "5eed9e27-28f1-4bc0-b69c-049798e64677",
+          "width": 0,
+          "x": 13273,
+          "y": 704,
+          "zOrder": 108,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 193,
+          "layer": "Background",
+          "name": "Flower",
+          "persistentUuid": "c3f629d2-844e-4aa6-a030-a5a4f83e79bb",
+          "width": 151,
+          "x": 14204,
+          "y": 913,
+          "zOrder": 109,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 121,
+          "layer": "Background",
+          "name": "Flower",
+          "persistentUuid": "38e69956-a357-493e-9d0a-30cd59d99350",
+          "width": 95,
+          "x": 14349,
+          "y": 980,
+          "zOrder": 110,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 123,
+          "layer": "Background",
+          "name": "Bush",
+          "persistentUuid": "efb84231-c793-443f-9db4-94287b67fcf9",
+          "width": 141,
+          "x": 14400,
+          "y": 1020,
+          "zOrder": 111,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 102,
+          "layer": "Background",
+          "name": "Flower",
+          "persistentUuid": "adf32aba-2200-4972-a3b9-6b62127eac2c",
+          "width": 80,
+          "x": 15016,
+          "y": 726,
+          "zOrder": 112,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 59,
+          "layer": "Background",
+          "name": "Flower",
+          "persistentUuid": "e6ec5d7e-18e8-4da5-a1af-2b2a10d9e3bd",
+          "width": 46,
+          "x": 15085,
+          "y": 761,
+          "zOrder": 113,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 336,
+          "layer": "Background",
+          "name": "Flower",
+          "persistentUuid": "74279c3a-3aaa-47d5-9f31-8673562e2c8d",
+          "width": 270,
+          "x": 15779,
+          "y": 778,
+          "zOrder": 114,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 401,
+          "layer": "Background",
+          "name": "Flower2",
+          "persistentUuid": "dcb6ca6b-0925-4e25-858a-fda4f2e23e5b",
+          "width": 400,
+          "x": 17056,
+          "y": 731,
+          "zOrder": 115,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 418,
+          "layer": "Background",
+          "name": "Flower",
+          "persistentUuid": "cc60cfe1-f8da-4500-8e3d-152815be8e3c",
+          "width": 328,
+          "x": 17083,
+          "y": 655,
+          "zOrder": 116,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 272,
+          "layer": "Background",
+          "name": "Bush",
+          "persistentUuid": "0b81291d-37c3-4c3f-9768-e96f8f484dc0",
+          "width": 311,
+          "x": 17961,
+          "y": 891,
+          "zOrder": 117,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "layer": "Background",
+          "name": "Flower",
+          "persistentUuid": "1be3cd9d-bb0a-4720-8837-c0afdaed86ca",
+          "width": 196,
+          "x": 19381,
+          "y": 847,
+          "zOrder": 118,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2039,86 +3055,6 @@
         },
         {
           "assetStoreId": "",
-          "name": "UpDownPlattformSlow",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": false,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
-            },
-            {
-              "name": "SineMovement",
-              "type": "SineMovement::SineMovement",
-              "HorizontalSpeed": 50,
-              "VerticalSpeed": 50,
-              "HorizontalDistance": 0,
-              "VerticalDistance": 50,
-              "CenterPointX": 0,
-              "CenterPointY": 0,
-              "SineProgressX": 0,
-              "SineProgressY": 0
-            }
-          ],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets/Platforms/platform_4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 21,
-                            "y": 45.5
-                          },
-                          {
-                            "x": 437,
-                            "y": 39
-                          },
-                          {
-                            "x": 289.5,
-                            "y": 203.5
-                          },
-                          {
-                            "x": 111.5,
-                            "y": 253
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
           "name": "platform5",
           "tags": "",
           "type": "Sprite",
@@ -2319,6 +3255,86 @@
                           {
                             "x": 199,
                             "y": 243.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "UpDownPlattformSlow",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": false,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            },
+            {
+              "name": "SineMovement",
+              "type": "SineMovement::SineMovement",
+              "HorizontalSpeed": 50,
+              "VerticalSpeed": 50,
+              "HorizontalDistance": 0,
+              "VerticalDistance": 50,
+              "CenterPointX": 0,
+              "CenterPointY": 0,
+              "SineProgressX": 0,
+              "SineProgressY": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Platforms/platform_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 21,
+                            "y": 45.5
+                          },
+                          {
+                            "x": 437,
+                            "y": 39
+                          },
+                          {
+                            "x": 310.5,
+                            "y": 166.5
+                          },
+                          {
+                            "x": 106.5,
+                            "y": 166
                           }
                         ]
                       ]
@@ -4567,9 +5583,9 @@
           "effects": [],
           "behaviors": [
             {
-              "jumpSpeed": 600,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "jumpSpeed": 600,
               "maxSpeed": 550,
               "acceleration": 800,
               "canGoDownFromJumpthru": true,
@@ -7417,6 +8433,47 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "EscapeStellar",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Platforms/EscapeStellar 11.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -8916,6 +9973,60 @@
               ]
             }
           ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Checkpoints",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PosY"
+              },
+              "parameters": [
+                "Astronaut",
+                ">",
+                "1080"
+              ]
+            }
+          ],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -8990,7 +10101,7 @@
           "isLocked": false,
           "name": "Foreground",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": []
         }
@@ -10856,6 +11967,342 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "author": "Elairyx, @Bouh",
+      "category": "Game mechanic",
+      "extensionNamespace": "",
+      "fullName": "Checkpoints",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLWZsYWctdmFyaWFudCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik02LDNBMSwxIDAgMCwxIDcsNFY0Ljg4QzguMDYsNC40NCA5LjUsNCAxMSw0QzE0LDQgMTQsNiAxNiw2QzE5LDYgMjAsNCAyMCw0VjEyQzIwLDEyIDE5LDE0IDE2LDE0QzEzLDE0IDEzLDEyIDExLDEyQzgsMTIgNywxNCA3LDE0VjIxSDVWNEExLDEgMCAwLDEgNiwzWiIgLz48L3N2Zz4=",
+      "name": "Checkpoints",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/flag-variant.svg",
+      "shortDescription": "Respawn objects at checkpoints.",
+      "version": "1.0.1",
+      "description": [
+        "This extension can save checkpoints and respawn objects at the last one.",
+        "",
+        "The platformer example uses this extension ([open the project online](https://editor.gdevelop.io/?project=example://platformer))."
+      ],
+      "origin": {
+        "identifier": "Checkpoints",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "position",
+        "checkpoint"
+      ],
+      "authorIds": [
+        "30b1QQoYi1gQQHzIjMlNY8aLyYV2",
+        "2OwwM8ToR9dx9RJ2sAKTcrLmCB92"
+      ],
+      "dependencies": [],
+      "eventsFunctions": [
+        {
+          "description": "Update a checkpoint of an object.",
+          "fullName": "Save checkpoint",
+          "functionType": "Action",
+          "name": "SaveCheckpoint",
+          "sentence": "Save checkpoint _PARAM4_ of _PARAM1_ to _PARAM2_ (x-axis), _PARAM3_ (y-axis)",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "ToSaveObject",
+                    "__Checkpoints.Position[\"X\"+GetArgumentAsString(\"CheckpointName\")]",
+                    "=",
+                    "GetArgumentAsNumber(\"CoordinateX\")"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "ToSaveObject",
+                    "__Checkpoints.Position[\"Y\"+GetArgumentAsString(\"CheckpointName\")]",
+                    "=",
+                    "GetArgumentAsNumber(\"CoordinateY\")"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Save checkpoint of object",
+              "name": "ToSaveObject",
+              "type": "objectList"
+            },
+            {
+              "description": "X position",
+              "name": "CoordinateX",
+              "type": "expression"
+            },
+            {
+              "description": "Y position",
+              "name": "CoordinateY",
+              "type": "expression"
+            },
+            {
+              "description": "Checkpoint name",
+              "name": "CheckpointName",
+              "supplementaryInformation": "objectCheckpoint",
+              "type": "identifier"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Change the position of the object to the saved checkpoint.",
+          "fullName": "Load checkpoint",
+          "functionType": "Action",
+          "name": "LoadCheckpoint",
+          "sentence": "Move _PARAM2_ to checkpoint _PARAM3_ of _PARAM1_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::And"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "ObjectVariableChildExists"
+                          },
+                          "parameters": [
+                            "ToLoadObject",
+                            "__Checkpoints.Position",
+                            "\"X\" + GetArgumentAsString(\"CheckpointName\")"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ObjectVariableChildExists"
+                          },
+                          "parameters": [
+                            "ToLoadObject",
+                            "__Checkpoints.Position",
+                            "\"Y\" + GetArgumentAsString(\"CheckpointName\")"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::And"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "StrEqual"
+                          },
+                          "parameters": [
+                            "GetArgumentAsString(\"SetIgnoreUndefined\")",
+                            "!=",
+                            "\"true\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Or"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "ObjectVariableChildExists"
+                              },
+                              "parameters": [
+                                "ToLoadObject",
+                                "__Checkpoints.Position",
+                                "\"Y\" + GetArgumentAsString(\"CheckpointName\")"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "ObjectVariableChildExists"
+                              },
+                              "parameters": [
+                                "ToLoadObject",
+                                "__Checkpoints.Position",
+                                "\"X\" + GetArgumentAsString(\"CheckpointName\")"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "ToMoveObject",
+                    "=",
+                    "ToLoadObject.Variable(__Checkpoints.Position[\"X\" + GetArgumentAsString(\"CheckpointName\")])",
+                    "=",
+                    "ToLoadObject.Variable(__Checkpoints.Position[\"Y\" + GetArgumentAsString(\"CheckpointName\")])"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Load checkpoint from object",
+              "name": "ToLoadObject",
+              "type": "objectList"
+            },
+            {
+              "description": "Change position of object",
+              "name": "ToMoveObject",
+              "type": "objectList"
+            },
+            {
+              "description": "Checkpoint name",
+              "name": "CheckpointName",
+              "supplementaryInformation": "objectCheckpoint",
+              "type": "identifier"
+            },
+            {
+              "description": "Ignore (possibly) empty checkpoints",
+              "longDescription": "Loading not yet saved checkpoints will (by default) set the position to the coordinate 0;0. Select \"yes\" to completely ignore non-existant checkpoints. To define an alternative checkpoint for it, create a new event and use the \"Checkpoint exists\" condition, save the wanted checkpoint as the action.",
+              "name": "SetIgnoreUndefined",
+              "supplementaryInformation": "[\"Set to 0\",\"Ignore\",\"Reset to initial position\"]",
+              "type": "yesorno"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Check if a checkpoint has a position saved / does exist.",
+          "fullName": "Checkpoint exists",
+          "functionType": "Condition",
+          "name": "CheckpointExist",
+          "sentence": "Checkpoint _PARAM2_ of _PARAM1_ exists",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableChildExists"
+                  },
+                  "parameters": [
+                    "ToCheckObject",
+                    "__Checkpoints.Position",
+                    "\"Y\" + GetArgumentAsString(\"CheckpointName\")"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ObjectVariableChildExists"
+                  },
+                  "parameters": [
+                    "ToCheckObject",
+                    "__Checkpoints.Position",
+                    "\"X\" + GetArgumentAsString(\"CheckpointName\")"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "ObjectVariableChildExists"
+                      },
+                      "parameters": [
+                        "ToCheckObject",
+                        "__Checkpoints.Position",
+                        "\"X\" + GetArgumentAsString(\"CheckpointName\")"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "ObjectVariableChildExists"
+                      },
+                      "parameters": [
+                        "ToCheckObject",
+                        "__Checkpoints.Position",
+                        "\"Y\" + GetArgumentAsString(\"CheckpointName\")"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "False"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Check checkpoint from object",
+              "name": "ToCheckObject",
+              "type": "objectList"
+            },
+            {
+              "description": "Checkpoint name",
+              "name": "CheckpointName",
+              "supplementaryInformation": "objectCheckpoint",
+              "type": "identifier"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "eventsBasedBehaviors": [],
+      "eventsBasedObjects": []
+    },
     {
       "author": "@4ian, Tristan Rhodes (https://victrisgames.itch.io/)",
       "category": "Movement",
