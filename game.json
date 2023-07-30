@@ -837,6 +837,177 @@
         "name": "assets/Platforms/EscapeStellar 11.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Background_new.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Background_new.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/background/Group 7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Objects/background/Group 7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/background/Group 6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Objects/background/Group 6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/background/EscapeStellar_Background_Layer10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Objects/background/EscapeStellar_Background_Layer10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/background/EscapeStellar_Background_Layer9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Objects/background/EscapeStellar_Background_Layer9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/background/EscapeStellar_Background_Layer7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Objects/background/EscapeStellar_Background_Layer7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/background/EscapeStellar_Background_Layer5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Objects/background/EscapeStellar_Background_Layer5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/background/EscapeStellar_Background_Layer3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Objects/background/EscapeStellar_Background_Layer3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/background/EscapeStellar_Background_Layer6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Objects/background/EscapeStellar_Background_Layer6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/background/EscapeStellar_Background_Layer2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Objects/background/EscapeStellar_Background_Layer2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/background/EscapeStellar_Background_Layer1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Objects/background/EscapeStellar_Background_Layer1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/background/EscapeStellar_Background_Layer8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Objects/background/EscapeStellar_Background_Layer8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/background/EscapeStellar_Background_Layer4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Objects/background/EscapeStellar_Background_Layer4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/background/Back_new.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Objects/background/Back_new.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/background/Bush_new.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Objects/background/Bush_new.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/background/Glowing_new.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Objects/background/Glowing_new.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../../Bush_new.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "../../../../Bush_new.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/background/gbush.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Objects/background/gbush.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/background/hundesohn.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Objects/background/hundesohn.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -865,7 +1036,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.2623246018876967,
+        "zoomFactor": 0.1164530864347138,
         "windowMask": false
       },
       "objectsGroups": [
@@ -900,6 +1071,14 @@
             },
             {
               "name": "ResumeBtn"
+            }
+          ]
+        },
+        {
+          "name": "flowers",
+          "objects": [
+            {
+              "name": "Flower_tile"
             }
           ]
         }
@@ -957,22 +1136,6 @@
           "x": 1637,
           "y": 25,
           "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 1142,
-          "layer": "Background",
-          "name": "Background",
-          "persistentUuid": "8a0365a9-9ab0-41ae-8395-f686af498635",
-          "width": 20821,
-          "x": -445,
-          "y": -35,
-          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1369,7 +1532,7 @@
           "persistentUuid": "b88a2015-462f-4785-ac1f-6a420dcfd917",
           "width": 1044,
           "x": 1997,
-          "y": 547,
+          "y": 548,
           "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
@@ -1395,13 +1558,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 191,
+          "height": 413,
           "layer": "",
           "name": "stellar_pod",
           "persistentUuid": "9c7c29f5-ca85-4a2c-b4ed-d3685331e494",
-          "width": 35,
-          "x": 600,
-          "y": 451,
+          "width": 76,
+          "x": 548,
+          "y": 310,
           "zOrder": 43,
           "numberProperties": [],
           "stringProperties": [],
@@ -1411,13 +1574,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 191,
+          "height": 413,
           "layer": "",
           "name": "stellar_pod",
           "persistentUuid": "aab2444b-2202-45b2-a3bf-09c0427a92ea",
-          "width": 35,
-          "x": 862,
-          "y": 557,
+          "width": 76,
+          "x": 861,
+          "y": 407,
           "zOrder": 43,
           "numberProperties": [],
           "stringProperties": [],
@@ -1427,13 +1590,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 191,
+          "height": 413,
           "layer": "",
           "name": "stellar_pod",
           "persistentUuid": "54744d5d-a3a0-49f2-8a00-8f51698518b1",
-          "width": 35,
-          "x": 1102,
-          "y": 356,
+          "width": 76,
+          "x": 1134,
+          "y": 233,
           "zOrder": 43,
           "numberProperties": [],
           "stringProperties": [],
@@ -1443,13 +1606,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 191,
+          "height": 413,
           "layer": "",
           "name": "stellar_pod",
           "persistentUuid": "592e3d1e-76bd-4aea-8cf9-bfe2612e26e7",
-          "width": 35,
-          "x": 1388,
-          "y": 480,
+          "width": 76,
+          "x": 1623,
+          "y": 441,
           "zOrder": 43,
           "numberProperties": [],
           "stringProperties": [],
@@ -1491,27 +1654,11 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 191,
-          "layer": "",
-          "name": "stellar_pod",
-          "persistentUuid": "9b7c36d4-71e5-4ced-a060-2ebf706f2f8a",
-          "width": 35,
-          "x": 1752,
-          "y": 561,
-          "zOrder": 43,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 191,
+          "height": 413,
           "layer": "",
           "name": "stellar_pod",
           "persistentUuid": "c107cce6-fb16-41a7-8a17-d26cde887775",
-          "width": 35,
+          "width": 76,
           "x": 1842,
           "y": 324,
           "zOrder": 43,
@@ -1523,11 +1670,11 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 191,
+          "height": 413,
           "layer": "",
           "name": "stellar_pod",
           "persistentUuid": "49571aa0-8d56-474c-a37a-07833d831c06",
-          "width": 35,
+          "width": 76,
           "x": 3150,
           "y": 249,
           "zOrder": 43,
@@ -1539,11 +1686,11 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 191,
+          "height": 413,
           "layer": "",
           "name": "stellar_pod",
           "persistentUuid": "6f4fb62a-0f10-4260-abd7-9924b263721c",
-          "width": 35,
+          "width": 76,
           "x": 4547,
           "y": 73,
           "zOrder": 43,
@@ -1555,27 +1702,11 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 191,
-          "layer": "",
-          "name": "stellar_pod",
-          "persistentUuid": "0e06c609-9315-40df-988e-8ec0e4f05b23",
-          "width": 35,
-          "x": 4543,
-          "y": 720,
-          "zOrder": 43,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 191,
+          "height": 413,
           "layer": "",
           "name": "stellar_pod",
           "persistentUuid": "cadf9e16-8104-44f2-8cdd-0a5aa52e6cde",
-          "width": 35,
+          "width": 76,
           "x": 4747,
           "y": 138,
           "zOrder": 43,
@@ -1794,8 +1925,8 @@
           "name": "Bush",
           "persistentUuid": "02687b13-cbbb-4ce7-9063-67a9b4eb1c47",
           "width": 175,
-          "x": 7443,
-          "y": 732,
+          "x": 7464,
+          "y": 743,
           "zOrder": 61,
           "numberProperties": [],
           "stringProperties": [],
@@ -1805,74 +1936,11 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 1164,
-          "layer": "Background",
-          "name": "Tree",
-          "persistentUuid": "a0777bd7-a2df-49e2-a80e-4684a869a076",
-          "width": 1280,
-          "x": 7147,
-          "y": 6,
-          "zOrder": 62,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 1143,
-          "layer": "Background",
-          "name": "Tree2",
-          "persistentUuid": "544e04bf-f502-46ea-b46b-a614adb33ac6",
-          "width": 1842,
-          "x": 6562,
-          "y": -28,
-          "zOrder": 63,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Background",
-          "name": "Tree2",
-          "persistentUuid": "f0ab8716-3804-4cf0-96c2-632a5656ac13",
-          "width": 0,
-          "x": 15054,
-          "y": -34,
-          "zOrder": 64,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 1061,
-          "layer": "Background",
-          "name": "Tree",
-          "persistentUuid": "486a2423-e473-4540-b4a7-04e417bd3152",
-          "width": 1372,
-          "x": 14340,
-          "y": 82,
-          "zOrder": 65,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 191,
+          "height": 413,
           "layer": "",
           "name": "stellar_pod",
           "persistentUuid": "95a7deed-2d0a-4c83-8af4-f65849a5f54d",
-          "width": 35,
+          "width": 76,
           "x": 5308,
           "y": 380,
           "zOrder": 67,
@@ -1884,11 +1952,11 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 191,
+          "height": 413,
           "layer": "",
           "name": "stellar_pod",
           "persistentUuid": "b06e2895-1e1b-4647-b508-d37734142b53",
-          "width": 35,
+          "width": 76,
           "x": 6154,
           "y": 282,
           "zOrder": 68,
@@ -1900,11 +1968,11 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 191,
+          "height": 413,
           "layer": "",
           "name": "stellar_pod",
           "persistentUuid": "bb4a6854-26f7-400b-9a33-46d6d61dba57",
-          "width": 35,
+          "width": 76,
           "x": 6723,
           "y": 336,
           "zOrder": 69,
@@ -1916,11 +1984,11 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 191,
+          "height": 413,
           "layer": "",
           "name": "stellar_pod",
           "persistentUuid": "821fd25d-6608-4908-b0fd-f3311add20c8",
-          "width": 35,
+          "width": 76,
           "x": 7143,
           "y": 322,
           "zOrder": 70,
@@ -1932,11 +2000,11 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 191,
+          "height": 413,
           "layer": "",
           "name": "stellar_pod",
           "persistentUuid": "24663116-6c05-4b74-80de-3a84c2f64895",
-          "width": 35,
+          "width": 76,
           "x": 9161,
           "y": 395,
           "zOrder": 71,
@@ -1948,11 +2016,11 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 191,
+          "height": 413,
           "layer": "",
           "name": "stellar_pod",
           "persistentUuid": "b0a1e96b-b1d5-4747-a205-310c858ae14e",
-          "width": 35,
+          "width": 76,
           "x": 10221,
           "y": 233,
           "zOrder": 72,
@@ -2200,24 +2268,9 @@
           "name": "maneater",
           "persistentUuid": "c301a03c-5c9b-4a43-87ad-85850b2b8f38",
           "width": 1070,
-          "x": 2132,
-          "y": 178,
+          "x": 2255,
+          "y": 159,
           "zOrder": 91,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Background",
-          "name": "Bush",
-          "persistentUuid": "2dff264c-02e9-434a-b285-5cdbac034194",
-          "width": 0,
-          "x": 3219,
-          "y": 951,
-          "zOrder": 92,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2449,13 +2502,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 191,
-          "layer": "Background",
+          "height": 413,
+          "layer": "",
           "name": "stellar_pod",
           "persistentUuid": "dfd3c517-a99a-4e06-80b5-cf22dc165f83",
-          "width": 35,
-          "x": 7762,
-          "y": 652,
+          "width": 76,
+          "x": 7785,
+          "y": 506,
           "zOrder": 119,
           "numberProperties": [],
           "stringProperties": [],
@@ -2465,13 +2518,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 191,
-          "layer": "Background",
+          "height": 413,
+          "layer": "",
           "name": "stellar_pod",
           "persistentUuid": "65967bb8-be88-4317-9cae-86368224ad19",
-          "width": 35,
-          "x": 8470,
-          "y": 473,
+          "width": 76,
+          "x": 8462,
+          "y": 366,
           "zOrder": 120,
           "numberProperties": [],
           "stringProperties": [],
@@ -2481,11 +2534,11 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 191,
+          "height": 413,
           "layer": "Background",
           "name": "stellar_pod",
           "persistentUuid": "8b8fabeb-2ec3-4b3d-be3f-b4e00a64bfce",
-          "width": 35,
+          "width": 76,
           "x": 11266,
           "y": 361,
           "zOrder": 121,
@@ -2497,13 +2550,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 191,
-          "layer": "Background",
+          "height": 413,
+          "layer": "",
           "name": "stellar_pod",
           "persistentUuid": "f03d7005-3b33-4940-82b7-fdb452df9292",
-          "width": 35,
-          "x": 12471,
-          "y": 378,
+          "width": 76,
+          "x": 12502,
+          "y": 223,
           "zOrder": 122,
           "numberProperties": [],
           "stringProperties": [],
@@ -2513,13 +2566,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 191,
-          "layer": "Background",
+          "height": 413,
+          "layer": "",
           "name": "stellar_pod",
           "persistentUuid": "a164132f-0726-4171-941c-752de822146a",
-          "width": 35,
-          "x": 13645,
-          "y": 526,
+          "width": 76,
+          "x": 13644,
+          "y": 399,
           "zOrder": 123,
           "numberProperties": [],
           "stringProperties": [],
@@ -2529,11 +2582,11 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 191,
-          "layer": "Background",
+          "height": 413,
+          "layer": "",
           "name": "stellar_pod",
           "persistentUuid": "2a89e1d5-eec6-4fd4-8d57-9f6dcc2552d4",
-          "width": 35,
+          "width": 76,
           "x": 14543,
           "y": 405,
           "zOrder": 124,
@@ -2545,11 +2598,11 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 191,
-          "layer": "Background",
+          "height": 413,
+          "layer": "",
           "name": "stellar_pod",
           "persistentUuid": "763b18d1-d3fc-4b51-95e5-8d6f97c8eea0",
-          "width": 35,
+          "width": 76,
           "x": 15532,
           "y": 189,
           "zOrder": 125,
@@ -2561,13 +2614,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 191,
-          "layer": "Background",
+          "height": 413,
+          "layer": "",
           "name": "stellar_pod",
           "persistentUuid": "a5c2cb26-25d7-4887-b964-b4232708d198",
-          "width": 35,
-          "x": 17863,
-          "y": 138,
+          "width": 76,
+          "x": 17846,
+          "y": -23,
           "zOrder": 126,
           "numberProperties": [],
           "stringProperties": [],
@@ -2577,13 +2630,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 191,
-          "layer": "Background",
+          "height": 413,
+          "layer": "",
           "name": "stellar_pod",
           "persistentUuid": "41273a30-b6f8-4e9d-8bcb-e53579112290",
-          "width": 35,
-          "x": 19618,
-          "y": 443,
+          "width": 76,
+          "x": 19591,
+          "y": 285,
           "zOrder": 127,
           "numberProperties": [],
           "stringProperties": [],
@@ -2616,22 +2669,6 @@
           "x": 16024,
           "y": 647,
           "zOrder": 131,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 1193,
-          "layer": "",
-          "name": "maneater",
-          "persistentUuid": "acc72209-3cab-48ac-a0c8-6423ded58fda",
-          "width": 2253,
-          "x": 5977,
-          "y": 58,
-          "zOrder": 134,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2812,21 +2849,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Background",
-          "name": "Bush2",
-          "persistentUuid": "7d018fb3-f5ea-47af-a667-26cac210c0dc",
-          "width": 0,
-          "x": -265,
-          "y": -220,
-          "zOrder": 153,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "depth": 0,
           "height": 100,
@@ -2856,22 +2878,138 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 1141,
+          "layer": "Background",
+          "name": "Background",
+          "persistentUuid": "c282985a-4e74-4f2a-909d-870c2376389c",
+          "width": 80250,
+          "x": 1066,
+          "y": 3405,
+          "zOrder": -400,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 1088,
+          "layer": "Background",
+          "name": "Background_Fog",
+          "persistentUuid": "ccfe0f83-f3d0-4f4d-9514-73cff2f85d14",
+          "width": 8250,
+          "x": -456,
+          "y": -1168,
+          "zOrder": 158,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 1088,
+          "layer": "Background",
+          "name": "Background_Fog2",
+          "persistentUuid": "6f814495-aa60-4315-b8b0-094717ce6270",
+          "width": 8250,
+          "x": -417,
+          "y": -1309,
+          "zOrder": 159,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Background_Fog3",
+          "persistentUuid": "9b1960d8-a49b-47d2-8be7-9bd72d7e5695",
+          "width": 0,
+          "x": 6894,
+          "y": 6070,
+          "zOrder": 160,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 892,
+          "layer": "Background",
+          "name": "GLow_new",
+          "persistentUuid": "fcfb1c88-07d4-42c7-938f-73f53cf85c99",
+          "width": 20000,
+          "x": 140,
+          "y": 7,
+          "zOrder": 163,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 1080,
+          "layer": "Background",
+          "name": "BackgroundTree_tile",
+          "persistentUuid": "e30b8fd8-80e9-46da-ac21-799bbfc54867",
+          "width": 50000,
+          "x": -455,
+          "y": -35,
+          "zOrder": 164,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 871,
+          "layer": "Background",
+          "name": "GLow_new",
+          "persistentUuid": "105c1c74-86db-49f0-bd69-808b1c6bbc9d",
+          "width": 50000,
+          "x": -455,
+          "y": -17,
+          "zOrder": 165,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 1678,
+          "layer": "Background",
+          "name": "Bush_Tiles",
+          "persistentUuid": "1068a1df-8674-4a2a-a76f-8345c61e0f7d",
+          "width": 50000,
+          "x": -734,
+          "y": -595,
+          "zOrder": 166,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
         {
-          "assetStoreId": "",
-          "height": 1080,
-          "name": "Background",
-          "tags": "",
-          "texture": "assets/Background.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 1920,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
-        {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "ROCK",
           "tags": "",
@@ -2952,6 +3090,7 @@
           "behaviors": []
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Platform1",
           "tags": "",
@@ -3044,6 +3183,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Platform2",
           "tags": "",
@@ -3116,6 +3256,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Platform3",
           "tags": "",
@@ -3184,6 +3325,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "platform4",
           "tags": "",
@@ -3252,6 +3394,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "platform5",
           "tags": "",
@@ -3328,6 +3471,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "platform6",
           "tags": "",
@@ -3396,6 +3540,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "platform7",
           "tags": "",
@@ -3464,6 +3609,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "UpDownPlattformSlow",
           "tags": "",
@@ -3544,6 +3690,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "UpDownPlatform",
           "tags": "",
@@ -3648,6 +3795,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "LeftRightPlatform",
           "tags": "",
@@ -3732,6 +3880,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "RectangularPlatform",
           "tags": "",
@@ -3817,6 +3966,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "RectPlat_High",
           "tags": "",
@@ -3902,6 +4052,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "RectPlatform_Wide",
           "tags": "",
@@ -3995,6 +4146,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "EllipsePlatform",
           "tags": "",
@@ -4075,6 +4227,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "QuickPlatform",
           "tags": "",
@@ -4160,6 +4313,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Tree",
           "tags": "",
@@ -4201,6 +4355,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Tree2",
           "tags": "",
@@ -4242,47 +4397,7 @@
           ]
         },
         {
-          "assetStoreId": "",
-          "name": "Flower",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets/Objects/Flower.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Flower2",
           "tags": "",
@@ -4324,6 +4439,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "maneater",
           "tags": "",
@@ -5424,6 +5540,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Bush",
           "tags": "",
@@ -5465,6 +5582,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Bush2",
           "tags": "",
@@ -5506,6 +5624,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "shroom",
           "tags": "",
@@ -5547,6 +5666,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "stellar_pod",
           "tags": "",
@@ -5607,6 +5727,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Player",
           "tags": "",
@@ -5772,6 +5893,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Astronaut",
           "tags": "",
@@ -5783,13 +5905,13 @@
             {
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "acceleration": 2000,
+              "deceleration": 2000,
               "jumpSpeed": 600,
               "maxSpeed": 550,
-              "acceleration": 800,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
               "canGrabWithoutMoving": true,
-              "deceleration": 800,
               "gravity": 1000,
               "ignoreDefaultControls": false,
               "jumpSustainTime": 0.2,
@@ -6523,6 +6645,7 @@
           }
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "LeftBoundary",
           "tags": "",
@@ -6572,6 +6695,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "RightBoundary",
           "tags": "",
@@ -6621,6 +6745,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "TopBoundary",
           "tags": "",
@@ -6670,6 +6795,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "BottomBoundary",
           "tags": "",
@@ -6711,6 +6837,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "PauseHeader",
           "tags": "",
@@ -6796,6 +6923,7 @@
           }
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "NewSprite",
           "tags": "",
@@ -6807,6 +6935,7 @@
           "animations": []
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "PauseBackground",
           "tags": "",
@@ -6849,6 +6978,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Enemy",
           "tags": "",
@@ -7582,6 +7712,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Plant",
           "tags": "",
@@ -7725,6 +7856,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "ResumeBtn",
           "tags": "",
@@ -7790,6 +7922,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "HighBtn",
           "tags": "",
@@ -7855,6 +7988,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "GameUI",
           "tags": "",
@@ -7896,6 +8030,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "SetBtn",
           "tags": "",
@@ -7961,6 +8096,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "ExitBtn",
           "tags": "",
@@ -8026,6 +8162,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "SetHeader",
           "tags": "",
@@ -8067,6 +8204,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "SoundBtn",
           "tags": "",
@@ -8195,6 +8333,7 @@
           }
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "MusicBtn",
           "tags": "",
@@ -8323,6 +8462,7 @@
           }
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "BackBtn",
           "tags": "",
@@ -8498,6 +8638,7 @@
           }
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "SoundIcon",
           "tags": "",
@@ -8539,6 +8680,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "MusicIcon",
           "tags": "",
@@ -8580,6 +8722,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Checkpoint",
           "tags": "",
@@ -8603,6 +8746,7 @@
           "behaviors": []
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Stellar_UI",
           "tags": "",
@@ -8644,6 +8788,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "EscapeStellar",
           "tags": "",
@@ -8683,6 +8828,540 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Foreground",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Objects/background/Group 6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Background",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Objects/background/EscapeStellar_Background_Layer10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Background_Trees1",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Objects/background/EscapeStellar_Background_Layer9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Background_Trees2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Objects/background/EscapeStellar_Background_Layer7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Glowing_Trees",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Objects/background/EscapeStellar_Background_Layer3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Background_Fog",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Objects/background/EscapeStellar_Background_Layer6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Background_Mist",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Objects/background/EscapeStellar_Background_Layer2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Background_Bush",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Objects/background/EscapeStellar_Background_Layer1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Background_Fog2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Objects/background/EscapeStellar_Background_Layer8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Background_Fog3",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Objects/background/EscapeStellar_Background_Layer4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 1660,
+          "name": "Background_Trees3_tile",
+          "tags": "",
+          "texture": "assets/Objects/background/EscapeStellar_Background_Layer5.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 20000,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Background_Trees3",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Objects/background/EscapeStellar_Background_Layer5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 1200,
+          "name": "GlowingTrees_tile",
+          "tags": "",
+          "texture": "assets/Objects/background/EscapeStellar_Background_Layer3.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 10000,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 1080,
+          "name": "Bush_Tiles",
+          "tags": "",
+          "texture": "assets/Objects/background/EscapeStellar_Background_Layer1.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 1600,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 1000,
+          "name": "Flower_tile",
+          "tags": "",
+          "texture": "assets/Objects/leaves.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 1000,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 1080,
+          "name": "GLow_new",
+          "tags": "",
+          "texture": "assets/Objects/background/Glowing_new.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 2000,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 1080,
+          "name": "BackgroundTree_tile",
+          "tags": "",
+          "texture": "assets/Objects/background/Back_new.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 2000,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "events": [
@@ -8743,16 +9422,6 @@
                 "value": "TiledSpriteObject::XOffset"
               },
               "parameters": [
-                "Background",
-                "=",
-                "CameraX()/3"
-              ]
-            },
-            {
-              "type": {
-                "value": "TiledSpriteObject::XOffset"
-              },
-              "parameters": [
                 "BackgroundFloor",
                 "=",
                 "CameraX()*1.1"
@@ -8762,8 +9431,60 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
+              },
+              "parameters": [
+                "Astronaut",
+                "PlatformerObject",
+                "\"Right\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TiledSpriteObject::XOffset"
+              },
+              "parameters": [
+                "BackgroundTree_tile",
+                "+",
+                "100*TimeDelta()"
+              ]
+            },
+            {
+              "type": {
+                "value": "TiledSpriteObject::XOffset"
+              },
+              "parameters": [
+                "GLow_new",
+                "+",
+                "300*TimeDelta()"
+              ]
+            },
+            {
+              "type": {
+                "value": "TiledSpriteObject::XOffset"
+              },
+              "parameters": [
+                "flowers",
+                "+",
+                "300*TimeDelta()"
+              ]
+            },
+            {
+              "type": {
+                "value": "TiledSpriteObject::XOffset"
+              },
+              "parameters": [
+                "Bush_Tiles",
+                "+",
+                "300*TimeDelta()"
+              ]
+            }
+          ]
         },
         {
           "colorB": 228,
@@ -11111,6 +11832,7 @@
           }
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "StartBtn",
           "tags": "",
@@ -11176,6 +11898,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "HighBtn",
           "tags": "",
@@ -11241,6 +11964,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "SetBtn",
           "tags": "",
@@ -11306,6 +12030,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "QuitBtn",
           "tags": "",
@@ -11371,6 +12096,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "SoundBtn",
           "tags": "",
@@ -11436,6 +12162,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "MusicBtn",
           "tags": "",
@@ -11501,6 +12228,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "BackBtn",
           "tags": "",
@@ -11692,6 +12420,7 @@
           }
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "SoundOptn",
           "tags": "",
@@ -11769,6 +12498,7 @@
           "antialiasing": "none"
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "SetHeader",
           "tags": "",
@@ -11810,6 +12540,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "MainHeader",
           "tags": "",
@@ -11851,6 +12582,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "HiHeader",
           "tags": "",
@@ -11892,6 +12624,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "PauseHeader",
           "tags": "",
@@ -11933,6 +12666,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Music",
           "tags": "",
