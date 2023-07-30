@@ -1044,6 +1044,15 @@
         "name": "assets/Objects/background/flowerbush.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/Mushroom/Escapestellar._Mushroom.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Objects/Mushroom/Escapestellar._Mushroom.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1072,7 +1081,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.17116196794054178,
+        "zoomFactor": 0.41907313985540756,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1115,6 +1124,59 @@
           "objects": [
             {
               "name": "Flower_tile"
+            }
+          ]
+        },
+        {
+          "name": "Platforms",
+          "objects": [
+            {
+              "name": "Platform1"
+            },
+            {
+              "name": "ROCK"
+            },
+            {
+              "name": "Platform2"
+            },
+            {
+              "name": "Platform3"
+            },
+            {
+              "name": "platform4"
+            },
+            {
+              "name": "platform5"
+            },
+            {
+              "name": "platform6"
+            },
+            {
+              "name": "platform7"
+            },
+            {
+              "name": "UpDownPlattformSlow"
+            },
+            {
+              "name": "UpDownPlatform"
+            },
+            {
+              "name": "LeftRightPlatform"
+            },
+            {
+              "name": "RectangularPlatform"
+            },
+            {
+              "name": "RectPlat_High"
+            },
+            {
+              "name": "RectPlatform_Wide"
+            },
+            {
+              "name": "EllipsePlatform"
+            },
+            {
+              "name": "QuickPlatform"
             }
           ]
         }
@@ -1388,8 +1450,8 @@
           "name": "SetHeader",
           "persistentUuid": "62ea8e30-0782-4d7f-8a61-0b2bb3726a2b",
           "width": 1920,
-          "x": 0,
-          "y": 3008,
+          "x": 2049,
+          "y": 1145,
           "zOrder": 30,
           "numberProperties": [],
           "stringProperties": [],
@@ -1403,8 +1465,8 @@
           "name": "SetHeaderText",
           "persistentUuid": "73b1670a-7310-411e-bb3c-c363bc6d7d53",
           "width": 0,
-          "x": 848,
-          "y": 3040,
+          "x": 2897,
+          "y": 1177,
           "zOrder": 31,
           "numberProperties": [],
           "stringProperties": [],
@@ -1419,8 +1481,8 @@
           "name": "SoundBtn",
           "persistentUuid": "27371faa-127e-41b5-845d-8d2b1f107abe",
           "width": 417,
-          "x": 761,
-          "y": 3234,
+          "x": 2810,
+          "y": 1371,
           "zOrder": 32,
           "numberProperties": [
             {
@@ -1440,8 +1502,8 @@
           "name": "MusicBtn",
           "persistentUuid": "c1e374da-dc6f-4430-83ea-bf1d8f209c12",
           "width": 417,
-          "x": 768,
-          "y": 3443,
+          "x": 2817,
+          "y": 1580,
           "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
@@ -1456,8 +1518,8 @@
           "name": "BackBtn",
           "persistentUuid": "49df9f7c-8847-45e3-8ee6-4a112d302263",
           "width": 417,
-          "x": 773,
-          "y": 3648,
+          "x": 2822,
+          "y": 1785,
           "zOrder": 34,
           "numberProperties": [],
           "stringProperties": [],
@@ -1471,8 +1533,8 @@
           "name": "Back",
           "persistentUuid": "47ea1e96-f4cd-418e-b0b7-e44aab084672",
           "width": 0,
-          "x": 927,
-          "y": 3663,
+          "x": 2976,
+          "y": 1800,
           "zOrder": 35,
           "numberProperties": [],
           "stringProperties": [],
@@ -1487,8 +1549,8 @@
           "name": "SoundSlide",
           "persistentUuid": "3e830a06-9b84-48d7-8d3b-9bee558b50bc",
           "width": 149,
-          "x": 925,
-          "y": 3268,
+          "x": 2974,
+          "y": 1405,
           "zOrder": 36,
           "numberProperties": [],
           "stringProperties": [],
@@ -1503,8 +1565,8 @@
           "name": "SoundIcon",
           "persistentUuid": "66710ce2-80cc-4b47-8694-377520ccab47",
           "width": 44,
-          "x": 854,
-          "y": 3252,
+          "x": 2903,
+          "y": 1389,
           "zOrder": 37,
           "numberProperties": [],
           "stringProperties": [],
@@ -1519,8 +1581,8 @@
           "name": "MusicSlide",
           "persistentUuid": "66042bd8-a89f-4fd8-9d37-206af6b979ae",
           "width": 149,
-          "x": 926,
-          "y": 3476,
+          "x": 2975,
+          "y": 1613,
           "zOrder": 38,
           "numberProperties": [],
           "stringProperties": [],
@@ -1535,8 +1597,8 @@
           "name": "MusicIcon",
           "persistentUuid": "22fd6dc1-cfe8-4110-a6de-0cebbadd3d16",
           "width": 36,
-          "x": 865,
-          "y": 3466,
+          "x": 2914,
+          "y": 1603,
           "zOrder": 39,
           "numberProperties": [],
           "stringProperties": [],
@@ -2212,8 +2274,8 @@
           "name": "Platform2",
           "persistentUuid": "1046c15a-dcaa-4341-8c34-0a1a17ae773a",
           "width": 0,
-          "x": 17055,
-          "y": 351,
+          "x": 17061,
+          "y": 428,
           "zOrder": 84,
           "numberProperties": [],
           "stringProperties": [],
@@ -3668,6 +3730,22 @@
           "x": 42813,
           "y": 638,
           "zOrder": 212,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 363,
+          "layer": "",
+          "name": "shroom",
+          "persistentUuid": "8191e9de-4f37-4e2e-9af4-eb18a720c838",
+          "width": 275,
+          "x": 465,
+          "y": 613,
+          "zOrder": 214,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6298,7 +6376,15 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -6309,7 +6395,7 @@
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets/Objects/mushroom.png",
                       "points": [],
                       "originPoint": {
@@ -6323,7 +6409,150 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 232,
+                            "y": 223
+                          },
+                          {
+                            "x": 77,
+                            "y": 220.5
+                          },
+                          {
+                            "x": 34,
+                            "y": 189.5
+                          },
+                          {
+                            "x": 57,
+                            "y": 175.5
+                          },
+                          {
+                            "x": 57.5,
+                            "y": 146.5
+                          },
+                          {
+                            "x": 85,
+                            "y": 145.5
+                          },
+                          {
+                            "x": 86,
+                            "y": 118
+                          },
+                          {
+                            "x": 117.5,
+                            "y": 121.5
+                          },
+                          {
+                            "x": 121,
+                            "y": 92
+                          },
+                          {
+                            "x": 147,
+                            "y": 98.5
+                          },
+                          {
+                            "x": 158.5,
+                            "y": 68
+                          },
+                          {
+                            "x": 180,
+                            "y": 78.5
+                          },
+                          {
+                            "x": 192.5,
+                            "y": 51
+                          },
+                          {
+                            "x": 215.5,
+                            "y": 62
+                          },
+                          {
+                            "x": 231,
+                            "y": 43.5
+                          },
+                          {
+                            "x": 250.5,
+                            "y": 57.5
+                          },
+                          {
+                            "x": 266,
+                            "y": 43.5
+                          },
+                          {
+                            "x": 276,
+                            "y": 74
+                          },
+                          {
+                            "x": 294.5,
+                            "y": 44.5
+                          },
+                          {
+                            "x": 303.5,
+                            "y": 77.5
+                          },
+                          {
+                            "x": 321,
+                            "y": 55
+                          },
+                          {
+                            "x": 329,
+                            "y": 88
+                          },
+                          {
+                            "x": 344,
+                            "y": 64
+                          },
+                          {
+                            "x": 350,
+                            "y": 84.5
+                          },
+                          {
+                            "x": 370.5,
+                            "y": 78
+                          },
+                          {
+                            "x": 380.5,
+                            "y": 103
+                          },
+                          {
+                            "x": 407,
+                            "y": 98.5
+                          },
+                          {
+                            "x": 412,
+                            "y": 121
+                          },
+                          {
+                            "x": 441,
+                            "y": 117
+                          },
+                          {
+                            "x": 440.5,
+                            "y": 141.5
+                          },
+                          {
+                            "x": 467,
+                            "y": 128
+                          },
+                          {
+                            "x": 443.5,
+                            "y": 179
+                          },
+                          {
+                            "x": 292,
+                            "y": 211.5
+                          },
+                          {
+                            "x": 262.5,
+                            "y": 503.5
+                          },
+                          {
+                            "x": 185.5,
+                            "y": 492.5
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -6653,7 +6882,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "assets/Player/astronaut_standing_R.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "TrampolineCheck",
+                          "x": 410,
+                          "y": 780
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -6741,7 +6976,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "assets/Player/astronaut_walking_1_R.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "TrampolineCheck",
+                          "x": 410,
+                          "y": 780
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -6817,7 +7058,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "assets/Player/astronaut_walking_5_R.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "TrampolineCheck",
+                          "x": 410,
+                          "y": 780
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -6893,7 +7140,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "assets/Player/astronaut_walking_4_R.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "TrampolineCheck",
+                          "x": 410,
+                          "y": 780
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -6969,7 +7222,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "assets/Player/astronaut_walking_3_R.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "TrampolineCheck",
+                          "x": 410,
+                          "y": 780
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -7045,7 +7304,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "assets/Player/astronaut_walking_2_R.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "TrampolineCheck",
+                          "x": 410,
+                          "y": 780
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -7133,7 +7398,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "assets/Player/astronaut_jumping_1_R.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "TrampolineCheck",
+                          "x": 410,
+                          "y": 780
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -7209,7 +7480,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "assets/Player/astronaut_jumping_2_R.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "TrampolineCheck",
+                          "x": 410,
+                          "y": 780
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -8764,6 +9041,72 @@
         {
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
+          "name": "test",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 3,
+                "thickness": 3
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/User Interface/Objects/Button_Disabled.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
           "name": "ExitBtn",
           "tags": "",
           "type": "Sprite",
@@ -8831,6 +9174,48 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "SetHeader",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/User Interface/Objects/HUD_ohneScores.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "MainHeader",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -9206,6 +9591,28 @@
           "effects": [],
           "behaviors": [],
           "string": "Back",
+          "font": "assets/rocket_wildness/ROCKET WILDNESS.otf",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Stellar_Escape",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Stellar Escape\n",
           "font": "assets/rocket_wildness/ROCKET WILDNESS.otf",
           "textAlignment": "left",
           "characterSize": 40,
@@ -10355,26 +10762,6 @@
                     "0.8\n",
                     "",
                     ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "CheckpointX",
-                    "=",
-                    "Astronaut.X()"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "CheckpointY",
-                    "=",
-                    "Astronaut.Y()"
                   ]
                 }
               ]
@@ -11529,6 +11916,11 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
             }
           ],
           "parameters": []
@@ -11735,8 +12127,38 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "CheckpointX",
+                "=",
+                "Astronaut.X()"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "CheckpointX",
+                "=",
+                "Astronaut.Y()"
+              ]
+            }
+          ],
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -11754,6 +12176,86 @@
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "DoubleJump",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Astronaut",
+                "shroom",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateJumpKey"
+              },
+              "parameters": [
+                "Astronaut",
+                "PlatformerObject"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::JumpSpeed"
+              },
+              "parameters": [
+                "Astronaut",
+                "PlatformerObject",
+                "=",
+                "1200"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Astronaut",
+                "Platforms",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::JumpSpeed"
+              },
+              "parameters": [
+                "Astronaut",
+                "PlatformerObject",
+                "=",
+                "600"
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -11888,7 +12390,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.5231187364930164,
+        "zoomFactor": 0.26948780910479725,
         "windowMask": false
       },
       "objectsGroups": [
@@ -13647,7 +14149,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "",
+          "name": "Save Settings",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [],
