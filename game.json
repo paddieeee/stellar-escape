@@ -1081,7 +1081,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.41907313985540756,
+        "zoomFactor": 0.3214144260354367,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2020,7 +2020,7 @@
           "depth": 0,
           "height": 153,
           "layer": "",
-          "name": "Bush",
+          "name": "Checkpoint",
           "persistentUuid": "02687b13-cbbb-4ce7-9063-67a9b4eb1c47",
           "width": 175,
           "x": 7464,
@@ -2380,7 +2380,7 @@
           "depth": 0,
           "height": 80,
           "layer": "",
-          "name": "Bush",
+          "name": "Checkpoint",
           "persistentUuid": "b78f6d67-dd39-4acf-a073-b179115fd0e4",
           "width": 91,
           "x": 6845,
@@ -2444,7 +2444,7 @@
           "depth": 0,
           "height": 48,
           "layer": "",
-          "name": "Bush",
+          "name": "Checkpoint",
           "persistentUuid": "2c65923c-29ef-4e69-bbbc-1e7360bb9bb1",
           "width": 55,
           "x": 11658,
@@ -2507,7 +2507,7 @@
           "customSize": false,
           "height": 0,
           "layer": "",
-          "name": "Bush",
+          "name": "Checkpoint",
           "persistentUuid": "5eed9e27-28f1-4bc0-b69c-049798e64677",
           "width": 0,
           "x": 13273,
@@ -2523,7 +2523,7 @@
           "depth": 0,
           "height": 123,
           "layer": "Background",
-          "name": "Bush",
+          "name": "Checkpoint",
           "persistentUuid": "efb84231-c793-443f-9db4-94287b67fcf9",
           "width": 141,
           "x": 14400,
@@ -2822,21 +2822,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Bush",
-          "persistentUuid": "4ada7378-43f1-42c2-8bef-e2dd48e65833",
-          "width": 0,
-          "x": 1420,
-          "y": 595,
-          "zOrder": 139,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "depth": 0,
           "height": 116,
@@ -2966,27 +2951,11 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 892,
-          "layer": "Background",
-          "name": "GLow_new",
-          "persistentUuid": "fcfb1c88-07d4-42c7-938f-73f53cf85c99",
-          "width": 20000,
-          "x": 140,
-          "y": 7,
-          "zOrder": 163,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
           "height": 1080,
           "layer": "Background",
           "name": "BackgroundTree_tile",
           "persistentUuid": "e30b8fd8-80e9-46da-ac21-799bbfc54867",
-          "width": 44532,
+          "width": 13199,
           "x": -455,
           "y": -35,
           "zOrder": 164,
@@ -3003,8 +2972,8 @@
           "name": "GLow_new",
           "persistentUuid": "105c1c74-86db-49f0-bd69-808b1c6bbc9d",
           "width": 44516,
-          "x": -455,
-          "y": -17,
+          "x": -563,
+          "y": -14,
           "zOrder": 165,
           "numberProperties": [],
           "stringProperties": [],
@@ -3034,8 +3003,8 @@
           "name": "flowerbush",
           "persistentUuid": "dbec971f-912e-4792-b921-62b05ee2a0e9",
           "width": 44756,
-          "x": -666,
-          "y": -3,
+          "x": -546,
+          "y": -37,
           "zOrder": 168,
           "numberProperties": [],
           "stringProperties": [],
@@ -3746,6 +3715,146 @@
           "x": 465,
           "y": 613,
           "zOrder": 214,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Checkpoint",
+          "persistentUuid": "f7fc2ab8-5570-4c55-9d80-bf5b1496cd7e",
+          "width": 0,
+          "x": 3523,
+          "y": 534,
+          "zOrder": 215,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Checkpoint",
+          "persistentUuid": "97af7d5a-0e16-4fdd-b068-3b5522c6e8e0",
+          "width": 0,
+          "x": 10252,
+          "y": 485,
+          "zOrder": 216,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 74,
+          "layer": "",
+          "name": "Checkpoint",
+          "persistentUuid": "d7c15241-4271-4e9e-af02-c01e3dc4f703",
+          "width": 85,
+          "x": 17199,
+          "y": 398,
+          "zOrder": 217,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 108,
+          "layer": "",
+          "name": "Checkpoint",
+          "persistentUuid": "e8f5a6b7-66df-436f-9532-5a78bda5212b",
+          "width": 123,
+          "x": 24023,
+          "y": 715,
+          "zOrder": 218,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Checkpoint",
+          "persistentUuid": "81999cd5-5ea2-4488-837b-488e8236ca1a",
+          "width": 0,
+          "x": 27829,
+          "y": 626,
+          "zOrder": 219,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Checkpoint",
+          "persistentUuid": "3d1bf4a7-a32f-4fa7-82cd-98c548bcd12b",
+          "width": 0,
+          "x": 38720,
+          "y": 484,
+          "zOrder": 220,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 1080,
+          "layer": "Background",
+          "name": "BackgroundTree_tile",
+          "persistentUuid": "617c3ada-6953-400a-84d9-78b690bdd246",
+          "width": 13199,
+          "x": 12403,
+          "y": -35,
+          "zOrder": 221,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 1080,
+          "layer": "Background",
+          "name": "BackgroundTree_tile",
+          "persistentUuid": "5be8542c-353d-4789-89e6-2ca368ffef4c",
+          "width": 13199,
+          "x": 25495,
+          "y": -35,
+          "zOrder": 222,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 1080,
+          "layer": "Background",
+          "name": "BackgroundTree_tile",
+          "persistentUuid": "afc3a507-2cd8-4817-b89f-60b4a6cb614f",
+          "width": 5539,
+          "x": 38347,
+          "y": -35,
+          "zOrder": -100,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6286,7 +6395,7 @@
         {
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
-          "name": "Bush",
+          "name": "Checkpoint",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -6303,7 +6412,7 @@
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets/Objects/bush.png",
                       "points": [],
                       "originPoint": {
@@ -6317,7 +6426,66 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3.5,
+                            "y": 82.5
+                          },
+                          {
+                            "x": 65.5,
+                            "y": 111.5
+                          },
+                          {
+                            "x": 33.5,
+                            "y": 42.5
+                          },
+                          {
+                            "x": 86.5,
+                            "y": 77
+                          },
+                          {
+                            "x": 94,
+                            "y": 16
+                          },
+                          {
+                            "x": 106.5,
+                            "y": 43
+                          },
+                          {
+                            "x": 118,
+                            "y": 3.5
+                          },
+                          {
+                            "x": 133,
+                            "y": 81.5
+                          },
+                          {
+                            "x": 179.5,
+                            "y": 28.5
+                          },
+                          {
+                            "x": 163.5,
+                            "y": 90
+                          },
+                          {
+                            "x": 212,
+                            "y": 62.5
+                          },
+                          {
+                            "x": 174.5,
+                            "y": 112
+                          },
+                          {
+                            "x": 114.5,
+                            "y": 131.5
+                          },
+                          {
+                            "x": 28,
+                            "y": 130
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -9795,18 +9963,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
-          "assetStoreId": "",
-          "name": "Checkpoint",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": []
-        },
-        {
           "assetStoreId": "",
           "height": 32,
           "name": "NewTiledSprite",
@@ -10658,9 +10814,9 @@
               "parameters": [
                 "Astronaut",
                 "=",
-                "Variable(BushX)",
+                "Variable(CheckpointX)",
                 "=",
-                "Variable(BushY)"
+                "Variable(CheckpointY)"
               ]
             }
           ]
@@ -11091,7 +11247,6 @@
                   "parameters": []
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -11293,35 +11448,61 @@
                       "name": "Player defetead",
                       "source": "",
                       "type": "BuiltinCommonInstructions::Group",
-                      "events": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "PlatformBehavior::IsFalling"
+                              },
+                              "parameters": [
+                                "Astronaut",
+                                "PlatformerObject"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetObjectVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "Astronaut",
+                                "dead",
+                                "True"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
                       "parameters": []
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "PlatformBehavior::IsFalling"
-                          },
-                          "parameters": [
-                            "Astronaut",
-                            "PlatformerObject"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "SetObjectVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "Astronaut",
-                            "dead",
-                            "True"
-                          ]
-                        }
-                      ]
+                      "conditions": [],
+                      "actions": []
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": []
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": []
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": []
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": []
                     }
                   ]
                 }
@@ -11564,6 +11745,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Pause Menu",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -12066,7 +12248,7 @@
               },
               "parameters": [
                 "Astronaut",
-                "Bush",
+                "Checkpoint",
                 "",
                 "",
                 ""
@@ -12081,7 +12263,7 @@
               "parameters": [
                 "CheckpointX",
                 "=",
-                "Bush.X()"
+                "Checkpoint.X()"
               ]
             },
             {
@@ -12091,7 +12273,7 @@
               "parameters": [
                 "CheckpointY",
                 "=",
-                "Bush.Y()"
+                "Checkpoint.Y()"
               ]
             }
           ]
@@ -12118,9 +12300,9 @@
               "parameters": [
                 "Astronaut",
                 "=",
-                "Variable(BushX)",
+                "Variable(CheckpointX)",
                 "=",
-                "Variable(BushY)"
+                "Variable(CheckpointY)"
               ]
             }
           ]
@@ -12157,18 +12339,6 @@
                 "=",
                 "Astronaut.Y()"
               ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
             }
           ]
         },
