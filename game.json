@@ -53,7 +53,9 @@
     "authorIds": [],
     "authorUsernames": [],
     "categories": [],
-    "playableDevices": [],
+    "playableDevices": [
+      "keyboard"
+    ],
     "extensionProperties": [],
     "platforms": [
       {
@@ -4086,7 +4088,6 @@
       ],
       "objects": [
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "ROCK",
           "tags": "",
@@ -4167,7 +4168,6 @@
           "behaviors": []
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Platform1",
           "tags": "",
@@ -4260,7 +4260,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Platform2",
           "tags": "",
@@ -4333,7 +4332,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Platform3",
           "tags": "",
@@ -4402,7 +4400,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "platform4",
           "tags": "",
@@ -4471,7 +4468,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "platform5",
           "tags": "",
@@ -4548,7 +4544,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "platform6",
           "tags": "",
@@ -4617,7 +4612,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "platform7",
           "tags": "",
@@ -4686,7 +4680,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "UpDownPlattformSlow",
           "tags": "",
@@ -4767,7 +4760,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "UpDownPlatform",
           "tags": "",
@@ -4872,7 +4864,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "LeftRightPlatform",
           "tags": "",
@@ -4957,7 +4948,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "RectangularPlatform",
           "tags": "",
@@ -5043,7 +5033,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "RectPlat_High",
           "tags": "",
@@ -5129,7 +5118,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "RectPlatform_Wide",
           "tags": "",
@@ -5223,7 +5211,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "EllipsePlatform",
           "tags": "",
@@ -5304,7 +5291,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "QuickPlatform",
           "tags": "",
@@ -5390,7 +5376,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Tree",
           "tags": "",
@@ -5432,7 +5417,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Tree2",
           "tags": "",
@@ -5474,7 +5458,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Flower2",
           "tags": "",
@@ -5516,7 +5499,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "maneater",
           "tags": "",
@@ -6617,7 +6599,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Checkpoint",
           "tags": "",
@@ -6718,7 +6699,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Bush2",
           "tags": "",
@@ -6760,7 +6740,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "shroom",
           "tags": "",
@@ -6770,10 +6749,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -6953,7 +6932,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "stellar_pod",
           "tags": "",
@@ -7014,7 +6992,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Player",
           "tags": "",
@@ -7180,7 +7157,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Astronaut",
           "tags": "",
@@ -7980,7 +7956,6 @@
           }
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "LeftBoundary",
           "tags": "",
@@ -8030,7 +8005,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "RightBoundary",
           "tags": "",
@@ -8080,7 +8054,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "TopBoundary",
           "tags": "",
@@ -8130,7 +8103,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "BottomBoundary",
           "tags": "",
@@ -8172,7 +8144,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "PauseHeader",
           "tags": "",
@@ -8258,7 +8229,6 @@
           }
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "NewSprite",
           "tags": "",
@@ -8270,7 +8240,6 @@
           "animations": []
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "PauseBackground",
           "tags": "",
@@ -8313,7 +8282,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Enemy",
           "tags": "",
@@ -9047,7 +9015,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Plant",
           "tags": "",
@@ -9191,7 +9158,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "ResumeBtn",
           "tags": "",
@@ -9257,7 +9223,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "HighBtn",
           "tags": "",
@@ -9323,7 +9288,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "GameUI",
           "tags": "",
@@ -9365,7 +9329,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "SetBtn",
           "tags": "",
@@ -9431,7 +9394,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "test",
           "tags": "",
@@ -9497,7 +9459,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "ExitBtn",
           "tags": "",
@@ -9563,7 +9524,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "SetHeader",
           "tags": "",
@@ -9605,7 +9565,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "MainHeader",
           "tags": "",
@@ -9647,7 +9606,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "SoundBtn",
           "tags": "",
@@ -9776,7 +9734,6 @@
           }
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "MusicBtn",
           "tags": "",
@@ -9905,7 +9862,6 @@
           }
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "BackBtn",
           "tags": "",
@@ -10103,7 +10059,6 @@
           }
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "SoundIcon",
           "tags": "",
@@ -10145,7 +10100,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "MusicIcon",
           "tags": "",
@@ -10199,7 +10153,6 @@
           "behaviors": []
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Stellar_UI",
           "tags": "",
@@ -10241,7 +10194,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "EscapeStellar",
           "tags": "",
@@ -10283,7 +10235,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Foreground",
           "tags": "",
@@ -10325,7 +10276,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Background",
           "tags": "",
@@ -10367,7 +10317,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Background_Trees1",
           "tags": "",
@@ -10409,7 +10358,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Background_Trees2",
           "tags": "",
@@ -10451,7 +10399,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Glowing_Trees",
           "tags": "",
@@ -10493,7 +10440,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Background_Fog",
           "tags": "",
@@ -10535,7 +10481,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Background_Mist",
           "tags": "",
@@ -10577,7 +10522,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Background_Bush",
           "tags": "",
@@ -10619,7 +10563,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Background_Fog2",
           "tags": "",
@@ -10661,7 +10604,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Background_Fog3",
           "tags": "",
@@ -10715,7 +10657,6 @@
           "behaviors": []
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Background_Trees3",
           "tags": "",
@@ -13443,7 +13384,6 @@
           }
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "StartBtn",
           "tags": "",
@@ -13509,7 +13449,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "HighBtn",
           "tags": "",
@@ -13575,7 +13514,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "SetBtn",
           "tags": "",
@@ -13641,7 +13579,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "QuitBtn",
           "tags": "",
@@ -13707,7 +13644,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "SoundBtn",
           "tags": "",
@@ -13773,7 +13709,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "MusicBtn",
           "tags": "",
@@ -13839,7 +13774,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "BackBtn",
           "tags": "",
@@ -14031,7 +13965,6 @@
           }
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "SoundOptn",
           "tags": "",
@@ -14109,7 +14042,6 @@
           "antialiasing": "none"
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "SetHeader",
           "tags": "",
@@ -14151,7 +14083,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "MainHeader",
           "tags": "",
@@ -14193,7 +14124,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "HiHeader",
           "tags": "",
@@ -14235,7 +14165,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "PauseHeader",
           "tags": "",
@@ -14277,7 +14206,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Music",
           "tags": "",
