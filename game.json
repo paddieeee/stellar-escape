@@ -1096,7 +1096,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.2723015273753882,
+        "zoomFactor": 0.23069319795494903,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1131,6 +1131,15 @@
             },
             {
               "name": "ResumeBtn"
+            },
+            {
+              "name": "BackBtn"
+            },
+            {
+              "name": "SoundBtn"
+            },
+            {
+              "name": "MusicBtn"
             }
           ]
         },
@@ -2537,22 +2546,6 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 123,
-          "layer": "Background",
-          "name": "Checkpoint",
-          "persistentUuid": "efb84231-c793-443f-9db4-94287b67fcf9",
-          "width": 141,
-          "x": 14400,
-          "y": 1020,
-          "zOrder": 111,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
           "height": 401,
           "layer": "Background",
           "name": "Flower2",
@@ -2761,7 +2754,7 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "Background",
+          "layer": "",
           "name": "UpDownPlattformSlow",
           "persistentUuid": "fb26b93f-cb65-4211-bb47-b86d5c1d842a",
           "width": 0,
@@ -3019,8 +3012,8 @@
           "name": "flowerbush",
           "persistentUuid": "dbec971f-912e-4792-b921-62b05ee2a0e9",
           "width": 44756,
-          "x": -546,
-          "y": -37,
+          "x": -574,
+          "y": -43,
           "zOrder": 168,
           "numberProperties": [],
           "stringProperties": [],
@@ -4094,6 +4087,118 @@
           "x": 19559,
           "y": 731,
           "zOrder": 238,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 125,
+          "layer": "",
+          "name": "platform6",
+          "persistentUuid": "909f9d12-23ee-45c4-a54b-28475f9ec3b3",
+          "width": 163,
+          "x": 34964,
+          "y": 610,
+          "zOrder": 239,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 85,
+          "layer": "",
+          "name": "Checkpoint",
+          "persistentUuid": "3213419a-5910-47a8-9ba1-7f51995be63d",
+          "width": 97,
+          "x": 36453,
+          "y": 798,
+          "zOrder": 240,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 925,
+          "layer": "",
+          "name": "maneater",
+          "persistentUuid": "442e8492-0603-427b-a9db-123770a68dbc",
+          "width": 1644,
+          "x": 5820,
+          "y": 285,
+          "zOrder": 246,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 1115,
+          "layer": "",
+          "name": "maneater",
+          "persistentUuid": "684b193f-e5be-4bec-bb12-114e81eb03af",
+          "width": 1982,
+          "x": 18358,
+          "y": 161,
+          "zOrder": 242,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 1085,
+          "layer": "",
+          "name": "maneater",
+          "persistentUuid": "ffe77383-3da4-4825-b7db-498a3bcd57bc",
+          "width": 1929,
+          "x": 27349,
+          "y": 160,
+          "zOrder": 243,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 1403,
+          "layer": "",
+          "name": "maneater",
+          "persistentUuid": "cc1d0b5b-51e2-49da-8ab3-1ae044213c41",
+          "width": 2494,
+          "x": 41455,
+          "y": -63,
+          "zOrder": 244,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 122,
+          "layer": "",
+          "name": "platform6",
+          "persistentUuid": "6d2e835e-a707-47c4-a487-9e4105f17ce8",
+          "width": 159,
+          "x": 6470,
+          "y": 1000,
+          "zOrder": 245,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -11315,9 +11420,9 @@
                       "parameters": [
                         "Astronaut",
                         "=",
-                        "182",
+                        "Variable(CheckpointX)",
                         "=",
-                        "565"
+                        "Variable(CheckpointY)"
                       ]
                     },
                     {
