@@ -22,10 +22,10 @@
     "version": "1.0.0",
     "name": "stellar escape",
     "description": "",
-    "author": "",
+    "author": "StellarEscape",
     "windowWidth": 1920,
     "windowHeight": 1080,
-    "latestCompilationDirectory": "",
+    "latestCompilationDirectory": "/Users/nils/Documents/MobileMedien/SEM6/Game Design/stellar-escape",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -50,8 +50,12 @@
       "placement": "bottom-left",
       "showWatermark": true
     },
-    "authorIds": [],
-    "authorUsernames": [],
+    "authorIds": [
+      "3Pty9cSOHaXOcKelLLXR4E5X0Zx2"
+    ],
+    "authorUsernames": [
+      "enes155"
+    ],
     "categories": [],
     "playableDevices": [
       "keyboard"
@@ -1055,6 +1059,15 @@
         "name": "assets/Objects/Mushroom/Escapestellar._Mushroom.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/background/StellarEscape_start_background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Objects/background/StellarEscape_start_background.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1083,7 +1096,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.1601773690443461,
+        "zoomFactor": 0.2723015273753882,
         "windowMask": false
       },
       "objectsGroups": [
@@ -4088,6 +4101,7 @@
       ],
       "objects": [
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "ROCK",
           "tags": "",
@@ -4168,6 +4182,7 @@
           "behaviors": []
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Platform1",
           "tags": "",
@@ -4260,6 +4275,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Platform2",
           "tags": "",
@@ -4332,6 +4348,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Platform3",
           "tags": "",
@@ -4400,6 +4417,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "platform4",
           "tags": "",
@@ -4468,6 +4486,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "platform5",
           "tags": "",
@@ -4544,6 +4563,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "platform6",
           "tags": "",
@@ -4612,6 +4632,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "platform7",
           "tags": "",
@@ -4680,6 +4701,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "UpDownPlattformSlow",
           "tags": "",
@@ -4760,6 +4782,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "UpDownPlatform",
           "tags": "",
@@ -4864,6 +4887,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "LeftRightPlatform",
           "tags": "",
@@ -4948,6 +4972,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "RectangularPlatform",
           "tags": "",
@@ -5033,6 +5058,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "RectPlat_High",
           "tags": "",
@@ -5118,6 +5144,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "RectPlatform_Wide",
           "tags": "",
@@ -5211,6 +5238,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "EllipsePlatform",
           "tags": "",
@@ -5291,6 +5319,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "QuickPlatform",
           "tags": "",
@@ -5376,6 +5405,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Tree",
           "tags": "",
@@ -5417,6 +5447,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Tree2",
           "tags": "",
@@ -5458,6 +5489,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Flower2",
           "tags": "",
@@ -5499,6 +5531,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "maneater",
           "tags": "",
@@ -6599,6 +6632,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Checkpoint",
           "tags": "",
@@ -6699,6 +6733,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Bush2",
           "tags": "",
@@ -6740,6 +6775,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "shroom",
           "tags": "",
@@ -6932,6 +6968,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "stellar_pod",
           "tags": "",
@@ -6992,6 +7029,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Player",
           "tags": "",
@@ -7157,6 +7195,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Astronaut",
           "tags": "",
@@ -7956,6 +7995,7 @@
           }
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "LeftBoundary",
           "tags": "",
@@ -8005,6 +8045,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "RightBoundary",
           "tags": "",
@@ -8054,6 +8095,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "TopBoundary",
           "tags": "",
@@ -8103,6 +8145,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "BottomBoundary",
           "tags": "",
@@ -8144,6 +8187,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "PauseHeader",
           "tags": "",
@@ -8229,6 +8273,7 @@
           }
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "NewSprite",
           "tags": "",
@@ -8240,6 +8285,7 @@
           "animations": []
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "PauseBackground",
           "tags": "",
@@ -8282,6 +8328,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Enemy",
           "tags": "",
@@ -9015,6 +9062,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Plant",
           "tags": "",
@@ -9158,6 +9206,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "ResumeBtn",
           "tags": "",
@@ -9223,6 +9272,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "HighBtn",
           "tags": "",
@@ -9288,6 +9338,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "GameUI",
           "tags": "",
@@ -9329,6 +9380,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "SetBtn",
           "tags": "",
@@ -9394,6 +9446,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "test",
           "tags": "",
@@ -9459,6 +9512,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "ExitBtn",
           "tags": "",
@@ -9524,6 +9578,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "SetHeader",
           "tags": "",
@@ -9565,6 +9620,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "MainHeader",
           "tags": "",
@@ -9606,6 +9662,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "SoundBtn",
           "tags": "",
@@ -9734,6 +9791,7 @@
           }
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "MusicBtn",
           "tags": "",
@@ -9862,6 +9920,7 @@
           }
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "BackBtn",
           "tags": "",
@@ -10059,6 +10118,7 @@
           }
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "SoundIcon",
           "tags": "",
@@ -10100,6 +10160,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "MusicIcon",
           "tags": "",
@@ -10153,6 +10214,7 @@
           "behaviors": []
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Stellar_UI",
           "tags": "",
@@ -10194,6 +10256,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "EscapeStellar",
           "tags": "",
@@ -10235,6 +10298,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Foreground",
           "tags": "",
@@ -10276,6 +10340,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Background",
           "tags": "",
@@ -10317,6 +10382,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Background_Trees1",
           "tags": "",
@@ -10358,6 +10424,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Background_Trees2",
           "tags": "",
@@ -10399,6 +10466,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Glowing_Trees",
           "tags": "",
@@ -10440,6 +10508,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Background_Fog",
           "tags": "",
@@ -10481,6 +10550,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Background_Mist",
           "tags": "",
@@ -10522,6 +10592,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Background_Bush",
           "tags": "",
@@ -10563,6 +10634,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Background_Fog2",
           "tags": "",
@@ -10604,6 +10676,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Background_Fog3",
           "tags": "",
@@ -10657,6 +10730,7 @@
           "behaviors": []
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Background_Trees3",
           "tags": "",
@@ -12725,7 +12799,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.26948780910479725,
+        "zoomFactor": 0.47357754586670064,
         "windowMask": false
       },
       "objectsGroups": [
@@ -12752,28 +12826,15 @@
             },
             {
               "name": "BackBtn"
+            },
+            {
+              "name": "ScoreBack"
             }
           ]
         }
       ],
       "variables": [],
       "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 132,
-          "layer": "",
-          "name": "Stellar",
-          "persistentUuid": "1fc47197-8cbb-4b17-8062-63a0878d6254",
-          "width": 443,
-          "x": 346,
-          "y": 89,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
         {
           "angle": 0,
           "customSize": true,
@@ -12910,8 +12971,8 @@
           "layer": "",
           "name": "SetHeader",
           "persistentUuid": "71e0b925-9c02-4cc0-ad3f-23be610470ee",
-          "width": 1920,
-          "x": 3987,
+          "width": 1900,
+          "x": 4003,
           "y": 0,
           "zOrder": 20,
           "numberProperties": [],
@@ -13005,8 +13066,8 @@
           "layer": "",
           "name": "HiHeader",
           "persistentUuid": "3bde2c25-48ff-4c2e-9023-8f75bad60062",
-          "width": 1920,
-          "x": 6690,
+          "width": 1900,
+          "x": 6698,
           "y": 0,
           "zOrder": 24,
           "numberProperties": [],
@@ -13117,7 +13178,7 @@
           "name": "MainHeader",
           "persistentUuid": "d7656790-d8cd-45e9-b00e-557ac2e6c60b",
           "width": 1900,
-          "x": -30,
+          "x": 10,
           "y": 1,
           "zOrder": 1,
           "numberProperties": [],
@@ -13129,12 +13190,121 @@
           "customSize": false,
           "height": 0,
           "layer": "",
-          "name": "Escape",
-          "persistentUuid": "1447ae93-daec-4544-a6c5-dcca0b1a3011",
+          "name": "MainBackground",
+          "persistentUuid": "db0dc1f1-9642-4750-94aa-9fa1be5cff8c",
           "width": 0,
-          "x": 1088,
-          "y": 90,
+          "x": 0,
+          "y": 1,
+          "zOrder": -100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "MainBackground",
+          "persistentUuid": "7903aef9-2636-4625-9dc9-30748a14ce5e",
+          "width": 0,
+          "x": 3993,
+          "y": 0,
+          "zOrder": -101,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "MainBackground",
+          "persistentUuid": "2f42a537-e031-42e9-af42-1cc18c4a8424",
+          "width": 0,
+          "x": 6688,
+          "y": 0,
+          "zOrder": -102,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 79,
+          "layer": "",
+          "name": "Score1",
+          "persistentUuid": "b2ee4616-f744-41ff-be0a-96233fbafb71",
+          "width": 417,
+          "x": 7438,
+          "y": 369,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 79,
+          "layer": "",
+          "name": "Score2",
+          "persistentUuid": "42f36154-ab60-4e06-81b7-4fd25bba17c3",
+          "width": 417,
+          "x": 7438,
+          "y": 544,
           "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 79,
+          "layer": "",
+          "name": "Score3",
+          "persistentUuid": "5c40cdde-b527-47e8-9197-02f2c3fe934b",
+          "width": 417,
+          "x": 7441,
+          "y": 716,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 79,
+          "layer": "",
+          "name": "ScoreBack",
+          "persistentUuid": "7981a31a-08bd-4505-8950-d96b9821c24a",
+          "width": 417,
+          "x": 7440,
+          "y": 888,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Back",
+          "persistentUuid": "dc8bbad7-23bb-4d89-98b8-1f7f40d14b40",
+          "width": 0,
+          "x": 7594,
+          "y": 908,
+          "zOrder": 35,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -13175,7 +13345,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "escape",
+          "string": "highscore",
           "font": "assets/rocket_wildness/ROCKET WILDNESS.otf",
           "textAlignment": "left",
           "characterSize": 80,
@@ -13384,6 +13554,7 @@
           }
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "StartBtn",
           "tags": "",
@@ -13449,6 +13620,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "HighBtn",
           "tags": "",
@@ -13514,6 +13686,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "SetBtn",
           "tags": "",
@@ -13579,6 +13752,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "QuitBtn",
           "tags": "",
@@ -13644,6 +13818,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "SoundBtn",
           "tags": "",
@@ -13709,6 +13884,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "MusicBtn",
           "tags": "",
@@ -13774,8 +13950,234 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "BackBtn",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 3,
+                "thickness": 3
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/User Interface/Objects/Button_Normal.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Score1",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/User Interface/Objects/Button_Disabled.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Score2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/User Interface/Objects/Button_Disabled.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Score3",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/User Interface/Objects/Button_Disabled.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "ScoreBack",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -13965,6 +14367,7 @@
           }
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "SoundOptn",
           "tags": "",
@@ -14042,6 +14445,7 @@
           "antialiasing": "none"
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "SetHeader",
           "tags": "",
@@ -14083,6 +14487,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "MainHeader",
           "tags": "",
@@ -14124,6 +14529,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "HiHeader",
           "tags": "",
@@ -14165,6 +14571,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "PauseHeader",
           "tags": "",
@@ -14206,6 +14613,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Music",
           "tags": "",
@@ -14240,6 +14648,67 @@
                         "y": 0
                       },
                       "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "MainBackground",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Objects/background/StellarEscape_start_background.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1920,
+                            "y": 0
+                          },
+                          {
+                            "x": 1920,
+                            "y": 1080
+                          },
+                          {
+                            "x": 0,
+                            "y": 1080
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -14463,8 +14932,65 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "HighBtn",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenCameraPosition"
+              },
+              "parameters": [
+                "",
+                "\"CameraMove\"",
+                "HiHeader.CenterX()",
+                "CameraCenterY()",
+                "",
+                "500",
+                "\"easeInOutQuad\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "ScoreBack",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenCameraPosition"
+              },
+              "parameters": [
+                "",
+                "\"CameraMove\"",
+                "MainHeader.CenterX()",
+                "CameraCenterY()",
+                "",
+                "500",
+                "\"easeInOutQuad\""
+              ]
+            }
+          ]
         },
         {
           "colorB": 228,
