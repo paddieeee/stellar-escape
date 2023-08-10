@@ -1096,7 +1096,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.23069319795494903,
+        "zoomFactor": 0.3007871301943593,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1637,8 +1637,8 @@
           "name": "platform7",
           "persistentUuid": "39301156-bf76-474b-b3ba-2f79c61ec87d",
           "width": 1044,
-          "x": 695,
-          "y": 674,
+          "x": 521,
+          "y": 705,
           "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
@@ -1683,22 +1683,6 @@
           "height": 413,
           "layer": "",
           "name": "stellar_pod",
-          "persistentUuid": "9c7c29f5-ca85-4a2c-b4ed-d3685331e494",
-          "width": 76,
-          "x": 548,
-          "y": 310,
-          "zOrder": 43,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 413,
-          "layer": "",
-          "name": "stellar_pod",
           "persistentUuid": "aab2444b-2202-45b2-a3bf-09c0427a92ea",
           "width": 76,
           "x": 861,
@@ -1715,26 +1699,10 @@
           "height": 413,
           "layer": "",
           "name": "stellar_pod",
-          "persistentUuid": "54744d5d-a3a0-49f2-8a00-8f51698518b1",
-          "width": 76,
-          "x": 1134,
-          "y": 233,
-          "zOrder": 43,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 413,
-          "layer": "",
-          "name": "stellar_pod",
           "persistentUuid": "592e3d1e-76bd-4aea-8cf9-bfe2612e26e7",
           "width": 76,
-          "x": 1623,
-          "y": 441,
+          "x": 1750,
+          "y": 409,
           "zOrder": 43,
           "numberProperties": [],
           "stringProperties": [],
@@ -1768,22 +1736,6 @@
           "x": 4841,
           "y": 541,
           "zOrder": 45,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 413,
-          "layer": "",
-          "name": "stellar_pod",
-          "persistentUuid": "c107cce6-fb16-41a7-8a17-d26cde887775",
-          "width": 76,
-          "x": 1842,
-          "y": 324,
-          "zOrder": 43,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1864,22 +1816,6 @@
           "x": 1590,
           "y": 48,
           "zOrder": 46,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 167,
-          "layer": "",
-          "name": "Enemy",
-          "persistentUuid": "eb0eef9c-8cf2-4bb7-b523-3ce2fc5ed53b",
-          "width": 183,
-          "x": 1579,
-          "y": 395,
-          "zOrder": 47,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2061,22 +1997,6 @@
           "height": 413,
           "layer": "",
           "name": "stellar_pod",
-          "persistentUuid": "95a7deed-2d0a-4c83-8af4-f65849a5f54d",
-          "width": 76,
-          "x": 5308,
-          "y": 380,
-          "zOrder": 67,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 413,
-          "layer": "",
-          "name": "stellar_pod",
           "persistentUuid": "b06e2895-1e1b-4647-b508-d37734142b53",
           "width": 76,
           "x": 6154,
@@ -2200,22 +2120,6 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 232,
-          "layer": "",
-          "name": "QuickPlatform",
-          "persistentUuid": "b99246b9-dee7-4465-875d-98625d7d8954",
-          "width": 265,
-          "x": 12683,
-          "y": 683,
-          "zOrder": 77,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
           "height": 469,
           "layer": "",
           "name": "platform5",
@@ -2310,26 +2214,11 @@
           "customSize": false,
           "height": 0,
           "layer": "",
-          "name": "QuickPlatform",
-          "persistentUuid": "699d90a0-4556-48b9-adc0-d7021288876f",
-          "width": 0,
-          "x": 17656,
-          "y": 786,
-          "zOrder": 85,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
           "name": "platform4",
           "persistentUuid": "7af2bff0-f188-4fa8-b845-d42628f3ecae",
           "width": 0,
-          "x": 18199,
-          "y": 554,
+          "x": 18140,
+          "y": 509,
           "zOrder": 86,
           "numberProperties": [],
           "stringProperties": [],
@@ -2376,9 +2265,9 @@
           "name": "maneater",
           "persistentUuid": "c301a03c-5c9b-4a43-87ad-85850b2b8f38",
           "width": 1070,
-          "x": 2255,
-          "y": 159,
-          "zOrder": 91,
+          "x": 3423,
+          "y": 229,
+          "zOrder": -300,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2736,22 +2625,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 167,
-          "layer": "",
-          "name": "Enemy",
-          "persistentUuid": "b202f437-6bfd-494a-9232-678bf97d36a2",
-          "width": 183,
-          "x": 5778,
-          "y": 298,
-          "zOrder": 128,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "",
@@ -2809,22 +2682,6 @@
           "x": 18290,
           "y": 360,
           "zOrder": 137,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 157,
-          "layer": "",
-          "name": "platform7",
-          "persistentUuid": "b257be1e-8439-4a40-bb89-24b7d2e9cded",
-          "width": 179,
-          "x": 2372,
-          "y": 471,
-          "zOrder": 138,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3023,13 +2880,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 58,
+          "height": 132,
           "layer": "",
           "name": "platform5",
           "persistentUuid": "a00a5165-ee94-4c05-bf94-2641e76e686f",
-          "width": 73,
-          "x": 20380,
-          "y": 816,
+          "width": 166,
+          "x": 20309,
+          "y": 792,
           "zOrder": 171,
           "numberProperties": [],
           "stringProperties": [],
@@ -3110,22 +2967,6 @@
           "x": 22666,
           "y": 748,
           "zOrder": 176,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 142,
-          "layer": "",
-          "name": "LeftRightPlatform",
-          "persistentUuid": "91912bfa-ddce-4983-a7ec-6449742d98ae",
-          "width": 195,
-          "x": 23061,
-          "y": 760,
-          "zOrder": 177,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3666,30 +3507,14 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 363,
-          "layer": "",
-          "name": "shroom",
-          "persistentUuid": "8191e9de-4f37-4e2e-9af4-eb18a720c838",
-          "width": 275,
-          "x": 465,
-          "y": 613,
-          "zOrder": 214,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "",
           "name": "Checkpoint",
           "persistentUuid": "f7fc2ab8-5570-4c55-9d80-bf5b1496cd7e",
           "width": 0,
-          "x": 3523,
-          "y": 534,
+          "x": 5250,
+          "y": 712,
           "zOrder": 215,
           "numberProperties": [],
           "stringProperties": [],
@@ -4134,7 +3959,7 @@
           "width": 1644,
           "x": 5820,
           "y": 285,
-          "zOrder": 246,
+          "zOrder": -300,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4143,30 +3968,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 1115,
+          "height": 965,
           "layer": "",
           "name": "maneater",
           "persistentUuid": "684b193f-e5be-4bec-bb12-114e81eb03af",
-          "width": 1982,
-          "x": 18358,
-          "y": 161,
-          "zOrder": 242,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 1085,
-          "layer": "",
-          "name": "maneater",
-          "persistentUuid": "ffe77383-3da4-4825-b7db-498a3bcd57bc",
-          "width": 1929,
-          "x": 27349,
-          "y": 160,
-          "zOrder": 243,
+          "width": 1715,
+          "x": 18485,
+          "y": 251,
+          "zOrder": 400,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4182,7 +3991,7 @@
           "width": 2494,
           "x": 41455,
           "y": -63,
-          "zOrder": 244,
+          "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4199,6 +4008,254 @@
           "x": 6470,
           "y": 1000,
           "zOrder": 245,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 100,
+          "layer": "UI",
+          "name": "HighHeader",
+          "persistentUuid": "dc44e985-a939-4f4c-89ee-51b05518b969",
+          "width": 1920,
+          "x": -46,
+          "y": 2683,
+          "zOrder": 247,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "UI",
+          "name": "Highscore",
+          "persistentUuid": "02e2cfe1-2d54-4be5-b3d7-c55da61d29ed",
+          "width": 0,
+          "x": 787,
+          "y": 2711,
+          "zOrder": 248,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 134,
+          "layer": "",
+          "name": "shroom",
+          "persistentUuid": "5d6e2e2b-53dd-4a45-bbad-624cf088d802",
+          "width": 102,
+          "x": 2479,
+          "y": 501,
+          "zOrder": 249,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 287,
+          "layer": "",
+          "name": "Platform2",
+          "persistentUuid": "c5ea7ca0-9650-4636-bf50-c4241416a2dc",
+          "width": 396,
+          "x": 12740,
+          "y": 823,
+          "zOrder": 250,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "platform6",
+          "persistentUuid": "d27d2bdf-f30e-461b-8267-53288c6404ac",
+          "width": 0,
+          "x": 17583,
+          "y": 582,
+          "zOrder": 251,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 196,
+          "layer": "",
+          "name": "platform4",
+          "persistentUuid": "88c80fd3-71bf-42ee-9156-2343c0a3a846",
+          "width": 248,
+          "x": 19122,
+          "y": 1000,
+          "zOrder": 254,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 238,
+          "layer": "",
+          "name": "Platform1",
+          "persistentUuid": "eaac34dc-3903-49bd-b625-9a13063c7943",
+          "width": 249,
+          "x": 23008,
+          "y": 779,
+          "zOrder": 402,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Intro1",
+          "persistentUuid": "d151b2be-c2f3-495a-8866-fcb1c2387903",
+          "width": 0,
+          "x": 51,
+          "y": 512,
+          "zOrder": 403,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Intro2",
+          "persistentUuid": "8e7bd580-20f8-4675-9f8e-09e8fdd1b7e7",
+          "width": 0,
+          "x": 1183,
+          "y": 456,
+          "zOrder": 404,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 261,
+          "layer": "",
+          "name": "Platform2",
+          "persistentUuid": "ccfddaf7-7c3f-4458-8436-faa96c13060f",
+          "width": 359,
+          "x": 1614,
+          "y": 708,
+          "zOrder": 405,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "IntroMush",
+          "persistentUuid": "25742929-dfaf-4ae6-a12a-66a6185e28e6",
+          "width": 0,
+          "x": 2316,
+          "y": 386,
+          "zOrder": 406,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "IntroManeater",
+          "persistentUuid": "cee44f53-ea3d-4e49-9c45-338e4cfd79c3",
+          "width": 0,
+          "x": 3622,
+          "y": 361,
+          "zOrder": 407,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "IntroCheck",
+          "persistentUuid": "fe7f126a-d1ee-4e8b-8514-6af70b39567e",
+          "width": 0,
+          "x": 5155,
+          "y": 622,
+          "zOrder": 408,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 342,
+          "customSize": true,
+          "depth": 0,
+          "height": 228,
+          "layer": "",
+          "name": "Platform3",
+          "persistentUuid": "341b2d3e-edfc-4b22-8a2d-255c69743abb",
+          "width": 246,
+          "x": 3623,
+          "y": 542,
+          "zOrder": 409,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 193,
+          "layer": "",
+          "name": "Enemy",
+          "persistentUuid": "d3c0c8d5-932c-4cd0-8a22-4400cdbadf46",
+          "width": 210,
+          "x": 8006,
+          "y": 397,
+          "zOrder": 410,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "IntroEnemy",
+          "persistentUuid": "6ffb9d70-0218-42e3-9baf-7cc440b6d84c",
+          "width": 0,
+          "x": 8308,
+          "y": 288,
+          "zOrder": 411,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8448,7 +8505,7 @@
               "RadiusX": -1600,
               "RadiusY": 100,
               "LoopDuration": 40,
-              "InitialTurningLeft": false,
+              "InitialTurningLeft": true,
               "InitialDirectionAngle": 0,
               "ShouldRotate": false,
               "RotationOffset": 0,
@@ -9769,6 +9826,48 @@
         {
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
+          "name": "HighHeader",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/User Interface/Objects/HUD_ohneScores.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
           "name": "SoundBtn",
           "tags": "",
           "type": "Sprite",
@@ -10947,6 +11046,307 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Intro1",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "DropShadow",
+              "name": "Effect",
+              "doubleParameters": {
+                "alpha": 1,
+                "blur": 2,
+                "distance": 1,
+                "padding": 0,
+                "quality": 3,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {
+                "shadowOnly": false
+              }
+            }
+          ],
+          "behaviors": [],
+          "string": "Press ←\t→\tto move",
+          "font": "assets/rocket_wildness/ROCKET WILDNESS.otf",
+          "textAlignment": "left",
+          "characterSize": 50,
+          "color": {
+            "b": 175,
+            "g": 175,
+            "r": 189
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Intro2",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "DropShadow",
+              "name": "Effect",
+              "doubleParameters": {
+                "alpha": 1,
+                "blur": 2,
+                "distance": 1,
+                "padding": 0,
+                "quality": 3,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {
+                "shadowOnly": false
+              }
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "Bounce",
+              "type": "Bounce::Bounce",
+              "OldX": 0,
+              "OldY": 0,
+              "OldForceAngle": 0,
+              "OldForceLength": 0,
+              "NormalAngle": 0,
+              "BounceCount": 0
+            }
+          ],
+          "string": "Press space to jump",
+          "font": "assets/rocket_wildness/ROCKET WILDNESS.otf",
+          "textAlignment": "left",
+          "characterSize": 50,
+          "color": {
+            "b": 155,
+            "g": 155,
+            "r": 155
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "IntroMush",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "DropShadow",
+              "name": "Effect",
+              "doubleParameters": {
+                "alpha": 1,
+                "blur": 2,
+                "distance": 1,
+                "padding": 0,
+                "quality": 3,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {
+                "shadowOnly": false
+              }
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "Bounce",
+              "type": "Bounce::Bounce",
+              "OldX": 0,
+              "OldY": 0,
+              "OldForceAngle": 0,
+              "OldForceLength": 0,
+              "NormalAngle": 0,
+              "BounceCount": 0
+            }
+          ],
+          "string": "jump boost",
+          "font": "assets/rocket_wildness/ROCKET WILDNESS.otf",
+          "textAlignment": "left",
+          "characterSize": 50,
+          "color": {
+            "b": 155,
+            "g": 155,
+            "r": 155
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "IntroManeater",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "DropShadow",
+              "name": "Effect",
+              "doubleParameters": {
+                "alpha": 1,
+                "blur": 2,
+                "distance": 1,
+                "padding": 0,
+                "quality": 3,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {
+                "shadowOnly": false
+              }
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "Bounce",
+              "type": "Bounce::Bounce",
+              "OldX": 0,
+              "OldY": 0,
+              "OldForceAngle": 0,
+              "OldForceLength": 0,
+              "NormalAngle": 0,
+              "BounceCount": 0
+            }
+          ],
+          "string": "beware of these!",
+          "font": "assets/rocket_wildness/ROCKET WILDNESS.otf",
+          "textAlignment": "left",
+          "characterSize": 50,
+          "color": {
+            "b": 27,
+            "g": 2,
+            "r": 208
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "IntroCheck",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "DropShadow",
+              "name": "Effect",
+              "doubleParameters": {
+                "alpha": 1,
+                "blur": 2,
+                "distance": 1,
+                "padding": 0,
+                "quality": 3,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {
+                "shadowOnly": false
+              }
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "Bounce",
+              "type": "Bounce::Bounce",
+              "OldX": 0,
+              "OldY": 0,
+              "OldForceAngle": 0,
+              "OldForceLength": 0,
+              "NormalAngle": 0,
+              "BounceCount": 0
+            }
+          ],
+          "string": "checkpoints",
+          "font": "assets/rocket_wildness/ROCKET WILDNESS.otf",
+          "textAlignment": "left",
+          "characterSize": 50,
+          "color": {
+            "b": 155,
+            "g": 155,
+            "r": 155
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "IntroEnemy",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "DropShadow",
+              "name": "Effect",
+              "doubleParameters": {
+                "alpha": 1,
+                "blur": 2,
+                "distance": 1,
+                "padding": 0,
+                "quality": 3,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {
+                "shadowOnly": false
+              }
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "Bounce",
+              "type": "Bounce::Bounce",
+              "OldX": 0,
+              "OldY": 0,
+              "OldForceAngle": 0,
+              "OldForceLength": 0,
+              "NormalAngle": 0,
+              "BounceCount": 0
+            }
+          ],
+          "string": "watch out!",
+          "font": "assets/rocket_wildness/ROCKET WILDNESS.otf",
+          "textAlignment": "left",
+          "characterSize": 50,
+          "color": {
+            "b": 27,
+            "g": 2,
+            "r": 208
+          }
         }
       ],
       "events": [
@@ -10992,11 +11392,12 @@
             },
             {
               "type": {
-                "value": "PlaySound"
+                "value": "PlaySoundCanal"
               },
               "parameters": [
                 "",
                 "assets/Sounds/bg-music/level_bg-music.mp3",
+                "1",
                 "",
                 "",
                 ""
@@ -11141,11 +11542,12 @@
           "actions": [
             {
               "type": {
-                "value": "PlaySound"
+                "value": "PlaySoundCanal"
               },
               "parameters": [
                 "",
                 "assets/Sounds/crash.mp3",
+                "2",
                 "",
                 "",
                 ""
@@ -11203,12 +11605,12 @@
             },
             {
               "type": {
-                "value": "PlaySound"
+                "value": "PlaySoundCanal"
               },
               "parameters": [
                 "",
                 "assets/Sounds/collect_sound.mp3",
-                "",
+                "2",
                 "",
                 ""
               ]
@@ -11387,12 +11789,12 @@
                     },
                     {
                       "type": {
-                        "value": "PlaySound"
+                        "value": "PlaySoundCanal"
                       },
                       "parameters": [
                         "",
                         "assets/Sounds/plant_bite.mp3",
-                        "",
+                        "2",
                         "",
                         ""
                       ]
@@ -11970,12 +12372,12 @@
                 },
                 {
                   "type": {
-                    "value": "PlaySound"
+                    "value": "PlaySoundCanal"
                   },
                   "parameters": [
                     "",
                     "assets/Sounds/running_short.mp3",
-                    "no",
+                    "2",
                     "",
                     ""
                   ]
@@ -12018,12 +12420,12 @@
                 },
                 {
                   "type": {
-                    "value": "PlaySound"
+                    "value": "PlaySoundCanal"
                   },
                   "parameters": [
                     "",
                     "assets/Sounds/normal_jump.mp3",
-                    "",
+                    "2",
                     "",
                     ""
                   ]
@@ -12089,13 +12491,11 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Pause Menu",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -12250,6 +12650,37 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ButtonStates::ButtonFSM::IsClicked"
+                      },
+                      "parameters": [
+                        "BackBtn",
+                        "ButtonFSM",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Tween::TweenCameraPosition"
+                      },
+                      "parameters": [
+                        "",
+                        "\"CameraMove\"",
+                        "PauseHeader.CenterX()",
+                        "CameraCenterY()",
+                        "\"UI\"",
+                        "500",
+                        "\"easeInOutQuad\""
+                      ]
+                    }
+                  ]
                 }
               ]
             },
@@ -12346,18 +12777,6 @@
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": []
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
@@ -12389,7 +12808,7 @@
                     "value": "ButtonStates::ButtonFSM::IsClicked"
                   },
                   "parameters": [
-                    "SetBtn",
+                    "HighBtn",
                     "ButtonFSM",
                     ""
                   ]
@@ -12403,7 +12822,7 @@
                   "parameters": [
                     "",
                     "\"CameraMove\"",
-                    "SetHeader.CenterX()",
+                    "HighHeader.CenterX()",
                     "CameraCenterY()",
                     "\"UI\"",
                     "500",
@@ -12417,39 +12836,95 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                    "value": "SceneVariableAsBoolean"
                   },
                   "parameters": [
-                    "BackBtn",
-                    "ButtonFSM",
-                    ""
+                    "GamePause ",
+                    "True"
                   ]
                 }
               ],
-              "actions": [
+              "actions": [],
+              "events": [
                 {
-                  "type": {
-                    "value": "Tween::TweenCameraPosition"
-                  },
-                  "parameters": [
-                    "",
-                    "\"CameraMove\"",
-                    "PauseHeader.CenterX()",
-                    "CameraCenterY()",
-                    "\"UI\"",
-                    "500",
-                    "\"easeInOutQuad\""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ButtonStates::ButtonFSM::IsClicked"
+                      },
+                      "parameters": [
+                        "SetBtn",
+                        "ButtonFSM",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Tween::TweenCameraPosition"
+                      },
+                      "parameters": [
+                        "",
+                        "\"CameraMove\"",
+                        "SetHeader.CenterX()",
+                        "CameraCenterY()",
+                        "\"UI\"",
+                        "500",
+                        "\"easeInOutQuad\""
+                      ]
+                    }
                   ]
                 }
               ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
             }
           ],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged"
+              },
+              "parameters": [
+                "MusicSlide",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVolumeSoundCanal"
+              },
+              "parameters": [
+                "",
+                "1",
+                "=",
+                "MusicSlide.Value()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVolumeSoundCanal"
+              },
+              "parameters": [
+                "",
+                "2",
+                "=",
+                "SoundSlide.Value()"
+              ]
+            }
+          ]
         },
         {
           "colorB": 228,
@@ -12770,6 +13245,44 @@
               ]
             }
           ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "FinalPlatform",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Astronaut",
+                "EscapeStellar",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Quit"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -12851,6 +13364,10 @@
       ],
       "behaviorsSharedData": [
         {
+          "name": "Bounce",
+          "type": "Bounce::Bounce"
+        },
+        {
           "name": "ButtonFSM",
           "type": "ButtonStates::ButtonFSM"
         },
@@ -12904,7 +13421,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.47357754586670064,
+        "zoomFactor": 0.3754652077079496,
         "windowMask": false
       },
       "objectsGroups": [
@@ -15162,6 +15679,608 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "author": "@4ian",
+      "category": "Movement",
+      "extensionNamespace": "",
+      "fullName": "Bounce (using forces)",
+      "helpPath": "/extensions/bounce/explanations",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLXZvbGxleWJhbGwiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTIsMkExMCwxMCAwIDAsMSAyMiwxMkExMCwxMCAwIDAsMSAxMiwyMkExMCwxMCAwIDAsMSAyLDEyQTEwLDEwIDAgMCwxIDEyLDJNMTMuNiwyMC4zNUMxNS45NiwxOC4wNCAxNy42OSwxNS4wOCAxOC41LDExLjc2QzE3Ljg0LDExLjYyIDE3LjE4LDExLjU0IDE2LjUsMTEuNUMxNS41NiwxNS4xMSAxMy40MSwxOC4yMiAxMC41LDIwLjM3QzExLDIwLjQ1IDExLjUsMjAuNSAxMiwyMC41QzEyLjU1LDIwLjUgMTMuMDgsMjAuNDUgMTMuNiwyMC4zNU05LjIzLDIwLjA0QzEyLjIzLDE4LjA3IDE0LjUsMTUuMDUgMTUuNDYsMTEuNUMxNC43MSwxMS41NSAxMy45NywxMS42NSAxMy4yNywxMS44MUMxMi4xOCwxNC44OSA5Ljk3LDE3LjQ0IDcuMTMsMTguOTdDNy43NywxOS40MiA4LjUsMTkuNzggOS4yMywyMC4wNE0yMC41LDEyLjM3QzIwLjE2LDEyLjIzIDE5LjgxLDEyLjExIDE5LjQ2LDEyQzE4Ljc2LDE0LjkgMTcuMzksMTcuNTMgMTUuNTQsMTkuNzNDMTguMzYsMTguNDQgMjAuMzUsMTUuNjQgMjAuNSwxMi4zN00zLjU2LDExLjA0QzMuNSwxMS4zNSAzLjUsMTEuNjggMy41LDEyQzMuNSwxNC41IDQuNTcsMTYuNzMgNi4yNywxOC4yOEM2Ljg2LDE4IDcuNDEsMTcuNjYgNy45NCwxNy4yOUM2LjA4LDE1LjU0IDQuNTgsMTMuNDEgMy41NiwxMS4wNE01LjMzLDYuNzRDNC43Myw3LjUgNC4yNiw4LjM1IDMuOTUsOS4yOEM0LjkyLDEyLjEzIDYuNTgsMTQuNjYgOC43NCwxNi42N0M5LjI1LDE2LjI0IDkuNzIsMTUuNzcgMTAuMTUsMTUuMjZDNy43NCwxMy4wMyA2LDEwLjA4IDUuMzMsNi43NE04LjA0LDQuNUM3LjM2LDQuODUgNi43Myw1LjMgNi4xOCw1LjgyQzYuNzEsOS4yMSA4LjM3LDEyLjIzIDEwLjc3LDE0LjQ3QzExLjE3LDEzLjkxIDExLjUsMTMuMzIgMTEuODIsMTIuN0M5LjY4LDEwLjU2IDguMjgsNy42OSA4LjA0LDQuNU0xOS45Niw5LjAzQzE4LjcsOC42OCAxNy4zNyw4LjUgMTYsOC41QzE0LjEsOC41IDEyLjI4LDguODUgMTAuNjEsOS41QzEwLjk2LDEwLjEgMTEuMzUsMTAuNjcgMTEuOCwxMS4yQzEzLjEyLDEwLjc1IDE0LjUzLDEwLjUgMTYsMTAuNUMxNy41NywxMC41IDE5LjA4LDEwLjc4IDIwLjQ3LDExLjI5QzIwLjQsMTAuNSAyMC4yMyw5Ljc0IDE5Ljk2LDkuMDNNMTcuNTQsNS41N0MxNy4wMyw1LjUgMTYuNSw1LjUgMTYsNS41QzEzLjY5LDUuNSAxMS40Nyw1Ljk0IDkuNDQsNi43M0M5LjYyLDcuMzggOS44Niw4IDEwLjE0LDguNjFDMTEuOTYsNy44OSAxMy45Myw3LjUgMTYsNy41QzE3LjE4LDcuNSAxOC4zMiw3LjYzIDE5LjQyLDcuODdDMTguOTMsNyAxOC4yOSw2LjIxIDE3LjU0LDUuNTdNMTYsNC41QzE0Ljc5LDMuODcgMTMuNDQsMy41IDEyLDMuNUMxMC45NSwzLjUgOS45NCwzLjcgOSw0LjA1QzkuMDQsNC42MyA5LjExLDUuMiA5LjIxLDUuNzVDMTEuMzEsNC45NSAxMy42LDQuNSAxNiw0LjVaIiAvPjwvc3ZnPg==",
+      "name": "Bounce",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/volleyball.svg",
+      "shortDescription": "Bounce the object off another object it just touched.",
+      "version": "0.2.1",
+      "description": [
+        "Provides an action to make the object bounce from another object it just touched.",
+        "",
+        "> ⚠️ This *won't work* with Physics engine or Platformer characters. This is working with objects that are moved using actions or behaviors using **the forces**.",
+        "",
+        "The Breakout-like example uses this extension to make balls bounce ([open the project online](https://editor.gdevelop.io/?project=example://breakout))."
+      ],
+      "origin": {
+        "identifier": "Bounce",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "bounce",
+        "bullet",
+        "ricochet"
+      ],
+      "authorIds": [
+        "wWP8BSlAW0UP4NeaHa2LcmmDzmH2"
+      ],
+      "dependencies": [],
+      "eventsFunctions": [],
+      "eventsBasedBehaviors": [
+        {
+          "description": "Provides an action to make the object bounce from another object it just touched. Add a permanent force to the object and, when in collision with another one, use the action to make it bounce realistically.",
+          "fullName": "Bounce",
+          "name": "Bounce",
+          "objectType": "",
+          "eventsFunctions": [
+            {
+              "description": "Bounce the object off another object it is currently colliding with, according to the angle and the speed of forces applied on the object.\nMake sure to test for a collision between the two objects before launching this action. All the forces will be removed from the object, and a new permanent force will be added to make the object bounce.",
+              "fullName": "Bounce off another object",
+              "functionType": "Action",
+              "name": "BounceOff",
+              "sentence": "Bounce _PARAM0_ off _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "To bounce the object realistically, we first separate it from the obstacle. The collision engine will do it by moving the object through the shortest \"normal vector\" of the edge that was collided.\nWe store the position of the object before being moved so that we know the angle of this \"normal vector\". Once we know it, we add a force in the direction of the normal vector, and we add the difference between the normal vector and the previous angle of movement."
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Bounce::Bounce::SetPropertyOldX"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "Object.X()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Bounce::Bounce::SetPropertyOldY"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "Object.Y()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Bounce::Bounce::SetPropertyOldForceAngle"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "Object.ForceAngle()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Bounce::Bounce::SetPropertyOldForceLength"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "Object.ForceLength()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SeparateFromObjects"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Obstacle",
+                        "yes"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Or"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "PosX"
+                              },
+                              "parameters": [
+                                "Object",
+                                "!=",
+                                "Object.Behavior::PropertyOldX()"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "PosY"
+                              },
+                              "parameters": [
+                                "Object",
+                                "!=",
+                                "Object.Behavior::PropertyOldY()"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Bounce::Bounce::SetPropertyNormalAngle"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "=",
+                            "ToDeg(atan2(Object.Y() - Object.Behavior::PropertyOldY(), Object.X() - Object.Behavior::PropertyOldX()))"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Arreter"
+                          },
+                          "parameters": [
+                            "Object"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AddForceAL"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Object.Behavior::PropertyNormalAngle()+AngleDifference(Object.Behavior::PropertyNormalAngle(), Object.Behavior::PropertyOldForceAngle()+180)",
+                            "Object.Behavior::PropertyOldForceLength()",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Bounce::Bounce::SetPropertyBounceCount"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "+",
+                            "1"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Bounce::Bounce",
+                  "type": "behavior"
+                },
+                {
+                  "description": "The objects to bounce on",
+                  "name": "Obstacle",
+                  "type": "objectList"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Bounce the object off another object it is currently colliding with, according to the angle and the speed of forces applied on the object.\nThe bounce will always be calculated *to go toward the specified angle (the \"normal angle\")*. For example, if the object is arriving at this exact angle, it will bounce in the opposite direction.\n\nMake sure to test for a collision between the two objects before launching this action. All the forces will be removed from the object, and a new permanent force will be added to make the object bounce.",
+              "fullName": "Bounce off another object toward a specified angle",
+              "functionType": "Action",
+              "name": "BounceOffSpecificAngle",
+              "sentence": "Bounce _PARAM0_ off _PARAM2_ assuming a normal angle of _PARAM3_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Check if there is a collision between the object and an obstacle and if so, do the bounce by stopping the object and adding a force so that it goes in the \"reflected\" direction, using the \"normal\" angle provided. \nThis provides a realistic bounce."
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Bounce::Bounce::SetPropertyOldX"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "Object.X()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Bounce::Bounce::SetPropertyOldY"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "Object.Y()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Bounce::Bounce::SetPropertyOldForceAngle"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "Object.ForceAngle()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Bounce::Bounce::SetPropertyOldForceLength"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "Object.ForceLength()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SeparateFromObjects"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Obstacle",
+                        "yes"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Or"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "PosX"
+                              },
+                              "parameters": [
+                                "Object",
+                                "!=",
+                                "Object.Behavior::PropertyOldX()"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "PosY"
+                              },
+                              "parameters": [
+                                "Object",
+                                "!=",
+                                "Object.Behavior::PropertyOldY()"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Bounce::Bounce::SetPropertyNormalAngle"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "=",
+                            "GetArgumentAsNumber(\"NormalAngle\")"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Arreter"
+                          },
+                          "parameters": [
+                            "Object"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AddForceAL"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Object.Behavior::PropertyNormalAngle()+AngleDifference(Object.Behavior::PropertyNormalAngle(), Object.Behavior::PropertyOldForceAngle()+180)",
+                            "Object.Behavior::PropertyOldForceLength()",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Bounce::Bounce::SetPropertyBounceCount"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "+",
+                            "1"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Bounce::Bounce",
+                  "type": "behavior"
+                },
+                {
+                  "description": "The objects to bounce on",
+                  "name": "Obstacle",
+                  "type": "objectList"
+                },
+                {
+                  "description": "The \"normal\" angle, in degrees, to bounce against",
+                  "longDescription": "This can be understood at the direction that the bounce must go toward.",
+                  "name": "NormalAngle",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Bounce the object off another object it is currently colliding with, according to the angle and the speed of forces applied on the object.\nThe bounce will always be vertical, like if the object is *colliding a perfectly horizontal obstacle* (like the top/bottom of the screen in a pong game). For example, if the object is arriving with an angle of exactly 90 degrees, it will bounce in the opposite direction: -90 degrees.\n\nMake sure to test for a collision between the two objects before launching this action. All the forces will be removed from the object, and a new permanent force will be added to make the object bounce.",
+              "fullName": "Bounce vertically",
+              "functionType": "Action",
+              "name": "BounceOffVertically",
+              "sentence": "Bounce _PARAM0_ off _PARAM2_ - always vertically",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Bounce::Bounce::BounceOffSpecificAngle"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "Obstacle",
+                        "90",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Bounce::Bounce",
+                  "type": "behavior"
+                },
+                {
+                  "description": "The objects to bounce on",
+                  "name": "Obstacle",
+                  "type": "objectList"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Bounce the object off another object it is currently colliding with, according to the angle and the speed of forces applied on the object.\nThe bounce will always be horizontal, like if the object is *colliding a perfectly vertical obstacle* (like paddles in a pong game). For example, if the object is arriving with an angle of exactly 0 degrees, it will bounce in the opposite direction: 180 degrees.\n\nMake sure to test for a collision between the two objects before launching this action. All the forces will be removed from the object, and a new permanent force will be added to make the object bounce.",
+              "fullName": "Bounce horizontally",
+              "functionType": "Action",
+              "name": "BounceOffHorizontally",
+              "sentence": "Bounce _PARAM0_ off _PARAM2_ - always horizontally",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Bounce::Bounce::BounceOffSpecificAngle"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "Obstacle",
+                        "0",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Bounce::Bounce",
+                  "type": "behavior"
+                },
+                {
+                  "description": "The objects to bounce on",
+                  "name": "Obstacle",
+                  "type": "objectList"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "the number of times this object has bounced off another object.",
+              "fullName": "Bounce count",
+              "functionType": "ExpressionAndCondition",
+              "name": "BounceCount",
+              "sentence": "the bounce count",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Object.Behavior::PropertyBounceCount()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Bounce::Bounce",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "0",
+              "type": "Number",
+              "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "OldX"
+            },
+            {
+              "value": "",
+              "type": "Number",
+              "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "OldY"
+            },
+            {
+              "value": "",
+              "type": "Number",
+              "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "OldForceAngle"
+            },
+            {
+              "value": "",
+              "type": "Number",
+              "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "OldForceLength"
+            },
+            {
+              "value": "",
+              "type": "Number",
+              "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "NormalAngle"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "unit": "Dimensionless",
+              "label": "Bounce count",
+              "description": "Number of times this object has bounced off another object",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "BounceCount"
+            }
+          ],
+          "sharedPropertyDescriptors": []
+        }
+      ],
+      "eventsBasedObjects": []
+    },
     {
       "author": "Elairyx, @Bouh",
       "category": "Game mechanic",
