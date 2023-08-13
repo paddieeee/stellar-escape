@@ -1087,7 +1087,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": true,
+        "grid": false,
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
@@ -1095,7 +1095,7 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": true,
+        "snap": false,
         "zoomFactor": 0.34345629481200257,
         "windowMask": false
       },
@@ -1775,13 +1775,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 223,
+          "height": 200,
           "layer": "",
           "name": "UpDownPlattformSlow",
           "persistentUuid": "19501909-20d0-4d11-a774-2697287be413",
-          "width": 283,
+          "width": 254,
           "x": 6238,
-          "y": 707,
+          "y": 718,
           "zOrder": 52,
           "numberProperties": [],
           "stringProperties": [],
@@ -1791,13 +1791,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 476,
+          "height": 495,
           "layer": "",
           "name": "Platform1",
           "persistentUuid": "062f2995-5a4f-44c4-abc5-39a58b72a5b4",
-          "width": 1099,
+          "width": 947,
           "x": 7240,
-          "y": 816,
+          "y": 797,
           "zOrder": 54,
           "numberProperties": [],
           "stringProperties": [],
@@ -1867,13 +1867,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 266,
+          "height": 153,
           "layer": "",
           "name": "UpDownPlatform",
           "persistentUuid": "ac480338-4ef9-4b96-91f4-69048290b464",
-          "width": 279,
-          "x": 6613,
-          "y": 681,
+          "width": 188,
+          "x": 6688,
+          "y": 716,
           "zOrder": 59,
           "numberProperties": [],
           "stringProperties": [],
@@ -1992,12 +1992,13 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 365,
           "layer": "",
           "name": "Platform2",
           "persistentUuid": "7c4ecd7e-a4e7-4d7a-badf-5bfd5ccae9a5",
-          "width": 0,
+          "width": 469,
           "x": 11601,
           "y": 759,
           "zOrder": 75,
@@ -2014,7 +2015,7 @@
           "name": "EllipsePlatform",
           "persistentUuid": "a4dc0c09-bd8f-4381-a242-77bc15d0beb6",
           "width": 140,
-          "x": 12272,
+          "x": 12321,
           "y": 715,
           "zOrder": 76,
           "numberProperties": [],
@@ -2045,8 +2046,8 @@
           "layer": "",
           "name": "LeftRightPlatform",
           "persistentUuid": "0630f4f5-1860-4c20-8985-01aa9caddc2c",
-          "width": 297,
-          "x": 14435,
+          "width": 270,
+          "x": 14342,
           "y": 852,
           "zOrder": 79,
           "numberProperties": [],
@@ -2055,14 +2056,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 266,
           "layer": "",
           "name": "RectPlat_High",
           "persistentUuid": "567a5899-899a-4452-ae57-e9ddfc00db77",
-          "width": 0,
-          "x": 14902,
-          "y": 793,
+          "width": 337,
+          "x": 14996,
+          "y": 792,
           "zOrder": 80,
           "numberProperties": [],
           "stringProperties": [],
@@ -2072,13 +2074,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 231,
+          "height": 214,
           "layer": "",
           "name": "LeftRightPlatform",
           "persistentUuid": "506d1f0a-f494-4536-a0e7-695faedc5634",
-          "width": 319,
+          "width": 259,
           "x": 15768,
-          "y": 517,
+          "y": 534,
           "zOrder": 81,
           "numberProperties": [],
           "stringProperties": [],
@@ -2116,12 +2118,13 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 257,
           "layer": "",
           "name": "platform4",
           "persistentUuid": "7af2bff0-f188-4fa8-b845-d42628f3ecae",
-          "width": 0,
+          "width": 460,
           "x": 18140,
           "y": 509,
           "zOrder": 86,
@@ -2149,13 +2152,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 166,
+          "height": 152,
           "layer": "",
           "name": "LeftRightPlatform",
           "persistentUuid": "f72dc1ab-f417-42c1-857d-d19674e31508",
-          "width": 229,
-          "x": 18844,
-          "y": 677,
+          "width": 179,
+          "x": 18722,
+          "y": 710,
           "zOrder": 89,
           "numberProperties": [],
           "stringProperties": [],
@@ -2329,8 +2332,8 @@
           "name": "Checkpoint",
           "persistentUuid": "5eed9e27-28f1-4bc0-b69c-049798e64677",
           "width": 0,
-          "x": 13273,
-          "y": 704,
+          "x": 13406,
+          "y": 698,
           "zOrder": 108,
           "numberProperties": [],
           "stringProperties": [],
@@ -2530,14 +2533,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 294,
           "layer": "",
           "name": "UpDownPlattformSlow",
           "persistentUuid": "fb26b93f-cb65-4211-bb47-b86d5c1d842a",
-          "width": 0,
-          "x": 16024,
-          "y": 647,
+          "width": 373,
+          "x": 16180,
+          "y": 716,
           "zOrder": 131,
           "numberProperties": [],
           "stringProperties": [],
@@ -2609,14 +2613,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 246,
           "layer": "",
           "name": "platform7",
           "persistentUuid": "40ea0748-3aa8-4d53-9254-3af9ffde15db",
-          "width": 0,
-          "x": 6789,
-          "y": 936,
+          "width": 282,
+          "x": 6930,
+          "y": 887,
           "zOrder": 141,
           "numberProperties": [],
           "stringProperties": [],
@@ -2864,22 +2869,6 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 177,
-          "layer": "",
-          "name": "QuickPlatform",
-          "persistentUuid": "f8208b4e-c8d2-4aed-a0c1-4343b033a729",
-          "width": 203,
-          "x": 22666,
-          "y": 748,
-          "zOrder": 176,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
           "height": 128,
           "layer": "",
           "name": "LeftRightPlatform",
@@ -2989,21 +2978,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Platform3",
-          "persistentUuid": "b3015e7b-919f-44aa-8c8e-bbf4069f13b0",
-          "width": 0,
-          "x": 26387,
-          "y": 645,
-          "zOrder": 186,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "depth": 0,
           "height": 144,
@@ -3027,7 +3001,7 @@
           "name": "EllipsePlatform",
           "persistentUuid": "2b355d86-96e7-4d77-92fa-c195d2b87df8",
           "width": 154,
-          "x": 27134,
+          "x": 27224,
           "y": 546,
           "zOrder": 188,
           "numberProperties": [],
@@ -3121,7 +3095,7 @@
           "layer": "",
           "name": "LeftRightPlatform",
           "persistentUuid": "0f4ff3b9-3af6-4153-9626-b9e7c3030622",
-          "width": 410,
+          "width": 287,
           "x": 30638,
           "y": 661,
           "zOrder": 194,
@@ -3218,22 +3192,6 @@
           "x": 34523,
           "y": 650,
           "zOrder": 200,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 276,
-          "layer": "",
-          "name": "QuickPlatform",
-          "persistentUuid": "6ea64aee-7880-488f-a6d3-1f05cb6bf22d",
-          "width": 316,
-          "x": 35223,
-          "y": 604,
-          "zOrder": 201,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3356,7 +3314,7 @@
           "layer": "",
           "name": "LeftRightPlatform",
           "persistentUuid": "899fb82a-92c6-4831-9ab9-6f17b0d36e58",
-          "width": 364,
+          "width": 311,
           "x": 40454,
           "y": 722,
           "zOrder": 209,
@@ -3366,13 +3324,14 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 285,
           "layer": "",
           "name": "RectPlat_High",
           "persistentUuid": "9888afa3-e6d5-46f5-83aa-bf29d515f489",
-          "width": 0,
-          "x": 41121,
+          "width": 395,
+          "x": 41186,
           "y": 694,
           "zOrder": 210,
           "numberProperties": [],
@@ -3434,8 +3393,8 @@
           "name": "Checkpoint",
           "persistentUuid": "d7c15241-4271-4e9e-af02-c01e3dc4f703",
           "width": 85,
-          "x": 17199,
-          "y": 398,
+          "x": 17196,
+          "y": 387,
           "zOrder": 217,
           "numberProperties": [],
           "stringProperties": [],
@@ -3863,7 +3822,7 @@
           "name": "maneater",
           "persistentUuid": "684b193f-e5be-4bec-bb12-114e81eb03af",
           "width": 1715,
-          "x": 18485,
+          "x": 18484,
           "y": 251,
           "zOrder": 400,
           "numberProperties": [],
@@ -4005,8 +3964,8 @@
           "name": "Platform1",
           "persistentUuid": "eaac34dc-3903-49bd-b625-9a13063c7943",
           "width": 249,
-          "x": 23008,
-          "y": 779,
+          "x": 22722,
+          "y": 786,
           "zOrder": 402,
           "numberProperties": [],
           "stringProperties": [],
@@ -4264,6 +4223,67 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "stellar_pod",
+          "persistentUuid": "c49ba796-3096-4a5f-9cd2-998d252a5287",
+          "width": 0,
+          "x": 27176,
+          "y": 505,
+          "zOrder": 227,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "stellar_pod",
+          "persistentUuid": "fdeb1971-6489-458c-b63e-c9552d7061c0",
+          "width": 0,
+          "x": 25620,
+          "y": 398,
+          "zOrder": 227,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 109,
+          "layer": "",
+          "name": "Platform2",
+          "persistentUuid": "55ca88f9-8203-4691-8bbe-6143000c05a3",
+          "width": 150,
+          "x": 35308,
+          "y": 512,
+          "zOrder": 202,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "stellar_pod",
+          "persistentUuid": "70a39835-3abf-4609-83f8-9bbbedd491a4",
+          "width": 0,
+          "x": 35716,
+          "y": 99,
+          "zOrder": 233,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -4397,24 +4417,12 @@
                             "y": 172.25
                           },
                           {
-                            "x": 27,
-                            "y": 32.5
+                            "x": 12,
+                            "y": 25
                           },
                           {
-                            "x": 140.375,
-                            "y": 32.25
-                          },
-                          {
-                            "x": 253.75,
-                            "y": 32
-                          },
-                          {
-                            "x": 367.125,
-                            "y": 31.75
-                          },
-                          {
-                            "x": 480.5,
-                            "y": 31.5
+                            "x": 481.5,
+                            "y": 25
                           },
                           {
                             "x": 286,
@@ -4486,8 +4494,12 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 19.5,
-                            "y": 36.5
+                            "x": 10,
+                            "y": 32
+                          },
+                          {
+                            "x": 421,
+                            "y": 31
                           },
                           {
                             "x": 489.5,
@@ -4628,8 +4640,16 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 21,
-                            "y": 45.5
+                            "x": 16.5,
+                            "y": 39.5
+                          },
+                          {
+                            "x": 80,
+                            "y": 25.5
+                          },
+                          {
+                            "x": 317.5,
+                            "y": 25.5
                           },
                           {
                             "x": 437,
@@ -4697,12 +4717,12 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 9,
-                            "y": 57.5
+                            "x": 0,
+                            "y": 37
                           },
                           {
                             "x": 405.5,
-                            "y": 49
+                            "y": 37
                           },
                           {
                             "x": 259,
@@ -4924,8 +4944,16 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 21,
-                            "y": 45.5
+                            "x": 22,
+                            "y": 41.5
+                          },
+                          {
+                            "x": 80,
+                            "y": 23
+                          },
+                          {
+                            "x": 327.5,
+                            "y": 23
                           },
                           {
                             "x": 437,
@@ -5287,7 +5315,7 @@
                         [
                           {
                             "x": 21,
-                            "y": 45.5
+                            "y": 39
                           },
                           {
                             "x": 437,
@@ -5372,12 +5400,12 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 9,
-                            "y": 57.5
+                            "x": 0,
+                            "y": 42
                           },
                           {
-                            "x": 405.5,
-                            "y": 49
+                            "x": 403.5,
+                            "y": 42
                           },
                           {
                             "x": 259,
@@ -11413,7 +11441,7 @@
                 "",
                 "assets/Sounds/bg-music/level_bg-music.mp3",
                 "1",
-                "",
+                "yes",
                 "",
                 ""
               ]
