@@ -1094,6 +1094,36 @@
         "name": "assets/Player/astronaut_live.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "assets/Sounds/falling_scream.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/Sounds/falling_scream.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Sounds/wing-flap.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/Sounds/wing-flap.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Sounds/alien_hissing_growling_short-02.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/Sounds/alien_hissing_growling_short-02.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -13372,7 +13402,7 @@
               },
               "parameters": [
                 "",
-                "assets/Sounds/crash.mp3",
+                "assets/Sounds/falling_scream.mp3",
                 "2",
                 "",
                 "",
@@ -13665,7 +13695,7 @@
                   },
                   "parameters": [
                     "",
-                    "assets/Sounds/crash.mp3",
+                    "assets/Sounds/falling_scream.mp3",
                     "2",
                     "",
                     "",
@@ -13980,6 +14010,18 @@
                             "Enemy",
                             "yes"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "assets/Sounds/wing-flap.mp3",
+                            "",
+                            "",
+                            ""
+                          ]
                         }
                       ]
                     },
@@ -14005,6 +14047,18 @@
                           "parameters": [
                             "Enemy",
                             "no"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "assets/Sounds/wing-flap.mp3",
+                            "",
+                            "",
+                            ""
                           ]
                         }
                       ]
@@ -14032,6 +14086,18 @@
                             "Enemy2",
                             "yes"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "assets/Sounds/wing-flap.mp3",
+                            "",
+                            "",
+                            ""
+                          ]
                         }
                       ]
                     },
@@ -14057,6 +14123,18 @@
                           "parameters": [
                             "Enemy2",
                             "no"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "assets/Sounds/wing-flap.mp3",
+                            "",
+                            "",
+                            ""
                           ]
                         }
                       ]
@@ -14084,6 +14162,18 @@
                             "Enemy3",
                             "yes"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "assets/Sounds/wing-flap.mp3",
+                            "",
+                            "",
+                            ""
+                          ]
                         }
                       ]
                     },
@@ -14109,6 +14199,18 @@
                           "parameters": [
                             "Enemy3",
                             "no"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "assets/Sounds/wing-flap.mp3",
+                            "",
+                            "",
+                            ""
                           ]
                         }
                       ]
@@ -14370,7 +14472,7 @@
                                   },
                                   "parameters": [
                                     "",
-                                    "assets/Sounds/crash.mp3",
+                                    "assets/Sounds/alien_hissing_growling_short-02.mp3",
                                     "",
                                     "",
                                     ""
