@@ -1124,6 +1124,26 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "file": "assets/Sounds/slime-mushroom_jump.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/Sounds/slime-mushroom_jump.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Sounds/going_into_gate.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/Sounds/going_into_gate.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1165,7 +1185,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.19814070709125478,
+        "zoomFactor": 0.08092657373978024,
         "windowMask": false
       },
       "objectsGroups": [
@@ -3769,7 +3789,7 @@
           "layer": "",
           "name": "Platform2",
           "persistentUuid": "ccfddaf7-7c3f-4458-8436-faa96c13060f",
-          "width": 359,
+          "width": 301,
           "x": 1614,
           "y": 708,
           "zOrder": 405,
@@ -13992,12 +14012,13 @@
                       "conditions": [
                         {
                           "type": {
+                            "inverted": true,
                             "value": "PosX"
                           },
                           "parameters": [
                             "Enemy",
                             "=",
-                            "6406"
+                            "6400"
                           ]
                         }
                       ],
@@ -14009,18 +14030,6 @@
                           "parameters": [
                             "Enemy",
                             "yes"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "PlaySound"
-                          },
-                          "parameters": [
-                            "",
-                            "assets/Sounds/wing-flap.mp3",
-                            "",
-                            "",
-                            ""
                           ]
                         }
                       ]
@@ -14034,9 +14043,15 @@
                           },
                           "parameters": [
                             "Enemy",
-                            "=",
-                            "9606"
+                            ">",
+                            "9600"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -14046,19 +14061,7 @@
                           },
                           "parameters": [
                             "Enemy",
-                            "no"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "PlaySound"
-                          },
-                          "parameters": [
-                            "",
-                            "assets/Sounds/wing-flap.mp3",
-                            "",
-                            "",
-                            ""
+                            "yes"
                           ]
                         }
                       ]
@@ -14086,18 +14089,6 @@
                             "Enemy2",
                             "yes"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "PlaySound"
-                          },
-                          "parameters": [
-                            "",
-                            "assets/Sounds/wing-flap.mp3",
-                            "",
-                            "",
-                            ""
-                          ]
                         }
                       ]
                     },
@@ -14123,18 +14114,6 @@
                           "parameters": [
                             "Enemy2",
                             "no"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "PlaySound"
-                          },
-                          "parameters": [
-                            "",
-                            "assets/Sounds/wing-flap.mp3",
-                            "",
-                            "",
-                            ""
                           ]
                         }
                       ]
@@ -14162,18 +14141,6 @@
                             "Enemy3",
                             "yes"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "PlaySound"
-                          },
-                          "parameters": [
-                            "",
-                            "assets/Sounds/wing-flap.mp3",
-                            "",
-                            "",
-                            ""
-                          ]
                         }
                       ]
                     },
@@ -14199,18 +14166,6 @@
                           "parameters": [
                             "Enemy3",
                             "no"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "PlaySound"
-                          },
-                          "parameters": [
-                            "",
-                            "assets/Sounds/wing-flap.mp3",
-                            "",
-                            "",
-                            ""
                           ]
                         }
                       ]
@@ -15501,6 +15456,18 @@
                 "=",
                 "1200"
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets/Sounds/slime-mushroom_jump.mp3",
+                "",
+                "",
+                ""
+              ]
             }
           ]
         },
@@ -15564,9 +15531,23 @@
           "actions": [
             {
               "type": {
-                "value": "Quit"
+                "value": "PlaySound"
               },
               "parameters": [
+                "",
+                "assets/Sounds/going_into_gate.mp3",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Highscore_Game\"",
                 ""
               ]
             }
@@ -15714,7 +15695,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5407584729587247,
+        "zoomFactor": 0.2976790674084352,
         "windowMask": false
       },
       "objectsGroups": [
@@ -15887,21 +15868,6 @@
           "x": 800,
           "y": 686,
           "zOrder": 38,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "txtentry",
-          "persistentUuid": "6e6a6c87-a6d9-46b9-98d7-2e5f079b526c",
-          "width": 0,
-          "x": 810,
-          "y": 426,
-          "zOrder": 39,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
